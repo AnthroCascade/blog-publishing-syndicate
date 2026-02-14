@@ -120,6 +120,17 @@ Assess whether the text optimises globally or under constraint:
 
 **Test:** Is the structure serving information delivery (AI pattern) or argumentative/narrative logic (human pattern)?
 
+### Nominalisation accumulation
+
+AI prose defaults to noun-phrase chains because they sound authoritative without committing to specific action. "The implementation of robust frameworks for the facilitation of collaborative engagement" — every verb has been converted to a noun and strung together with prepositions. The sentence sounds important but nothing happens in it.
+
+- Subjects that don't act — they "represent" or "embody" or sit as labels
+- Verbs reduced to copulas (is, represents, constitutes) linking noun phrases
+- Preposition chains (of, for, in, through) doing the structural work that verbs should do
+- Sentences that parse as noun-phrase sequences with ornamental verbs
+
+**Test:** Strip the verbs. If the sentence still reads as a sequence of noun phrases connected by prepositions, the verbs weren't load-bearing. Human prose drives forward through what subjects do; AI prose piles up what things are.
+
 ## Vocabulary markers
 
 Red flags (Kobak et al., 2024): "delve," "pivotal," "showcasing," "underscore," "crucial," "intricate," "comprehensive," "nuanced," "multifaceted," "utilise," "leverage," "facilitate"

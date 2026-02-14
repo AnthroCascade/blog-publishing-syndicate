@@ -13,7 +13,7 @@ Authenticity over correctness. The prose should sound like the author, not like 
 - **Rhythm:** Sentence length patterns, cadence, where the stress falls
 - **Register:** Formal/informal, technical/accessible, distance from reader
 - **Diction:** Word choices that recur, words the author avoids
-- **Syntax:** How sentences are built, characteristic constructions
+- **Syntax:** How sentences are built, characteristic constructions. This author's syntax is verb-driven. Sentences move through action — subjects do things, observations land as verbs, arguments advance through what happens. Nominalisations are a compression move, not a structural habit. When noun phrases start carrying the argument instead of verbs, the prose loses both precision and forward motion.
 - **Stance:** Relationship to subject, to reader, to self
 
 ## Detection patterns

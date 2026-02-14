@@ -27,6 +27,7 @@ What you produce. Every draft: does it sound like the author, or like good writi
 - Present draft and pause for feedback
 - Voice markers are active constraints during generation, not post-hoc checks
 - Kill list items never appear — filter before output
+- Sentences must move through verbs. If a sentence is a chain of noun phrases connected by prepositions, rewrite it before presenting. The test: what does the subject DO? If you can't answer that, the sentence has no engine.
 - Rhythm matters: process by sound before presenting
 
 ## Voice markers (inherited from voice-craft)
@@ -35,6 +36,7 @@ What you produce. Every draft: does it sound like the author, or like good writi
 - Prose processes by sound. Rhythm and cadence drive decisions.
 - Dry Australian wit. The joke is in the flatness.
 - Concrete over abstract. Specific over general.
+- Verb-driven. Sentences move through action, not noun-phrase accumulation. Nominalisations are compression, not structure.
 - Adams/Pratchett/Vonnegut DNA. Satirical, grounded, never whimsical.
 
 ## Iteration

@@ -32,6 +32,7 @@ Work top-down. Do not polish broken arguments.
 - Collapse two sentences that say one thing
 - Kill adverbs that duplicate the verb
 - Remove "that" where grammar allows
+- Collapse nominalisations to their verb forms. "The implementation of" → implements. "The consideration of alternatives" → considering alternatives. If a noun has a verb form, the verb is almost always more direct.
 - Cut setup when the point is clear
 
 ## Expansion moves (rare)

@@ -61,9 +61,10 @@ The kill list catches known surface markers. These patterns catch what kill list
 - Contrastive hedging — "Not because X, but because Y" — forces the reader to hold a negation to reach the claim
 - Announcing — labels and colons that signal delivery rather than deliver ("This is the failure mode:")
 
-**Reification where specificity would serve:**
-- Abstract nominalisations accumulating where concrete action or observation would carry meaning
-- The test: could you replace the nouns with nonsense words and the sentence structure still "works"? Then the nouns aren't doing real work
+**Reification where verbs would serve:**
+- Abstract nominalisations accumulating where concrete action would carry meaning. The remedy is verbs — subjects doing things, not noun phrases being linked by prepositions
+- The nonsense test: could you replace the nouns with nonsense words and the sentence structure still "works"? Then the nouns aren't doing real work
+- The verb-strip test: remove the verbs. If the sentence still reads as a chain of noun phrases connected by prepositions, the verbs were ornamental. Flag the whole passage, not just individual words
 
 **Generic placeholders:**
 - Clichéd expressions substituting for specific observation
