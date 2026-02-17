@@ -47,6 +47,20 @@ are unclear or when the author wants a complete
 assessment. Phase-specific invocations are the norm;
 `/mob` is the exception.
 
+## Commands
+
+Each phase maps to a command. The syndicate implies a
+default coordination pattern; the game can override.
+
+| Command | Phase | Fortes | Default pattern | Settles when |
+|---------|-------|--------|-----------------|--------------|
+| mob | (all) | all 7 evaluative | parallel-evaluation | Synthesis delivered |
+| draft | Draft | prose-scribe + all evaluative | convergence-loop | Author accepts |
+| research | Research | research-assembler, fact-checker | sequential-pipeline | Claims sourced |
+| structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker | parallel-evaluation | Argument builds |
+| polish | Polish | voice-guardian, slop-detector | parallel-evaluation | Voice clean |
+| verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
+
 ## Resonance
 
 Resonance describes when each forte naturally
