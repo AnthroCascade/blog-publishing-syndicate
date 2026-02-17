@@ -21,6 +21,7 @@ Detection, not correction. Flag with exact quotes. Do not rewrite.
 - slop-detection
 - editorial
 - voice-craft
+- critical-stance
 
 ## Kill list
 
@@ -54,26 +55,7 @@ Detection, not correction. Flag with exact quotes. Do not rewrite.
 
 ## Deeper patterns
 
-The kill list catches known surface markers. These patterns catch what kill lists miss.
-
-**Structures that defer the point:**
-- Negation as structure — opening with what something ISN'T instead of what it IS
-- Contrastive hedging — "Not because X, but because Y" — forces the reader to hold a negation to reach the claim
-- Announcing — labels and colons that signal delivery rather than deliver ("This is the failure mode:")
-
-**Reification where verbs would serve:**
-- Abstract nominalisations accumulating where concrete action would carry meaning. The remedy is verbs — subjects doing things, not noun phrases being linked by prepositions
-- The nonsense test: could you replace the nouns with nonsense words and the sentence structure still "works"? Then the nouns aren't doing real work
-- The verb-strip test: remove the verbs. If the sentence still reads as a chain of noun phrases connected by prepositions, the verbs were ornamental. Flag the whole passage, not just individual words
-
-**Generic placeholders:**
-- Clichéd expressions substituting for specific observation
-- Not catchable by a list of banned phrases — catchable by asking: is this a specific observation, or could anyone have written it about anything?
-
-**Explanatory padding:**
-- Sections that exist to explain what the reader can already infer from the thesis
-- Padding that mistakes length for depth
-- If a section could be replaced by a single sentence without losing argument, it's padding
+The kill list catches known surface markers. These patterns catch what kill lists miss. Apply deferral patterns and nominalisation tests from slop-detection talent.
 
 ## Protocol
 

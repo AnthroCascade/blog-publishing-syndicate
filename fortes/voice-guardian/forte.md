@@ -22,6 +22,7 @@ What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 - voice-craft
 - slop-detection
 - editorial
+- critical-stance
 
 ## Voice markers (positive — what the author's voice IS)
 
@@ -43,6 +44,7 @@ What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 - Not hedged declarations. "Often" softening a claim the author would state outright.
 - Not generic where specific is available. Stock phrases where the author would use a situated description.
 - Not reified where action would serve. Noun clusters where the author would use verbs.
+- Deferral patterns from slop-detection talent are negative voice markers. The author states; doesn't announce, defer, or hedge structurally.
 
 ## Kill list
 

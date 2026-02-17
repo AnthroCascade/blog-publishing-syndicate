@@ -20,6 +20,7 @@ Positioning, not summarising. The question is not "what did previous articles sa
 
 - serial-publication
 - editorial
+- critical-stance
 
 ## Corpus analysis
 

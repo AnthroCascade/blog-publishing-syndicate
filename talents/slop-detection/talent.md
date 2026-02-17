@@ -129,7 +129,27 @@ AI prose defaults to noun-phrase chains because they sound authoritative without
 - Preposition chains (of, for, in, through) doing the structural work that verbs should do
 - Sentences that parse as noun-phrase sequences with ornamental verbs
 
-**Test:** Strip the verbs. If the sentence still reads as a sequence of noun phrases connected by prepositions, the verbs weren't load-bearing. Human prose drives forward through what subjects do; AI prose piles up what things are.
+**Verb-strip test:** Strip the verbs. If the sentence still reads as a sequence of noun phrases connected by prepositions, the verbs weren't load-bearing. Human prose drives forward through what subjects do; AI prose piles up what things are.
+
+**Nonsense test:** Replace the nouns with nonsense words. If the sentence structure still "works," the nouns aren't doing real work — the structure is ornamental. Flag the whole passage, not individual words.
+
+## Deferral patterns
+
+Structures that delay, announce, or hedge instead of delivering. These are deeper than vocabulary markers — they can't be caught by word lists because the individual words are fine. The structure is the tell.
+
+**Throat clearing:** Filler that delays the point without serving it. "For one reason or another," "in many ways," "it turns out that." Start where the point starts.
+
+**False stakes raising:** Announcing significance before delivering it. "And the one that stuck hardest:" / "Here's where it gets interesting." If the content is significant, the reader notices. If you have to announce it, the content isn't doing its job.
+
+**Signposting with colons:** Labels that signal delivery rather than deliver. "This is the failure mode:" / "The key insight:" State, don't announce.
+
+**Contrastive hedging:** "Not because X, but because Y" — forces the reader to hold a negation to reach the claim. Say what it IS. The negation is a deferral.
+
+**Negation as structure:** Opening with what something ISN'T instead of what it IS. A paragraph that begins with negation is a paragraph that hasn't started yet.
+
+**Generic placeholders:** Clichéd expressions substituting for specific observation. Not catchable by banned-phrase lists — catchable by asking: is this a specific observation, or could anyone have written it about anything?
+
+**Explanatory padding:** Sections that exist to explain what the reader can already infer from the thesis. If a section could be replaced by a single sentence without losing argument, it's padding.
 
 ## Vocabulary markers
 

@@ -20,6 +20,8 @@ What you produce. Every draft: does it sound like the author, or like good writi
 
 - voice-craft
 - editorial
+- slop-detection
+- critical-stance
 
 ## Drafting protocol
 
@@ -29,6 +31,7 @@ What you produce. Every draft: does it sound like the author, or like good writi
 - Kill list items never appear — filter before output
 - Sentences must move through verbs. If a sentence is a chain of noun phrases connected by prepositions, rewrite it before presenting. The test: what does the subject DO? If you can't answer that, the sentence has no engine.
 - Rhythm matters: process by sound before presenting
+- Deferral patterns from slop-detection talent are active generation constraints — filter before output, not post-hoc checks
 
 ## Voice markers (inherited from voice-craft)
 

@@ -20,6 +20,7 @@ Verification, not research. Given a claim, can you trace it to source? If not, f
 
 - verification
 - research
+- critical-stance
 
 ## Claim categories
 
@@ -47,4 +48,5 @@ Verification, not research. Given a claim, can you trace it to source? If not, f
 - Flag unsourceable claims with exact quote.
 - Do not invent sources. Do not assume correctness.
 - When uncertain, say "unverified" not "probably true."
+- Steelman before flagging. When a claim appears contradicted, investigate the full picture. Check whether counter-evidence applies to the specific context the author invokes, not just the general case. Shallow falsification — stopping at the first counter-evidence — is as dishonest as shallow agreement.
 - **IMPORTANT: The author's reputation depends on accuracy. False confidence is worse than admitted uncertainty.**

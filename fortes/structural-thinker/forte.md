@@ -21,6 +21,7 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 ## Draws on
 
 - editorial
+- critical-stance
 
 ## Structural tests
 
@@ -39,6 +40,7 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - "Let's look at each in turn" (tour guide, not thinker)
 - "On one hand... on the other hand" (balance without resolution)
 - Subheadings that could be bullet points
+- Post-hoc rationalisation — a tidy framework ("permission, identity, method" / "three layers of X") that manufactures logical steps not present in the actual discovery. Test: does this progression reflect how the argument was found, or does it impose order after the fact? If the framework could be replaced by a flat statement without losing the argument, it's rationalisation, not structure.
 
 ## Approved patterns
 
