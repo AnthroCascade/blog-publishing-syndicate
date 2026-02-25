@@ -10,6 +10,7 @@
 - research-assembler — material assembled before drafting
 - slop-detector *(reusable, from top-level `fortes/`)* — no AI tells in output
 - continuity-thinker — positions article within the body of work
+- promotion-crafter — crafts platform-specific promotion for published articles
 
 ## Misaligned game
 
@@ -19,6 +20,44 @@ All fortes suppress AI's default: produce confident, well-structured-looking tex
 
 Not prescribed. Game or caper chooses. Turn-taking
 is simplest default.
+
+## Idea lifecycle
+
+The syndicate's workflow phases begin at Research.
+But ideas exist before the syndicate engages. The
+lifecycle before the mob:
+
+**Prospect** → **Compost** → **Harvest**
+
+**Prospect** is analytical. Scan the landscape for
+material that connects to the existing corpus —
+extensions of staked positions, clear disagreements,
+adjacent what-ifs. The output is a caper with
+findings and an angle. This is outward-facing and
+can be automated. `/prospect`
+
+**Compost** is the author's work and cannot be
+automated. The author lives with the ideas. Some
+nag while walking. Some surface while debugging.
+Some clarify when reading someone else's argument
+and thinking "no, that's wrong, and I know why."
+This is where the idea becomes the author's — where
+they discover what *they* think, distinct from what
+the findings suggest they should think. The
+analysis-drafting gap applies here: skip composting
+and you get a well-sourced article with no person
+in it.
+
+**Harvest** is recognition, not ranking. The author
+surveys unfinished capers to feel which ones have
+ripened — which ideas they've internalised enough
+that their voice can carry them. Readiness is not
+importance. A backlog ranks by priority. A garden
+reports on ripeness. `/harvest`
+
+An idea enters the syndicate's workflow phases when
+the author harvests it — when they know what they
+want to say and are ready to say it.
 
 ## Workflow phases
 
@@ -33,6 +72,7 @@ emphasis by choosing which phase to invoke.
 | Structure | structural-thinker, thesis-sharpener, continuity-thinker | Argument builds, concept ownership clear, no structural circling |
 | Polish | voice-guardian, slop-detector | Voice clean, no AI tells |
 | Verify | fact-checker (web search against primary sources) | All claims verified externally |
+| Promote | promotion-crafter | Platform texts generated, strategy approved by author |
 
 Phases are not strictly sequential. The author may
 return to an earlier phase (e.g. new claims emerge
@@ -49,6 +89,8 @@ assessment. Phase-specific invocations are the norm;
 
 ## Commands
 
+### Workflow phase commands
+
 Each phase maps to a command. The syndicate implies a
 default coordination pattern; the game can override.
 
@@ -60,6 +102,26 @@ default coordination pattern; the game can override.
 | structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker | parallel-evaluation | Argument builds |
 | polish | Polish | voice-guardian, slop-detector | parallel-evaluation | Voice clean |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
+| revise | Draft (correction) | prose-scribe | single-agent | Corrections applied |
+| promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
+
+### Idea lifecycle commands
+
+These operate before the mob engages. They do not
+fire content fortes.
+
+| Command | Lifecycle phase | What it does |
+|---------|----------------|--------------|
+| prospect | Prospect | Scans web for corpus-connected articles, ranks angles, sets up capers with findings |
+| harvest | Harvest | Surveys unfinished capers, presents readiness (not priority), author recognises what's ripe |
+
+### Meta commands
+
+These operate across capers, not within a phase.
+
+| Command | Fortes | What it does |
+|---------|--------|--------------|
+| improve | spec-evolver (coordination) | Reads learnings, proposes modifications to forte and talent specs. Author approves each change. |
 
 ## Resonance
 
@@ -82,3 +144,5 @@ phase, and the fortes within it fire.
   argument emerges
 - continuity-thinker: structure phase, during
   framing and when structure forms
+- promotion-crafter: post-verify, when article is
+  near-publishable or published

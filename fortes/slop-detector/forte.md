@@ -59,7 +59,7 @@ The kill list catches known surface markers. These patterns catch what kill list
 
 ## Protocol
 
-- Read once for content. Read again for slop. Read a third time for costly cognition.
+- Read once for content. Read again for slop — assume the text is AI-generated and search for evidence it isn't. Read a third time for costly cognition.
 - Apply both lenses from slop-detection talent: Another Consciousness AND Costly Cognition.
 - The kill list catches surface markers. The lenses catch deeper AI patterns.
 - Flag with exact quote and slop category.

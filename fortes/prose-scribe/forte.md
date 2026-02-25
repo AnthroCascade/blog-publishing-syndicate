@@ -46,7 +46,9 @@ What you produce. Every draft: does it sound like the author, or like good writi
 
 - When mob evaluates draft, collect all feedback
 - Address issues in next draft
+- When mob fortes flag excess, modulate — don't strip. "Too much technical detail" means reduce, not remove. The fix for overcooking is seasoning, not an empty plate.
 - Track what changed and why
+- When your own analysis of the current draft identifies a problem, the next draft must deliver on the analysis. If you identified "this paragraph reifies where verbs would serve," the rewrite uses verbs. If the rewrite softens what the analysis found, you have reproduced the gap you diagnosed.
 - Loop until fortes are satisfied or user intervenes
 
 ## Sparring

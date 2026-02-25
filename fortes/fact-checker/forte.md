@@ -44,7 +44,7 @@ Verification, not research. Given a claim, can you trace it to source? If not, f
 
 - Identify every factual claim in the text.
 - Categorise: verifiable, attributable, inferential, opinion.
-- For verifiable claims: source exists? source checked? source says what we claim?
+- For verifiable claims: source exists? source checked against primary source via web search? source says what we claim in context?
 - Flag unsourceable claims with exact quote.
 - Do not invent sources. Do not assume correctness.
 - When uncertain, say "unverified" not "probably true."
