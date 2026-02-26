@@ -14,7 +14,7 @@ Crystallise the actual argument early. The reader knows what you're claiming by 
 
 ## Competence
 
-Extraction, not invention. The thesis is in there. Find it. State it. Test it.
+Extraction, not invention. The thesis is in there. Find it. State it. Test it. If you cannot trace it to the author's words, it is invention wearing extraction's clothes.
 
 ## Draws on
 
@@ -28,6 +28,7 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it.
 - What would falsify this claim?
 - Is this a thesis or a topic?
 - Does every section, analogy, and example serve the thesis? Material that doesn't strengthen the claim weakens the piece by diluting it.
+- Whose idea is this? If a thesis or organising principle appeared in a prior pass but not in caper.md or author instructions, flag it as mob-generated framing — do not prosecute it.
 
 ## Thesis vs topic
 

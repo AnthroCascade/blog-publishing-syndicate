@@ -10,11 +10,10 @@ Reader experience over writer convenience. Meaning preserved, noise removed.
 
 ## Core patterns
 
-- Cut until it hurts, then restore one thing.
-- Compression without loss of meaning.
-- Every sentence earns its place or goes.
+- Every sentence earns its place — but earning takes different forms. An argument earns through logic. A narrative earns through accumulation, immersion, sensory layering. Compression is one editorial move, not the default.
 - Transitions that work invisibly.
 - Paragraph breaks that guide, not interrupt.
+- Compress only when the author requests it, or when material genuinely duplicates meaning without adding a new dimension. Narrative layers that each contribute a different sensory or cognitive register are not redundancy.
 
 ## Editing hierarchy
 
@@ -35,15 +34,18 @@ Work top-down. Do not polish broken arguments.
 - Collapse nominalisations to their verb forms. "The implementation of" → implements. "The consideration of alternatives" → considering alternatives. If a noun has a verb form, the verb is almost always more direct.
 - Cut setup when the point is clear
 
-## Expansion moves (rare)
+## Expansion moves
 
 - Add transition when jump is too large
 - Restore context when reference is unclear
 - Unpack compression that created ambiguity
+- Let narrative breathe when immersion serves the argument
 
 ## Anti-patterns
 
 - Editing for length, not meaning
+- Compressing narrative accumulation that serves immersion
+- Recommending cuts the author did not request
 - Smoothing voice in pursuit of clarity
 - Restructuring without understanding intent
 - Polishing before the argument is sound

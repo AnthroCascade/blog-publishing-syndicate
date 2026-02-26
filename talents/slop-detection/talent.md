@@ -145,7 +145,7 @@ Structures that delay, announce, or hedge instead of delivering. These are deepe
 
 **Contrastive hedging:** "Not because X, but because Y" — forces the reader to hold a negation to reach the claim. Say what it IS. The negation is a deferral.
 
-**Negation as structure:** Opening with what something ISN'T instead of what it IS. A paragraph that begins with negation is a paragraph that hasn't started yet.
+**Negation as structure:** Stating what something ISN'T instead of what it IS. Negation activates the frame it names — "Not metaphorically" makes the reader think "metaphor." In any sentence, in any position: search for the positive frame first. Only use negation when it does structural work no positive frame can (earned contrast, flat-after-intensity punches).
 
 **Generic placeholders:** Clichéd expressions substituting for specific observation. Not catchable by banned-phrase lists — catchable by asking: is this a specific observation, or could anyone have written it about anything?
 
