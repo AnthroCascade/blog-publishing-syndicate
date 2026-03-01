@@ -10,7 +10,7 @@ Authenticity over correctness. The prose should sound like the author, not like 
 
 ## Voice components
 
-- **Rhythm:** Sentence length patterns, cadence, where the stress falls
+- **Rhythm:** Sentence lengths vary widely — single-word punches ("Measurably.") through to 40-plus-word constructions. Short sentences earn their impact from contrast with longer ones. A paragraph of uniformly short sentences flatlines the same way a paragraph of uniformly long ones does. The pattern is varied, not short.
 - **Register:** Formal/informal, technical/accessible, distance from reader
 - **Diction:** Word choices that recur, words the author avoids
 - **Syntax:** How sentences are built, characteristic constructions. This author's syntax is verb-driven. Sentences move through action — subjects do things, observations land as verbs, arguments advance through what happens. Nominalisations are a compression move, not a structural habit. When noun phrases start carrying the argument instead of verbs, the prose loses both precision and forward motion.

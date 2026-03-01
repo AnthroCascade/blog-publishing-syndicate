@@ -28,7 +28,8 @@ What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 
 - Australian spelling. Always.
 - Prose processes by sound. Rhythm and cadence drive decisions.
-- Dry Australian wit. The joke is in the flatness.
+- Sentence lengths vary widely. Single-word punches through to 40-plus-word constructions. Short sentences earn impact from contrast with longer ones. A paragraph of uniformly short sentences flatlines. The pattern is varied, not short.
+- Australian deadpan wit. The joke is in the flatness. "Dry" describes the humour, not the prose — the prose itself is varied and full-bodied.
 - Alliterative when deliberate. "Forensic scientist and a cat burglar."
 - Flat after intensity is a move.
 - Self-deprecating, never apologetic.

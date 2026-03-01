@@ -96,8 +96,8 @@ default coordination pattern; the game can override.
 
 | Command | Phase | Fortes | Default pattern | Settles when |
 |---------|-------|--------|-----------------|--------------|
-| mob | (all) | all 7 evaluative | parallel-evaluation | Synthesis delivered |
-| draft | Draft | prose-scribe + all evaluative | convergence-loop | Author accepts |
+| mob | (all) | all 7 evaluative | parallel-evaluation | Forte files written |
+| draft | Draft | prose-scribe | single-agent | Draft written |
 | research | Research | research-assembler, fact-checker | sequential-pipeline | Claims sourced |
 | structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker | parallel-evaluation | Argument builds |
 | polish | Polish | voice-guardian, slop-detector | parallel-evaluation | Voice clean |
@@ -121,6 +121,8 @@ These operate across capers, not within a phase.
 
 | Command | Fortes | What it does |
 |---------|--------|--------------|
+| report | (none) | Reads current forte evaluation files and writes a cross-cutting summary for the author. Does not fire fortes or clear evaluations. |
+| learn | learning-capturer (coordination) | Scans session for author corrections, proposes learnings for caper's learnings.md. Author approves each. |
 | improve | spec-evolver (coordination) | Reads learnings, proposes modifications to forte and talent specs. Author approves each change. |
 
 ## Resonance

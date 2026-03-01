@@ -32,20 +32,39 @@ This carry-forward is real. Ignoring it wastes the reader's investment. Repeatin
 
 **Converges:** This article brings together threads from multiple previous pieces. The reader sees connections they may not have made.
 
-## Callback patterns
+## Callback patterns (when they exist)
 
-**Naming without re-explaining:** Reference a concept by its established name. The reader who knows it recognises it. The reader who doesn't can follow the link. Do not re-derive.
+Most readers have not read the full corpus. A
+callback that assumes they have is a liability.
 
-**Advancing, not restating:** When picking up a thread, start where the previous article left off, not where it began. "The friction paradox — which governs..." not "In a previous article, I argued that..."
+**Legibility test:** Can a reader who has not read
+the earlier piece follow this reference? If not, it
+needs a brief recap (one clause or sentence) or
+should be cut. "The reader can follow the link" is
+not sufficient — most won't.
 
-**Tension with new material:** The strongest callbacks create productive tension. The earlier concept seemed complete; this article shows it wasn't.
+**Advancing, not restating:** When picking up a
+thread, start where the previous article left off,
+not where it began. "The friction paradox — which
+governs..." not "In a previous article, I argued
+that..."
+
+**Decorative callbacks** — references that invoke a
+prior concept without doing argumentative work —
+weaken the piece. They signal series membership
+rather than advancing the argument. Cut them.
 
 ## Anti-patterns
 
-- Treating each article as standalone when the reader isn't
-- Re-explaining concepts the reader already has (padding in series context)
-- Referencing previous articles for authority rather than building ("As I argued in...")
-- Assuming the reader remembers details — reference the concept, not the article
+- Recommending callbacks the piece does not already
+  contain — the corpus is context, not a checklist
+- Cheap callbacks that assume shared reader history
+- Re-explaining concepts the reader already has
+  (padding in series context)
+- Referencing previous articles for authority rather
+  than building ("As I argued in...")
+- Assuming the reader remembers details — reference
+  the concept, not the article
 - Breaking continuity without acknowledging the break
 
 ## Scope and function

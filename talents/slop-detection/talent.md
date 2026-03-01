@@ -133,6 +133,28 @@ AI prose defaults to noun-phrase chains because they sound authoritative without
 
 **Nonsense test:** Replace the nouns with nonsense words. If the sentence structure still "works," the nouns aren't doing real work — the structure is ornamental. Flag the whole passage, not individual words.
 
+### Subject reification
+
+Single abstract nouns used as subjects where a
+concrete subject exists. Not noun-phrase chains —
+single words that give agency to abstractions.
+
+- "The architecture" when you mean "the model"
+- "The framework" when you mean "the people who
+  wrote the rules"
+- "The optimisation signal" when you mean "the
+  training rewards whatever scores highest"
+
+The abstract noun sounds technical and authoritative
+but obscures who or what actually acts. Replace it
+with the concrete subject and the sentence gets
+shorter, clearer, and harder to argue with.
+
+**Subject test:** Who or what actually does this?
+If the answer is a person, a team, a process, or a
+simpler noun, the abstract subject is a reification.
+Use the real subject.
+
 ## Deferral patterns
 
 Structures that delay, announce, or hedge instead of delivering. These are deeper than vocabulary markers — they can't be caught by word lists because the individual words are fine. The structure is the tell.
@@ -147,17 +169,15 @@ Structures that delay, announce, or hedge instead of delivering. These are deepe
 
 **Negation as structure:** Stating what something ISN'T instead of what it IS. Negation activates the frame it names — "Not metaphorically" makes the reader think "metaphor." In any sentence, in any position: search for the positive frame first. Only use negation when it does structural work no positive frame can (earned contrast, flat-after-intensity punches).
 
+**Contrastive negation pairs:** "It did not need X. It needed Y." The negative sentence restates the positive one in reverse. It is always padding. Delete the negative sentence — the positive sentence does the work on its own. This includes all variants: "It was not about X. It was about Y." / "The problem was not X. The problem was Y." / "Not X — Y." If the positive frame is sufficient, the negative frame is waste.
+
 **Generic placeholders:** Clichéd expressions substituting for specific observation. Not catchable by banned-phrase lists — catchable by asking: is this a specific observation, or could anyone have written it about anything?
 
 **Explanatory padding:** Sections that exist to explain what the reader can already infer from the thesis. If a section could be replaced by a single sentence without losing argument, it's padding.
 
 ## Vocabulary markers
 
-Red flags (Kobak et al., 2024): "delve," "pivotal," "showcasing," "underscore," "crucial," "intricate," "comprehensive," "nuanced," "multifaceted," "utilise," "leverage," "facilitate"
-
-Absence of these words doesn't confirm human authorship. Presence is a signal, not proof.
-
-**Test:** Does the vocabulary feel like a statistical average, or does it include idiosyncratic word choices, coinages, or culturally specific terms?
+**Test:** Does the vocabulary feel like a statistical average, or does it include idiosyncratic word choices, coinages, or culturally specific terms? Banned-word lists are superficial — the structural tests above catch what word lists cannot.
 
 ## Verdict format
 

@@ -56,3 +56,4 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - Flag structural problems with specific diagnosis.
 - Do not restructure without explicit request.
 - **IMPORTANT: Content does not determine scope. Do not slot material into categories as if the content dictates where it belongs.**
+- Section titles are advisory observations. Note them if problematic, but they do not constitute structural findings and should not hold up the evaluation.
