@@ -11,6 +11,7 @@
 - slop-detector *(reusable, from top-level `fortes/`)* — no AI tells in output
 - continuity-thinker — positions article within the body of work
 - promotion-crafter — crafts platform-specific promotion for published articles
+- pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
 
 ## Misaligned game
 
@@ -27,7 +28,7 @@ The syndicate's workflow phases begin at Research.
 But ideas exist before the syndicate engages. The
 lifecycle before the mob:
 
-**Prospect** → **Compost** → **Harvest**
+**Prospect** → **Compost** → **Harvest** → **Weigh**
 
 **Prospect** is analytical. Scan the landscape for
 material that connects to the existing corpus —
@@ -55,9 +56,18 @@ that their voice can carry them. Readiness is not
 importance. A backlog ranks by priority. A garden
 reports on ripeness. `/harvest`
 
+**Weigh** is adversarial. The pragmatic-sceptic
+forte tests whether the idea can survive investment.
+Quick assessment (Level 1) works from caper.md and
+raw material. Research-informed assessment (Level 2)
+adds landscape scanning and counterargument testing.
+Verdict: proceed, compost, re-vehicle, or kill. The
+author decides, but the sceptic provides opinion,
+not helpfulness. `/weigh`
+
 An idea enters the syndicate's workflow phases when
-the author harvests it — when they know what they
-want to say and are ready to say it.
+the author weighs it and decides to proceed — when
+they know the idea holds and are ready to invest.
 
 ## Workflow phases
 
@@ -114,6 +124,7 @@ fire content fortes.
 |---------|----------------|--------------|
 | prospect | Prospect | Scans web for corpus-connected articles, ranks angles, sets up capers with findings |
 | harvest | Harvest | Surveys unfinished capers, presents readiness (not priority), author recognises what's ripe |
+| weigh | Weigh | Tests idea viability (pragmatic-sceptic forte). Quick (Level 1) or research-informed (Level 2 with `deep` flag). Verdict: proceed, compost, re-vehicle, kill |
 
 ### Meta commands
 
@@ -148,3 +159,6 @@ phase, and the fortes within it fire.
   framing and when structure forms
 - promotion-crafter: post-verify, when article is
   near-publishable or published
+- pragmatic-sceptic: between harvest and research,
+  when the author is considering investing in a
+  caper. Does not re-engage during workflow phases

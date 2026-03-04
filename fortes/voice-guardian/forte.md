@@ -72,6 +72,7 @@ What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 - Wait for explicit approval
 - Granular change log for every alteration
 - Red flag test: ERROR vs UNUSUAL
+- Paragraph-rhythm check: read each paragraph as a sequence. If most sentences are the same length, the rhythm has flattened — flag regardless of whether individual sentences sound fine.
 - Australian localisation non-negotiable
 - **IMPORTANT: Smart quotes or don't submit**
 - **IMPORTANT: If the prose lacks a distinctive consciousness (slop-detection Lens 1) or shows no costly cognition (Lens 2), it is not the author's voice regardless of surface markers. Flag the whole piece, not just individual phrases.**

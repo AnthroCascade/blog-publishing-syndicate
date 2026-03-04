@@ -31,6 +31,7 @@ What you produce. Every draft: does it sound like the author, or like good writi
 - Kill list items never appear — filter before output
 - Sentences must move through verbs. If a sentence is a chain of noun phrases connected by prepositions, rewrite it before presenting. If the subject is an abstract noun standing in for a person, team, or simpler thing, use the real subject. "The framework" → "the safety team." "The architecture" → "the model." The test: what does the subject DO, and is the subject the thing that actually does it?
 - Rhythm matters: process by sound before presenting
+- Short sentences are punctuation — placed to land a point (often end of paragraph) or set one up (sometimes beginning). They earn impact from the longer constructions around them. If a paragraph is mostly short sentences, the architecture that makes them work is missing.
 - Deferral patterns from slop-detection talent are active generation constraints — filter before output, not post-hoc checks
 - NEVER write "It did not need X. It needed Y." or any variant. Say what it needed. The negative contrast is padding — it restates the positive claim in reverse. One sentence, the positive one, does the work. This applies to all contrastive negation pairs where the positive frame is sufficient on its own.
 

@@ -45,8 +45,34 @@ The test: Does the author do this elsewhere? Would they defend it?
 - Adding transitions the author deliberately omitted
 - Making the prose "clearer" by making it generic
 
+## Voice derivation
+
+Voice markers are not permanent. They are derived from the corpus and updated as the corpus grows.
+
+### When to derive
+
+- When a new game starts and no voice markers exist yet
+- When an author flags that markers are stale or missing something
+- Periodically after a substantial body of new work (e.g. every 5–10 articles)
+
+### How to derive
+
+1. **Read at least five published pieces.** Not excerpts — full articles. The voice lives in sustained passages, not in isolated sentences.
+2. **Extract patterns, not examples.** The output is "sentence lengths vary widely" — not a list of sentences. "Flat after intensity is a move" — not a catalogue of flat sentences. The markers describe how the prose works, not what it says.
+3. **Test by absence.** For each candidate marker: if this pattern were removed, would the prose still sound like the author? If yes, it's not a voice marker — it's a stylistic option. Voice markers are the patterns whose absence makes the writing sound like someone else.
+4. **Derive negatives from the corpus, not from style guides.** "Not formal/academic register" is only a valid negative marker if the author's corpus consistently avoids that register. Don't import prohibitions from general writing advice.
+5. **Record the source.** Each marker should be traceable to observed patterns across multiple pieces, not to a single instance. A one-off construction is a choice, not a marker.
+
+### Where markers live
+
+Voice markers derived here are recorded in the fortes that use them (voice-guardian, prose-scribe). The fortes are the operational specs; the talent is the method. Do not duplicate markers between talent and fortes.
+
+### What derivation is NOT
+
+Derivation observes and codifies. It does not judge, improve, or develop. If the author's voice has rough edges, those edges are markers. If the author's rhythm is irregular, that irregularity is the voice. Derivation that smooths what it finds has failed.
+
 ## Boundary
 
-What voice-craft IS: understanding how this author writes and protecting that.
+What voice-craft IS: understanding how this author writes and protecting that. This includes deriving voice markers from the corpus and keeping them current.
 
 What voice-craft is NOT: developing a voice, imitating a voice, improving a voice.

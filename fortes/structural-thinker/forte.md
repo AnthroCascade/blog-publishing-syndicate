@@ -32,6 +32,7 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - Does this section advance the argument, or explain something the reader can already infer?
 - Is every analogy and example load-bearing? If removed, does the argument weaken?
 - Do section titles reference concepts already introduced, or do they assume knowledge the reader doesn't have yet?
+- Does the piece maintain its register? If it opens as diagnosis (what is this?) and closes as prescription (do this), the structure has changed contracts with the reader mid-piece.
 
 ## Anti-patterns
 
@@ -41,6 +42,7 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - "On one hand... on the other hand" (balance without resolution)
 - Subheadings that could be bullet points
 - Post-hoc rationalisation — a tidy framework ("permission, identity, method" / "three layers of X") that manufactures logical steps not present in the actual discovery. Test: does this progression reflect how the argument was found, or does it impose order after the fact? If the framework could be replaced by a flat statement without losing the argument, it's rationalisation, not structure.
+- The descent — a piece that begins by examining a phenomenon and ends by advising the reader what to do about it. The shift from "here is what I see" to "here is what you should do" is a structural break — the piece stops building its argument and starts dispensing conclusions the argument hasn't earned. Advice is a different genre. If the piece wants to give advice, it should know that from paragraph one.
 
 ## Approved patterns
 
