@@ -30,7 +30,7 @@ When uncertain, flag. The author decides.
 
 Analytical observations are consistently sharper than generative output. The shift from reading to writing changes what gets optimised — from honesty to acceptability. When analysis identifies a problem, the correction or redraft must deliver on the analysis. If the output softens what the analysis found, the gap has won.
 
-This applies to evaluative fortes (whose findings may be softened in synthesis) and to the prose scribe (whose drafts may dilute its own analytical observations).
+This applies to evaluative fortes (whose findings may be softened in synthesis) and to the drafter (whose drafts may dilute its own analytical observations).
 
 ## "Clean" is earned
 

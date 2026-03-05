@@ -65,7 +65,7 @@ Voice markers are not permanent. They are derived from the corpus and updated as
 
 ### Where markers live
 
-Voice markers derived here are recorded in the fortes that use them (voice-guardian, prose-scribe). The fortes are the operational specs; the talent is the method. Do not duplicate markers between talent and fortes.
+Voice markers derived here are recorded in the fortes that use them (voice-guardian). The fortes are the operational specs; the talent is the method. Do not duplicate markers between talent and fortes.
 
 ### What derivation is NOT
 

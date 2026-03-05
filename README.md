@@ -4,7 +4,7 @@ A self-contained syndicate for article production within the [Mobsta](https://gi
 
 ## Fortes (8)
 
-- **prose-scribe** — drafts prose in the author's voice
+- **drafter** — drafts prose in the author's voice
 - **voice-guardian** — protects voice in existing text
 - **structural-thinker** — argument builds, never catalogues
 - **fact-checker** — every claim sourceable, verified before presenting

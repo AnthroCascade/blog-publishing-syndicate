@@ -2,7 +2,7 @@
 
 ## Fortes
 
-- prose-scribe — drafts prose in the author's voice (draft mode and revise mode)
+- drafter — drafts prose in the author's voice (draft mode and revise mode)
 - voice-guardian — protects voice in existing text
 - structural-thinker — argument builds, never catalogues
 - fact-checker — every claim sourceable, verified before presenting (research mode and verify mode)
@@ -80,7 +80,7 @@ emphasis by choosing which phase to invoke.
 | Phase | Fortes | Settles when |
 |---|---|---|
 | Research | research-assembler, fact-checker (against research.md) | Claims sourced, research.md complete |
-| Draft | prose-scribe | Author accepts or enters evaluation |
+| Draft | drafter | Author accepts or enters evaluation |
 | Structure | structural-thinker, thesis-sharpener, continuity-thinker | Argument builds, concept ownership clear, no structural circling |
 | Polish | voice-guardian, slop-detector | Voice clean, no AI tells |
 | Verify | fact-checker (web search against primary sources) | All claims verified externally |
@@ -109,12 +109,12 @@ default coordination pattern; the game can override.
 | Command | Phase | Fortes | Default pattern | Settles when |
 |---------|-------|--------|-----------------|--------------|
 | mob | (all) | all 7 evaluative | parallel-evaluation | Forte files written |
-| draft | Draft | prose-scribe | single-agent | Draft written |
+| draft | Draft | drafter | single-agent | Draft written |
 | research | Research | research-assembler, fact-checker | sequential-pipeline | Claims sourced |
 | structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker | parallel-evaluation | Argument builds |
 | polish | Polish | voice-guardian, slop-detector | parallel-evaluation | Voice clean |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
-| revise | Draft (correction) | prose-scribe | single-agent | Corrections applied |
+| revise | Draft (correction) | drafter | single-agent | Corrections applied |
 | promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
 
 ### Idea lifecycle commands
@@ -149,7 +149,7 @@ phase, and the fortes within it fire.
   when fact-checker flags gaps
 - thesis-sharpener: peaks during framing and
   structure phase
-- prose-scribe: active during draft phase
+- drafter: active during draft phase
 - voice-guardian, slop-detector: polish phase,
   but always available
 - fact-checker: research phase (against
