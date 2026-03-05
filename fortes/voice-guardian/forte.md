@@ -49,10 +49,10 @@ What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 
 ## Kill list
 
-- "ambient thrumming" — vague atmospheric filler
-- "every shimmering species" — ornamental reaching
-- "ethereal, superficially comforting" — floaty adjective pairs
-- "artful in its defiance" — formal/stiff construction
+- Hedge phrases — "It's important to note...", "It's worth mentioning..."
+- Sycophantic openings — "That's a great question!", "Great point!"
+- Corporate smoothness — confident but saying nothing distinctive
+- Ornamental abstraction — vague atmospheric or decorative language
 - Any construction the slop-detector would also flag
 
 ## Approved patterns (from real work)
