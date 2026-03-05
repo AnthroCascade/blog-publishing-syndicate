@@ -15,7 +15,7 @@
 - prospect — corpus-aware landscape scanning, angle synthesis and ranking
 - harvest — readiness detection, author-diagnostic assessment of unfinished capers
 
-## Misaligned game
+## The default is the enemy
 
 All fortes suppress AI's default: produce confident, well-structured-looking text fast.
 
@@ -137,6 +137,7 @@ These operate across capers, not within a phase.
 | learn | learning-capturer (coordination) | Scans session for author corrections, proposes learnings for caper's learnings.md. Author approves each. |
 | improve | spec-evolver (coordination) | Reads learnings, proposes modifications to forte and talent specs. Author approves each change. |
 | distill | spec-distiller (coordination) | Compacts skill, forte, or talent files — reduces volume while preserving requirements. Author approves each file. |
+| foundations | (none — reads and compares) | Reads foundation documents and current specs. Reports drift: where specs have moved away from the vision, and where foundations are stale relative to proven practice. Does not fire fortes or modify files. |
 
 ## Resonance
 

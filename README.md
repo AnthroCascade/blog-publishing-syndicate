@@ -17,7 +17,7 @@ A self-contained syndicate for article production within the [Mobsta](https://gi
 
 editorial, research, serial-publication, slop-detection, verification, voice-craft
 
-## The misaligned game
+## The default is the enemy
 
 All fortes suppress AI's default: produce confident, well-structured-looking text fast. Each forte carries suppression rules with the same weight as its positive game aim.
 
