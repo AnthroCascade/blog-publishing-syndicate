@@ -2,16 +2,18 @@
 
 ## Fortes
 
-- prose-scribe — drafts prose in the author's voice
+- prose-scribe — drafts prose in the author's voice (draft mode and revise mode)
 - voice-guardian — protects voice in existing text
 - structural-thinker — argument builds, never catalogues
-- fact-checker — every claim sourceable, verified before presenting
+- fact-checker — every claim sourceable, verified before presenting (research mode and verify mode)
 - thesis-sharpener — actual argument crystallises early
 - research-assembler — material assembled before drafting
 - slop-detector *(reusable, from top-level `fortes/`)* — no AI tells in output
 - continuity-thinker — positions article within the body of work
 - promotion-crafter — crafts platform-specific promotion for published articles
 - pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
+- prospect — corpus-aware landscape scanning, angle synthesis and ranking
+- harvest — readiness detection, author-diagnostic assessment of unfinished capers
 
 ## Misaligned game
 
@@ -117,14 +119,13 @@ default coordination pattern; the game can override.
 
 ### Idea lifecycle commands
 
-These operate before the mob engages. They do not
-fire content fortes.
+These operate before the mob engages.
 
-| Command | Lifecycle phase | What it does |
-|---------|----------------|--------------|
-| prospect | Prospect | Scans web for corpus-connected articles, ranks angles, sets up capers with findings |
-| harvest | Harvest | Surveys unfinished capers, presents readiness (not priority), author recognises what's ripe |
-| weigh | Weigh | Tests idea viability (pragmatic-sceptic forte). Quick (Level 1) or research-informed (Level 2 with `deep` flag). Verdict: proceed, compost, re-vehicle, kill |
+| Command | Lifecycle phase | Fortes | What it does |
+|---------|----------------|--------|--------------|
+| prospect | Prospect | prospect | Scans web for corpus-connected articles, ranks angles, sets up capers with findings |
+| harvest | Harvest | harvest | Surveys unfinished capers, presents readiness (not priority), author recognises what's ripe |
+| weigh | Weigh | pragmatic-sceptic | Tests idea viability. Quick (Level 1) or research-informed (Level 2 with `deep` flag). Verdict: proceed, compost, re-vehicle, kill |
 
 ### Meta commands
 
@@ -135,6 +136,7 @@ These operate across capers, not within a phase.
 | report | (none) | Reads current forte evaluation files and writes a cross-cutting summary for the author. Does not fire fortes or clear evaluations. |
 | learn | learning-capturer (coordination) | Scans session for author corrections, proposes learnings for caper's learnings.md. Author approves each. |
 | improve | spec-evolver (coordination) | Reads learnings, proposes modifications to forte and talent specs. Author approves each change. |
+| distill | spec-distiller (coordination) | Compacts skill, forte, or talent files — reduces volume while preserving requirements. Author approves each file. |
 
 ## Resonance
 
@@ -162,3 +164,7 @@ phase, and the fortes within it fire.
 - pragmatic-sceptic: between harvest and research,
   when the author is considering investing in a
   caper. Does not re-engage during workflow phases
+- prospect: on demand, when the author wants to scan
+  for new angles. Not phase-linked
+- harvest: on demand, when the author surveys
+  unfinished capers. Not phase-linked

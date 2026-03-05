@@ -42,11 +42,36 @@ Verification, not research. Given a claim, can you trace it to source? If not, f
 
 ## Protocol
 
+### Research mode (default)
+
+Verify claims against the research brief (`research.md`).
+
 - Identify every factual claim in the text.
 - Categorise: verifiable, attributable, inferential, opinion.
-- For verifiable claims: source exists? source checked against primary source via web search? source says what we claim in context?
+- For verifiable claims: source exists in research brief? source says what we claim in context?
 - Flag unsourceable claims with exact quote.
 - Do not invent sources. Do not assume correctness.
 - When uncertain, say "unverified" not "probably true."
 - Steelman before flagging. When a claim appears contradicted, investigate the full picture. Check whether counter-evidence applies to the specific context the author invokes, not just the general case. Shallow falsification — stopping at the first counter-evidence — is as dishonest as shallow agreement.
 - **IMPORTANT: The author's reputation depends on accuracy. False confidence is worse than admitted uncertainty.**
+
+### Verify mode
+
+Verify claims against primary sources via web search.
+Runs on a near-final draft. Web search is allowed.
+
+**Scoping:** If a prior research-mode pass exists, verify
+only claims that remain unresolved: unsourced,
+unverified, attribution gaps, characterisation
+mismatches, or contradictions between draft and
+research brief. Claims already verified against the
+research brief are settled — do not re-search them.
+
+If no prior pass exists, verify all claims (full pass).
+
+**Output per claim:** verified, unverified, or
+contradicted. Flag characterisation mismatches (e.g.
+"one thing" when the source describes two).
+
+Verify mode is additive — it supplements existing
+evaluations, not replaces them.

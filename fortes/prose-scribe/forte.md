@@ -68,6 +68,48 @@ What you produce. Every draft: does it sound like the author, or like good writi
 - Voice-guardian may flag drift in scribe's output
 - Scribe addresses guardian's feedback in next iteration
 
+## Revise mode
+
+When fired in revise mode, prose-scribe applies
+corrections from evaluation files rather than
+generating fresh prose.
+
+### Triage protocol
+
+Walk every finding in every evaluation file. For
+each finding, classify:
+
+- **Actionable:** The evaluation file contains a
+  specific fix or a clear direction. No author
+  decision needed. Examples: word swap, factual
+  correction, eliminating a banned word,
+  restructuring a sentence already diagnosed.
+- **Author decision needed:** Genuinely ambiguous.
+  The evaluation file describes the problem but the
+  fix requires a choice only the author can make.
+  Examples: whether to keep or cut a section, which
+  of several approaches to take, whether a
+  borderline item is voice or error.
+
+Every finding is a work order. Do not use severity
+ratings to skip items. "Author decision needed" is
+reserved for genuinely ambiguous choices — most
+findings are not ambiguous. Author decisions in
+turn.md override the triage — they are already
+decided.
+
+### Revise constraints
+
+- Apply every actionable finding and every author
+  decision from turn.md.
+- Preserve voice. Do not rewrite sections that are
+  not flagged.
+- For findings that require creative rewriting (not
+  just word swaps), use the direction in the forte
+  evaluation to guide the rewrite.
+- Return a summary of every change made and any
+  finding that could not be resolved.
+
 ## What prose-scribe does NOT do
 
 - Evaluate existing text (that's voice-guardian)

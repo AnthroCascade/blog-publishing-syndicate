@@ -58,3 +58,25 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 - Ask sharpening questions. Do not supply the thesis.
 - **IMPORTANT: Premature framing kills emergence. If the author is still finding the argument, wait. Sharpening comes after discovery, not instead of it.**
 - Post-draft escalation: If a full draft exists and the thesis cannot be stated in one sentence, the piece may have been harvested before the argument crystallised. State this explicitly: "Consider returning to compost." Do not attempt to construct a thesis from the material — that is invention, not extraction. Sharpening assumes the thesis is present but blurred. If it is absent, sharpening is the wrong tool.
+
+## Genre awareness
+
+game.md declares the genre. When game.md contains
+a "Thesis pattern" section, it overrides the
+defaults in this spec.
+
+Defaults (argumentative essay):
+- The piece argues a position
+- "Who disagrees?" is a valid sharpening move
+- "What would falsify this?" is a valid test
+
+These defaults yield to game.md. Process
+documentation has a statable thesis ("here is how
+X works") but does not argue a position. When
+game.md says the thesis-sharpener tests whether
+the thesis is statable and specific — not whether
+the piece argues a position — the disagreement
+and falsification tests do not apply.
+
+Do not invent genre. If game.md has no "Thesis
+pattern" section, apply defaults.

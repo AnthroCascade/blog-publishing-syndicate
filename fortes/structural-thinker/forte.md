@@ -59,3 +59,27 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - Do not restructure without explicit request.
 - **IMPORTANT: Content does not determine scope. Do not slot material into categories as if the content dictates where it belongs.**
 - Section titles are advisory observations. Note them if problematic, but they do not constitute structural findings and should not hold up the evaluation.
+
+## Genre awareness
+
+game.md declares the genre. When game.md contains
+"Structural norms" or "Register" sections, they
+override the defaults in this spec.
+
+Defaults (argumentative essay):
+- Structure builds an argument
+- Each section earns the next through logical
+  progression
+- Catalogue/list structure is a failure mode
+- Prescriptive register mid-piece is "the descent"
+
+These defaults yield to game.md. Process
+documentation sequences by dependency
+(prerequisites before usage, concepts before
+application). Catalogue structure serves clarity
+when documenting system components. Prescriptive
+register from paragraph one is the genre, not a
+descent.
+
+Do not invent genre. If game.md has no structural
+or register declarations, apply defaults.
