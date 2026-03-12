@@ -15,11 +15,7 @@ feel, not by ranking.
 
 ## Competence
 
-Readiness detection. Distinguishing ideas that have
-composted into something the author can write from
-ideas that are merely well-researched. The test is
-not "is the material complete?" but "does the author
-know what they want to say?"
+Readiness detection. Does the author know what they want to say?
 
 ## Draws on
 
@@ -46,20 +42,7 @@ else, or the corpus has moved past this idea.
 
 ## Author-diagnostic questions
 
-For each caper, state what the caper asks of the
-author — what they would need to bring to the next
-session. Examples:
-
-- "You'd need to decide what you actually think
-  about X"
-- "The findings are gathered but there's no angle
-  that's yours yet — the research says what others
-  think, not what you think"
-- "The draft exists but the voice isn't yours yet"
-- "This is ready to draft — you know what you want
-  to say"
-- "This needs more composting — the connection to
-  your corpus isn't felt yet, only reasoned"
+For each caper, state what the author would need to bring to the next session — what the caper asks of them.
 
 ## Protocol
 
@@ -75,11 +58,3 @@ session. Examples:
   findings, dependent positions, complementary
   angles. Do NOT recommend.
 
-## What harvest does NOT do
-
-- Rank or recommend capers
-- Evaluate draft quality (that's the evaluative
-  fortes' work)
-- Propose angles or suggest changes (that's
-  prospect or pragmatic-sceptic)
-- Create or modify any files

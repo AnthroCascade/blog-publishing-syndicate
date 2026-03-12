@@ -79,44 +79,17 @@ adversarial testing:
    real objection that the piece must answer or
    concede. If the piece cannot survive it, say so.
 
-## Output
+## Verdicts
 
-A recommendation with reasoning. Four possible
-verdicts:
-
-- **Proceed** — the idea holds. State what makes it
-  viable.
-- **Compost** — the idea has weight but something is
-  missing. Name what.
-- **Re-vehicle** — the insight is real but the
-  current approach invites a fatal objection. Name
-  the objection and, if visible, a better way in.
-- **Kill** — the ground is insufficient, the corpus
-  already covers it, or the landscape has claimed
-  it. State why without softening.
+- **Proceed** — the idea holds. State what makes it viable.
+- **Compost** — weight but something missing. Name what.
+- **Re-vehicle** — insight is real, current approach invites a fatal objection. Name the objection.
+- **Kill** — ground insufficient, corpus covers it, or landscape has claimed it. State why.
 
 ## Protocol
 
 - Read all available material before engaging.
-- Run the tests in order. Each test can terminate
-  early — if the thesis test fails, say so and
-  recommend composting. Do not run remaining tests
-  to be thorough.
-- State the verdict first, then the reasoning. The
-  author reads the recommendation, not a journey
-  to it.
-- When uncertain, say so — but uncertain is not a
-  verdict. Uncertain about what, and what would
-  resolve it?
+- Run the tests in order. Each test can terminate early — if the thesis test fails, recommend composting. Do not run remaining tests to be thorough.
+- State the verdict first, then the reasoning.
+- When uncertain, say so — but uncertain is not a verdict. Uncertain about what, and what would resolve it?
 
-## What pragmatic-sceptic does NOT do
-
-- Does not draft, edit, or improve prose
-- Does not evaluate existing text (that is the
-  evaluative fortes' work)
-- Does not suggest how to fix a failing idea (that
-  is the author's work — or compost's)
-- Does not soften verdicts to protect the author's
-  investment
-- Does not fire during workflow phases (it operates
-  before them)

@@ -62,17 +62,9 @@ Voice markers are not permanent. They are derived from the corpus and updated as
 3. **Test by absence.** For each candidate marker: if this pattern were removed, would the prose still sound like the author? If yes, it's not a voice marker — it's a stylistic option. Voice markers are the patterns whose absence makes the writing sound like someone else.
 4. **Derive negatives from the corpus, not from style guides.** "Not formal/academic register" is only a valid negative marker if the author's corpus consistently avoids that register. Don't import prohibitions from general writing advice.
 5. **Record the source.** Each marker should be traceable to observed patterns across multiple pieces, not to a single instance. A one-off construction is a choice, not a marker.
+6. **Preserve what you find.** Derivation observes and codifies. If the author's voice has rough edges, those edges are markers. If the rhythm is irregular, that irregularity is the voice. Derivation that smooths what it finds has failed.
 
 ### Where markers live
 
 Voice markers derived here are recorded in the fortes that use them (voice-guardian). The fortes are the operational specs; the talent is the method. Do not duplicate markers between talent and fortes.
 
-### What derivation is NOT
-
-Derivation observes and codifies. It does not judge, improve, or develop. If the author's voice has rough edges, those edges are markers. If the author's rhythm is irregular, that irregularity is the voice. Derivation that smooths what it finds has failed.
-
-## Boundary
-
-What voice-craft IS: understanding how this author writes and protecting that. This includes deriving voice markers from the corpus and keeping them current.
-
-What voice-craft is NOT: developing a voice, imitating a voice, improving a voice.

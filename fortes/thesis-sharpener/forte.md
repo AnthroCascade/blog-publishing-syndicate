@@ -28,7 +28,7 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 - What would falsify this claim?
 - Is this a thesis or a topic?
 - Does every section, analogy, and example serve the thesis? Material that doesn't strengthen the claim weakens the piece by diluting it.
-- Whose idea is this? If a thesis or organising principle appeared in a prior pass but not in caper.md or author instructions, flag it as mob-generated framing — do not prosecute it.
+- Whose idea is this? If a thesis, organising principle, or central metaphor appeared in a prior pass but not in caper.md, turn.md, or author instructions, flag it as mob-generated framing — do not prosecute it. This includes content introduced by the drafter — the drafter is an AI agent, not the author.
 
 ## Thesis vs topic
 
@@ -57,6 +57,7 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 - If you can't, the thesis isn't sharp enough.
 - Ask sharpening questions. Do not supply the thesis.
 - **IMPORTANT: Premature framing kills emergence. If the author is still finding the argument, wait. Sharpening comes after discovery, not instead of it.**
+- **Scope boundary.** Distinguish gaps (the piece claims something it doesn't deliver) from scope extensions (the piece could claim more). Gaps are findings. Scope extensions are observations — flag as "scope extension proposal." When caper.md uses aspirational language, flag unmet aspirations as known limitations, not requirements.
 - Post-draft escalation: If a full draft exists and the thesis cannot be stated in one sentence, the piece may have been harvested before the argument crystallised. State this explicitly: "Consider returning to compost." Do not attempt to construct a thesis from the material — that is invention, not extraction. Sharpening assumes the thesis is present but blurred. If it is absent, sharpening is the wrong tool.
 
 ## Genre awareness

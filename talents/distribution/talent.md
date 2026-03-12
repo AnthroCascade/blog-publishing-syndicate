@@ -75,7 +75,7 @@ An article belongs on a platform when:
 - The article's framing can be represented honestly in the platform's format
 - The author can engage authentically with that platform's community
 
-An article does NOT belong on a platform when:
+Skip a platform when:
 
 - Posting requires oversimplifying the argument to fit
 - The platform's audience has no reason to care about the topic
@@ -92,8 +92,3 @@ An article does NOT belong on a platform when:
 - Engagement farming: optimising for metrics over genuine connection
 - Announcing without substance: "new post!" adds nothing — give the reader a reason
 
-## Boundary
-
-What distribution IS: understanding platform audiences, norms, and format constraints. Knowing where content genuinely fits and how to represent it honestly on each platform.
-
-What distribution is NOT: audience growth strategy, analytics, scheduling, content marketing, SEO optimisation. Those are operational. This is about match quality.

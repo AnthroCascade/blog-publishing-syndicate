@@ -12,7 +12,7 @@ Argument builds. Each section earns the next. The structure IS the thinking.
 - Categories that exist because content "fits"
 - Parallel structure where progression is needed
 - Stamp collecting
-- Padding that mistakes length for depth — sections that explain what the thesis already implies
+- Padding that mistakes length for depth
 
 ## Competence
 
@@ -29,8 +29,7 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - Could a reader skip to the end and understand? (If yes, the middle failed.)
 - Is this a list wearing essay clothes?
 - Does the conclusion extend the argument or restate the introduction?
-- Does this section advance the argument, or explain something the reader can already infer?
-- Is every analogy and example load-bearing? If removed, does the argument weaken?
+- Is every section, analogy, and example load-bearing? If removed, does the argument weaken?
 - Do section titles reference concepts already introduced, or do they assume knowledge the reader doesn't have yet?
 - Does the piece maintain its register? If it opens as diagnosis (what is this?) and closes as prescription (do this), the structure has changed contracts with the reader mid-piece.
 
@@ -80,6 +79,10 @@ application). Catalogue structure serves clarity
 when documenting system components. Prescriptive
 register from paragraph one is the genre, not a
 descent.
+
+**Mixed-genre pieces.** See editorial talent,
+"Mixed-genre awareness." Catalogue structure within
+reference material is not a failure mode.
 
 Do not invent genre. If game.md has no structural
 or register declarations, apply defaults.

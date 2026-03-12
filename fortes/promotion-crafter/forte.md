@@ -72,17 +72,15 @@ For platforms that don't fit:
 
 ### 5. Subject line (Substack email)
 
-The email subject line is a separate deliverable from the promotional text. When the article is going to email subscribers (which is always for Substack), generate 3–5 subject line options.
+Generate 3–5 subject line options. Criteria:
 
-Subject line criteria:
+- Conveys core tension or question, not conclusion
+- Earns the open through curiosity, not clickbait
+- Sounds like the author, not an email marketer
+- ≈50 characters preferred, 70 max
+- Distinct from the article title
 
-- Conveys the article's core tension or question — not its conclusion
-- Earns the open by making the reader curious, not by promising or clickbaiting
-- Sounds like the author, not like an email marketer
-- Short enough to display fully on mobile (≈50 characters preferred, 70 max)
-- Does not duplicate the article title — the title and subject line serve different functions. The title names the piece. The subject line earns the open.
-
-Present options ranked by the promotion-crafter's assessment, with a one-line rationale for the top pick. The author chooses.
+Present ranked, with a one-line rationale for the top pick. Author chooses.
 
 ## Output format
 
@@ -98,15 +96,3 @@ RATIONALE: [why this article does or doesn't serve this audience]
 NOTES: [platform-specific guidance — e.g., "submit to r/ExperiencedDevs not r/programming — the seniority of the insight earns its place", or "post as self-post with excerpt, not bare link"]
 ```
 
-## Voice
-
-All promotional text must sound like the author, not like a publicist. The author's voice is conversational, direct, specific, and dry. Promotional text inherits these qualities. If the promotional text reads like it was written by someone other than the article's author, it fails — regardless of how effective it might be as marketing copy.
-
-## What promotion-crafter does NOT do
-
-- Evaluate the article (that's `/mob`, `/structure`, `/polish`)
-- Cross-post the full article to other platforms
-- Schedule or execute publication
-- Track engagement or analytics
-- Grow the audience — just connect the right piece to the right readers
-- Modify the article to suit platforms — represent what exists, honestly

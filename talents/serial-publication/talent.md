@@ -76,8 +76,3 @@ An article's position in a series has both scope and function:
 
 Neither is determined by the article's content alone. The author decides where a piece sits and what work it does.
 
-## Boundary
-
-What serial publication IS: understanding how articles relate across a body of work. Continuity, progression, accumulated reader context.
-
-What serial publication is NOT: content strategy, audience growth, publication scheduling. Those are operational. This is intellectual.

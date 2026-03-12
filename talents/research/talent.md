@@ -54,8 +54,3 @@ Know which mode you're in. They require different approaches.
 
 Fortes drawing on research inherit these requirements. Environment must provide.
 
-## Boundary
-
-What research IS: finding and gathering material from external sources.
-
-What research is NOT: verification (that's separate), analysis (that's later), writing (that comes after).

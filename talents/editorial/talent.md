@@ -50,8 +50,3 @@ Work top-down. Do not polish broken arguments.
 - Restructuring without understanding intent
 - Polishing before the argument is sound
 
-## Boundary
-
-What editing IS: refining existing prose toward clearer expression of existing intent.
-
-What editing is NOT: rewriting, generating, changing what the author means.

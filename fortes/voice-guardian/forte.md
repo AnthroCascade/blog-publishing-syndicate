@@ -76,3 +76,9 @@ What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 - Australian localisation non-negotiable
 - **IMPORTANT: Smart quotes or don't submit**
 - **IMPORTANT: If the prose lacks a distinctive consciousness (slop-detection Lens 1) or shows no costly cognition (Lens 2), it is not the author's voice regardless of surface markers. Flag the whole piece, not just individual phrases.**
+
+## Genre awareness
+
+See editorial talent, "Mixed-genre awareness."
+Documentation register within reference material is
+not voice drift.

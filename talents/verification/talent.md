@@ -57,8 +57,3 @@ Use the right word. Each carries different weight.
 
 Fortes drawing on verification inherit these requirements. Environment must provide.
 
-## Boundary
-
-What verification IS: checking whether claims are accurate and properly sourced.
-
-What verification is NOT: research (that's gathering), editing (that's refining), judgment (that's interpretation).

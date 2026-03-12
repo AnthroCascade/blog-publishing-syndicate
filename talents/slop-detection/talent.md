@@ -2,92 +2,72 @@
 
 ## Domain
 
-Detecting AI-generated or AI-assisted text. Two complementary lenses: presence of human consciousness, and evidence of costly cognition.
+Detecting AI-generated or AI-assisted text. One question: is there a person here? One method: costly cognition.
 
 ## Optimises for
 
 Identifying the production process behind prose. Polish is cheap. Cognition is expensive. Surface fluency proves nothing.
 
-## Lens 1: Another Consciousness
+## Is there a person here?
 
 *From Megan Nolan: Great writing is identified not by its perfect sentences, but from that uncanny feeling of another consciousness rubbing against your own.*
 
-### Consciousness markers
+You read the text and feel — or don't feel — a person. The method for answering it is costly cognition: what would the author have had to notice, care about, or risk to produce this?
 
-- Specific sensibility (cultural, generational, professional)
-- Self-revelation or vulnerability
-- Opinions stated without hedging
-- Moments of weirdness that serve only atmosphere or voice
-- Details that are specific rather than generic
-
-**Test:** Is there a person here? Could you describe their personality from the prose alone?
-
-### Tonal tells
-
-- Hedge phrases: "It's important to note...", "It's worth mentioning..."
-- Sycophantic openings: "That's a great question!", "Great point!"
-- Hollow corporate voice: confident but saying nothing distinctive
-- Face-preserving: refusing to take positions, excessive both-sidesing
-- Absence of opinion, frustration, or personality
-
-**Test:** Could this have been written by anyone, or does it sound like a specific person with specific views?
-
-### What cannot be edited in
-
-Surface markers (vocabulary, em-dashes) can be edited out. These deeper qualities cannot be added through revision:
-
-- Distinctive consciousness
-- Original insight from genuine reasoning
-- Cultural specificity
-- Lived experience informing examples
-- Voice that takes risks
-
-### Burstiness
-
-AI text shows low burstiness — consistent, predictable patterns throughout. Human writing naturally varies.
-
-- Mix of short punches and complex constructions
-- Dramatic variation in paragraph length
-- Rhythm changes that serve emphasis or pacing
-
-**Test:** Does the prose have a pulse, or does it flatline?
-
-### Original insight vs synthesis
-
-AI excels at synthesis — organising existing ideas. It struggles with genuine originality.
-
-- Novel conceptual combinations
-- Thesis that argues rather than summarises
-- Insight that requires lived experience or domain expertise
-- Metaphors constructed for this purpose vs generic
-
-**Test:** Is this saying something new, or arranging known things competently?
-
-### Cultural distinctiveness
-
-AI defaults toward American English and American cultural references (Cornell University research on homogenisation).
-
-- Spelling conventions (British/Australian vs American)
-- Cultural references and assumptions
-- Sensibility markers (dry vs enthusiastic, understated vs emphatic)
-
-**Test:** Does this read like it could have been written anywhere, or is it culturally located?
-
-## Lens 2: Costly Cognition
+## Costly cognition
 
 *Assume polish is cheap. Treat cognition as expensive. Infer the most plausible production process.*
 
-### Costly thinking signals (primary)
+### Primary signals
 
 Evidence of cognition that implies human constraint, risk, or situated judgment:
 
 - Claims that could be wrong in specific, non-obvious ways
 - Positions that meaningfully alienate a plausible audience
+- Specific sensibility — cultural, generational, professional — that costs something to hold
+- Self-revelation or vulnerability that carries social risk
+- Opinions stated without hedging, where hedging would be safer
 - Decisions that improve local clarity while harming global elegance
 - Reasoning that appears discovered during writing, not assembled after
 - Context-bound judgments that do not generalise cleanly
+- Moments of weirdness that serve only atmosphere or voice — no model risks weirdness without instruction
 
 **Test:** What would the author have had to notice, care about, or risk to write this? Would producing this require lived context, timing, taste, or conviction?
+
+### Situated context
+
+Does this text have any cultural location, or could
+it have been written anywhere? A person writes from
+somewhere — a place, a generation, a profession, a
+language community. AI prose defaults toward a
+culturally unmarked register that belongs to no
+geography.
+
+Spelling conventions and cultural references are
+surface markers (gameable, editable). The deeper
+signal is whether the sensibility — the way the
+prose notices, reacts, assumes — is situated
+somewhere specific. Being situated costs something:
+it limits your audience, reveals your position,
+excludes the universal.
+
+**Test:** Could you guess where this person lives,
+what they read, what irritates them — from the
+prose alone?
+
+### What cannot be edited in
+
+Surface markers (vocabulary, em-dashes) can be edited out. These deeper qualities cannot be added through revision:
+
+- Situated context
+- Lived experience informing examples
+- Voice that takes risks
+- Original insight from genuine reasoning
+
+The boundary between surface and depth is the
+production-process boundary. What can be applied
+after the fact is surface. What had to be present
+during production is depth.
 
 ### Local reasoning dependence
 
@@ -109,20 +89,90 @@ Assess whether the text optimises globally or under constraint:
 
 **Test:** Does this read as globally smoothed, or selectively prioritised?
 
+### Original insight vs synthesis
+
+AI excels at synthesis — organising existing ideas.
+It struggles with genuine originality.
+
+- Novel conceptual combinations
+- Thesis that argues rather than summarises
+- Insight that requires lived experience or domain
+  expertise
+- Metaphors constructed for this purpose vs generic
+
+**Test:** Is this saying something new, or arranging
+known things competently? What would the author have
+had to risk or discover to produce this?
+
+### Intentional rhythm
+
+Does the pacing reflect decisions about emphasis?
+
+A sentence is short because the idea lands hard
+here. A sentence runs long because the reasoning
+needs carrying through to arrive somewhere. The
+variation serves argument — you can feel why each
+sentence is the length it is.
+
+A model can be prompted to vary sentence lengths.
+A model cannot yet produce rhythm that follows
+thought — pacing where the short punch earns its
+force from what preceded it and the long
+construction carries something that would collapse
+if compressed.
+
+**Test:** Can you feel why this sentence is short
+and that one runs? Does the rhythm follow thought,
+or does it perform variation?
+
 ## Structural patterns
+
+Surface indicators. These correlate with AI output
+but are gameable — a model can be prompted to vary
+sentence length or avoid em-dashes. They are
+supporting evidence, not proof. Use them to
+corroborate findings from the lens, not as
+standalone signals.
 
 - Excessive em-dashes (the "ChatGPT dash")
 - Overuse of numbered or bulleted lists
 - Rigid topic-evidence-conclusion paragraph format
-- Uniform sentence length (AI averages 12-18 words per sentence)
 - Mechanical parallelism in lists and headers
 - Headers that taxonomise or follow a formula
+
+### Tonal tells
+
+Surface markers of AI production. These are
+checklists, not cognition tests — they corroborate
+but do not prove.
+
+- Hedge phrases: "It's important to note...", "It's worth mentioning..."
+- Sycophantic openings: "That's a great question!", "Great point!"
+- Hollow corporate voice: confident but saying nothing distinctive
+- Face-preserving: refusing to take positions, excessive both-sidesing
+- Absence of opinion, frustration, or personality
+
+**Test:** Could this have been written by anyone, or does it sound like a specific person with specific views?
+
+### Burstiness (surface metric)
+
+Statistical sentence-length variance. AI text
+currently shows low burstiness — consistent,
+predictable patterns throughout. LLMs show
+significantly lower variation in sentence length
+and rhetorical strategy than human writers.
+
+Treat low burstiness as corroborating evidence, not
+as a primary signal.
+
+**Test:** Does sentence length vary? (Corroborating,
+not dispositive.)
 
 **Test:** Is the structure serving information delivery (AI pattern) or argumentative/narrative logic (human pattern)?
 
 ### Nominalisation accumulation
 
-AI prose defaults to noun-phrase chains because they sound authoritative without committing to specific action. "The implementation of robust frameworks for the facilitation of collaborative engagement" — every verb has been converted to a noun and strung together with prepositions. The sentence sounds important but nothing happens in it.
+AI prose defaults to noun-phrase chains because they sound authoritative without committing to specific action. LLMs produce nominalisations at 1.5–2× the human rate. "The implementation of robust frameworks for the facilitation of collaborative engagement" — every verb has been converted to a noun and strung together with prepositions. The sentence sounds important but nothing happens in it.
 
 - Subjects that don't act — they "represent" or "embody" or sit as labels
 - Verbs reduced to copulas (is, represents, constitutes) linking noun phrases
@@ -189,8 +239,3 @@ Production process estimate:
 - AI-generated (human-edited)
 - AI-generated (minimal human input)
 
-## Boundary
-
-What slop-detection IS: inferring the production process behind text. Identifying absence of human consciousness.
-
-What slop-detection is NOT: style criticism. A badly written human text is not slop. A polished AI text is.

@@ -48,42 +48,12 @@ Before drafting can begin:
 
 ## Author notes vs article gaps
 
-The author's caper notes are instructions TO the mob, not material FOR the article. Distinguish:
-
-- **Article requirement:** "The article needs a backstory section on how AI became sycophantic." → Research gap. Fill it.
-- **Author reasoning:** "I arrived at HEXACO because I first thought of OCEAN..." → Context for the mob. Do NOT treat as a gap to fill or a section the article needs.
-
-When the author explains their thought process, that is context for the mob to understand the issue. Only flag gaps that would leave the article's claims unsupported or the reader confused. Do not create research sections for concepts the author mentioned as background.
-
-## Research vs confirmation
-
-- Research: "What do we know about X?"
-- Confirmation: "Find me evidence for Y."
-
-Both are valid. Know which you're doing.
+Author caper notes are instructions TO the mob, not material FOR the article. Author reasoning ("I arrived at HEXACO because...") is context for the mob. Only flag gaps that would leave the article's claims unsupported or the reader confused.
 
 ## Protocol
 
 - Declare research complete before drafting begins.
 - If drafting reveals a gap, stop drafting. Return to research.
 - Assemble material in usable form. Do not hoard links.
-- **IMPORTANT: Premature drafting poisons the well. Material written before research is complete will contaminate the final output. Resist the urge to "just start writing."**
-
-## Mid-draft re-engagement
-
-Research-assembler is front-loaded but not finished when drafting starts.
-
-**When fact-checker flags unsourced claims:**
-- Research-assembler re-engages to find sources
-- Provide: source, relevant quote, date, credibility assessment
-- If source not found: report gap explicitly, do not fabricate
-
-**Coordination with fact-checker:**
-- Fact-checker flags: "Claim X needs source"
-- Research-assembler responds: "Source found: [details]" or "No reliable source found"
-- Prose-scribe incorporates citation in next draft iteration
-
-**What re-engagement does NOT do:**
-- Invent sources
-- Provide sources without verification
-- Assume claims are true because they sound right
+- Premature drafting poisons the well. Material written before research is complete contaminates the final output.
+- When fact-checker flags unsourced claims, re-engage: provide source, relevant quote, date, credibility assessment. If source not found, report gap explicitly. Do not fabricate.

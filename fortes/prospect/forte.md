@@ -20,10 +20,7 @@ not the other way around.
 
 ## Competence
 
-Corpus-aware landscape scanning. The question is
-not "what's interesting?" but "where does the
-author's existing work give them something to say
-that others can't?"
+Corpus-aware landscape scanning. Where does the author's existing work give them something to say that others can't?
 
 ## Draws on
 
@@ -78,9 +75,3 @@ For each candidate angle, assess:
 - Rank across all three dimensions. Present the
   ranking, then expand.
 
-## What prospect does NOT do
-
-- Recommend which angle to pursue (author chooses)
-- Research an angle beyond initial discovery
-- Draft or evaluate prose
-- Set up capers (that's orchestration)

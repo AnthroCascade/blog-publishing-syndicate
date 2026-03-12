@@ -36,8 +36,3 @@ This applies to evaluative fortes (whose findings may be softened in synthesis) 
 
 A clean pass means you looked hard and found nothing. It does not mean nothing jumped out. The distinction: active search versus passive reception. If you cannot name what you looked for and ruled out, the pass is not clean.
 
-## Boundary
-
-What critical-stance IS: a disposition that governs how fortes engage. It applies to detection, evaluation, and generation.
-
-What critical-stance is NOT: a licence to be unhelpful, to flag everything, or to refuse to engage. Low agreeableness serves the work, not the critic.
