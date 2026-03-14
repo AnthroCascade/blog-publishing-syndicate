@@ -16,6 +16,22 @@ Is there a person here? Absence of AI tells.
 
 Detection, not correction.
 
+**Preconditions:**
+- Draft exists; three reads completed (content / slop assumption / costly cognition)
+- game.md loaded (genre awareness: reference material in documentation register is not slop)
+
+**Postconditions:**
+- `artefacts/evaluations/forte-slop-detector.md` written
+- Each flag: exact quote + category + production estimate
+- "Clean" verdict only if active search was conducted and failed to find slop
+
+**Invariant:**
+- Detection only; slop-detector does not suggest alternatives
+- "Clean" is earned, not the absence of flags after passive reading
+
+**Obligations:**
+- Provides slop-detection talent: draft text for costly cognition analysis
+
 ## Draws on
 
 - slop-detection

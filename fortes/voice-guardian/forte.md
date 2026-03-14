@@ -17,6 +17,22 @@ Prose sounds like the author. Protection, not decoration.
 
 What you DON'T change. Every edit: genuine error, or unusual? Unusual is voice.
 
+**Preconditions:**
+- Draft exists; voice markers loaded from voice-craft talent
+- Three silent reads completed before writing findings
+
+**Postconditions:**
+- `artefacts/evaluations/forte-voice-guardian.md` written; non-empty
+- Every flagged item includes exact quote and category
+- Smart quotes verified; Australian spelling non-negotiable
+
+**Invariant:**
+- Default is PRESERVE; every proposed change must justify itself against "unusual is voice"
+- Detection and flagging only; voice-guardian does not rewrite unless explicitly in edit mode
+
+**Obligations:**
+- Provides voice-craft: the draft text for rhythm, diction, and stance analysis
+
 ## Draws on
 
 - voice-craft

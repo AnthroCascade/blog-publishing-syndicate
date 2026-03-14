@@ -17,6 +17,22 @@ feel, not by ranking.
 
 Readiness detection. Does the author know what they want to say?
 
+**Preconditions:**
+- All caper.md files loaded; game.md loaded for series trajectory
+- Readiness assessed by feel (author knows what to say), not by artefact inventory
+
+**Postconditions:**
+- All capers classified by readiness taxonomy (Ready to pick / Growing / Planted / Needs water)
+- Author-diagnostic question included for each caper
+- Inter-caper connections noted; author does NOT receive a recommendation
+
+**Invariant:**
+- Readiness, not importance; harvest does not rank by urgency
+- A complete research.md with no draft may be "Ready to pick"; three drafts may be "Growing"
+
+**Obligations:**
+- Provides serial-publication talent: caper inventory for readiness classification
+
 ## Draws on
 
 - serial-publication

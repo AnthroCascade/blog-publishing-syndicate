@@ -16,6 +16,22 @@ Every claim sourceable. Verify before presenting. Confidence tracks evidence.
 
 Verification, not research. Given a claim, can you trace it to source? If not, flag it.
 
+**Preconditions:**
+- In research mode: research.md loaded for cross-referencing
+- In verify mode: web search and web fetch available; prior fact-checker file read if exists
+
+**Postconditions:**
+- `artefacts/evaluations/forte-fact-checker.md` written; every claim categorised (verifiable/attributable/inferential/opinion)
+- Verify mode: additive — supplements existing, does not replace
+
+**Invariant:**
+- Never fabricate sources; when uncertain: "unverified", not "probably true"
+- Verification confidence level always stated (verified/corroborated/reported/claimed/unverified)
+
+**Obligations:**
+- Provides verification talent: claims list for source tracing
+- Provides research talent: gap list for research-assembler to fill
+
 ## Draws on
 
 - verification

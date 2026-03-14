@@ -8,6 +8,21 @@ How different platforms receive, surface, and reward content. Platform-specific 
 
 Genuine fit between article and platform audience. The question is not "where can I post this?" but "where does this article serve readers who didn't know they needed it?"
 
+**Preconditions:**
+- Drawing forte has provided: article argument, audience, technical depth, unique value
+- Platform profiles loaded
+
+**Postconditions:**
+- Platform fit assessed for all relevant platforms
+- Skip recommendations include reason; not every article posted everywhere
+
+**Invariant:**
+- Genuine fit only; over-promising or oversimplifying is a mismatch
+- Matching logic: belongs when argument genuinely serves audience, not when more eyeballs wanted
+
+**Obligations:**
+- Provides drawing forte: platform profiles and matching logic as fit assessment framework
+
 ## Platform profiles
 
 ### Twitter/X

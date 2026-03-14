@@ -8,6 +8,21 @@ Finding, gathering, and organising information from sources.
 
 Completeness and relevance. The right material, in usable form, before it's needed.
 
+**Preconditions:**
+- Web search and web fetch available
+- Research mode declared (exploratory / targeted / adversarial)
+
+**Postconditions:**
+- Source log, quote bank, gap list, and conflict log produced
+- Sources logged with provenance; citations not lost
+
+**Invariant:**
+- Source hierarchy applied: primary > scholarly > expert > quality journalism > secondary
+- Research mode declared before gathering; do not conflate modes
+
+**Obligations:**
+- Provides drawing forte: source hierarchy and gathering patterns as decision framework
+
 ## Research modes
 
 - **Exploratory:** What exists on this topic? Cast wide.

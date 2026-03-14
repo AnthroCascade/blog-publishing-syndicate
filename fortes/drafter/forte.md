@@ -15,6 +15,22 @@ Say what the piece needs to say. Generation, not evaluation.
 
 Directness. Say the thing without overthinking how it sounds.
 
+**Preconditions:**
+- In draft mode: research.md complete (or acknowledged incomplete); caper.md loaded; prior evaluations read
+- In revise mode: evaluation files exist in `artefacts/evaluations/`; prosecution scope defined
+
+**Postconditions:**
+- In draft mode: draft.md written; `artefacts/evaluations/` cleared
+- In revise mode: every actionable finding addressed in new draft; author-decision items surfaced; `artefacts/evaluations/` cleared
+
+**Invariant:**
+- Generation, not evaluation; the drafter does not flag its own output for voice or slop — that is the mob's job
+- Revise mode patches; draft mode rewrites; do not conflate
+
+**Obligations:**
+- Provides voice-craft talent: draft content for voice constraint application during generation
+- Provides slop-detection talent: generated prose for pattern matching during generation
+
 ## Draws on
 
 - voice-craft

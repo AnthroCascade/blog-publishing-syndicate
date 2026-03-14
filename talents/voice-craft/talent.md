@@ -8,6 +8,21 @@ Recognising, preserving, and working within a writer's distinctive voice.
 
 Authenticity over correctness. The prose should sound like the author, not like good writing in general.
 
+**Preconditions:**
+- Drawing forte has provided draft or prose content for analysis
+- For voice derivation: at least 5 published pieces available
+
+**Postconditions:**
+- Voice patterns extracted as patterns (not examples); tested by absence
+- Preservation rules applied: unusual phrasing preserved until proven error
+
+**Invariant:**
+- Authenticity over correctness; voice consistency with author's corpus outweighs style guides
+- Voice markers recorded in fortes (voice-guardian); this talent is the method, not the registry
+
+**Obligations:**
+- Provides drawing forte: voice pattern analysis, preservation rules, and voice vs error test
+
 ## Voice components
 
 - **Rhythm:** Sentence lengths vary widely — single-word punches ("Measurably.") through to 40-plus-word constructions. Short sentences earn their impact from contrast with longer ones. A paragraph of uniformly short sentences flatlines the same way a paragraph of uniformly long ones does. The pattern is varied, not short.

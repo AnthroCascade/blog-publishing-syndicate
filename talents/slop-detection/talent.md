@@ -8,6 +8,21 @@ Detecting AI-generated or AI-assisted text. One question: is there a person here
 
 Identifying the production process behind prose. Polish is cheap. Cognition is expensive. Surface fluency proves nothing.
 
+**Preconditions:**
+- Drawing forte has provided prose for analysis
+- Three reads completed (content / AI assumption / costly cognition)
+
+**Postconditions:**
+- Each dimension assessed: Strongly human / AI-patterned / Mixed with specific evidence
+- Production estimate included: human-authored / AI-assisted / AI-generated (edited) / AI-generated (minimal)
+
+**Invariant:**
+- Surface signals (em-dashes, lists) are gameable and insufficient alone
+- Costly cognition is the primary test; absence of person is the finding
+
+**Obligations:**
+- Provides drawing forte: primary signals, structural patterns, and tonal tells as detection framework
+
 ## Is there a person here?
 
 *From Megan Nolan: Great writing is identified not by its perfect sentences, but from that uncanny feeling of another consciousness rubbing against your own.*
@@ -55,14 +70,36 @@ excludes the universal.
 what they read, what irritates them — from the
 prose alone?
 
+### Embodied sensing
+
+Does the prose describe physical experience from
+contact, or from category? A person who has touched
+silk in a spider's web knows it is sticky-elastic,
+not smooth. A person who has held a printed book
+while reading a PDF knows the difference is weight
+and smell, not "tactile engagement." AI chains
+sensory claims fluently — the claims parse, but
+nothing was felt.
+
+This sits alongside situated context: situated
+context asks where the person writes from; embodied
+sensing asks whether they have touched the thing
+they describe.
+
+**Test:** Do the sensory details come from contact
+with the specific thing, or from the category the
+thing belongs to?
+
 ### What cannot be edited in
 
 Surface markers (vocabulary, em-dashes) can be edited out. These deeper qualities cannot be added through revision:
 
 - Situated context
+- Embodied sensing — contact with the specific, not the category
 - Lived experience informing examples
 - Voice that takes risks
 - Original insight from genuine reasoning
+- Productive absence — trust in the reader that completeness would destroy
 
 The boundary between surface and depth is the
 production-process boundary. What can be applied
@@ -78,6 +115,14 @@ Check whether meaning is load-bearing at the sentence level:
 - Would random deletion of ~20% of sentences collapse the argument?
 
 Redundant coherence suggests low-cost generation. Irreplaceable local decisions suggest costly cognition.
+
+Autoregressive models generate from recent tokens,
+producing motion without displacement — the text
+covers ground but arrives nowhere the opening
+paragraph didn't already imply. A person writes
+toward a known destination; the argument accumulates.
+A model generates plausible next-sentences; the
+argument hovers.
 
 ### Imperfect optimisation
 
@@ -124,6 +169,27 @@ if compressed.
 **Test:** Can you feel why this sentence is short
 and that one runs? Does the rhythm follow thought,
 or does it perform variation?
+
+### Productive absence
+
+Does the text leave space for the reader, or does it
+explain everything? A person trusts the reader to
+close gaps — the unsaid does work. AI surfaces
+everything: explains the joke, spells out the theme,
+completes every logical step. The iceberg is inverted;
+nothing stays below the waterline.
+
+Productive absence is costly. Leaving something
+unsaid requires confidence that the reader will
+reach the same place — and acceptance that some
+readers will not. AI defaults to completeness because
+incompleteness looks like failure to a model
+optimising for helpfulness.
+
+**Test:** Does the text leave gaps the reader fills,
+or does it close every gap itself? Could you remove
+an explanatory sentence and find the argument
+stronger for the silence?
 
 ## Structural patterns
 
