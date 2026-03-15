@@ -83,3 +83,19 @@ Voice markers are not permanent. They are derived from the corpus and updated as
 
 Voice markers derived here are recorded in the fortes that use them (voice-guardian). The fortes are the operational specs; the talent is the method. Do not duplicate markers between talent and fortes.
 
+### Cross-genre voice sources
+
+The author's voice exists across genres. Blog
+voice and novel voice are not identical but share
+roots — flat declarations, comic precision,
+specificity as authority, verb-driven syntax,
+earned emotional turns. When deriving blog voice
+markers, `talents/voice-craft-novel/talent.md`
+provides additional signal. The novel shows moves
+the blog also makes: cumulative sentences that
+pile and undercut, pivot-point flatness, specifics
+that do the work abstractions would fumble. Filter
+for register (the blog has no characters, no
+narrator-intrusion gags) but don't discard the
+shared patterns.
+
