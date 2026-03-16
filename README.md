@@ -1,6 +1,6 @@
 # Blog Publishing Syndicate
 
-This is a writing system. It coordinates a group of AI collaborators — each with a specific job — to help produce articles for [Emperor's New Code](https://markratjens.substack.com/), a Substack newsletter about AI, language and honest thinking.
+This is a writing system. It coordinates a group of AI collaborators — each with a specific job — to help produce articles for blogs. Currently it is being developed and refined with respect to [Emperor's New Code](https://markratjens.substack.com/), a Substack newsletter about AI, language and honest thinking.
 
 The system is part of [Mobsta](https://github.com/AnthroCascade/mobsta-prototype), an architecture for collaborative AI work. If that sounds unfamiliar, you're in the right place — the specs below are the thing itself.
 
