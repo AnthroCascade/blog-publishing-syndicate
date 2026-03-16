@@ -1,26 +1,55 @@
 # Blog Publishing Syndicate
 
-A self-contained syndicate for article production within the [Mobsta](https://github.com/AnthroCascade/mobsta-prototype) collaborative AI architecture.
+This is a writing system. It coordinates a group of AI collaborators — each with a specific job — to help produce articles for [Emperor's New Code](https://markratjens.substack.com/), a Substack newsletter about AI, language and honest thinking.
 
-## Fortes (8)
+The system is part of [Mobsta](https://github.com/AnthroCascade/mobsta-prototype), an architecture for collaborative AI work. If that sounds unfamiliar, you're in the right place — the specs below are the thing itself.
 
-- **drafter** — drafts prose in the author's voice
-- **voice-guardian** — protects voice in existing text
-- **structural-thinker** — argument builds, never catalogues
-- **fact-checker** — every claim sourceable, verified before presenting
-- **thesis-sharpener** — actual argument crystallises early
-- **research-assembler** — material assembled before drafting
-- **slop-detector** — no AI tells in output
-- **continuity-thinker** — positions article within the body of work
+## How it works
 
-## Talents (6)
+An article goes through phases: research, drafting, structural evaluation, voice checking, fact verification, and promotion. At each phase, one or more **fortes** do the work. A forte is a specialised role — it knows what to look for, what to suppress, and when it's done.
 
-editorial, research, serial-publication, slop-detection, verification, voice-craft
+Fortes draw on **talents**: shared skill domains like editorial craft, research method, or voice analysis. A talent is the method; a forte is the role that applies it.
 
-## The default is the enemy
+The author controls which phase fires and when. The AI collaborators evaluate and draft; the author decides.
 
-All fortes suppress AI's default: produce confident, well-structured-looking text fast. Each forte carries suppression rules with the same weight as its positive game aim.
+## Fortes
 
-## Usage
+Each forte has its own spec in [`fortes/`](fortes/). Here's what they do:
 
-Games reference this syndicate by declaring `blog-publishing` in their `game.md`. Coordination pattern is chosen at game or caper level.
+| Forte | Job |
+|-------|-----|
+| [drafter](fortes/drafter/forte.md) | Drafts prose in the author's voice |
+| [voice-guardian](fortes/voice-guardian/forte.md) | Protects voice in existing text; detects AI tells |
+| [structural-thinker](fortes/structural-thinker/forte.md) | Ensures the argument builds — no catalogues, no lists-dressed-as-essays |
+| [thesis-sharpener](fortes/thesis-sharpener/forte.md) | Crystallises the actual argument early |
+| [fact-checker](fortes/fact-checker/forte.md) | Sources every claim; verifies against primary material |
+| [research-assembler](fortes/research-assembler/forte.md) | Assembles material before drafting begins |
+| [slop-detector](fortes/slop-detector/forte.md) | Flags AI-generated confidence, vague authority, hedge accumulation |
+| [continuity-thinker](fortes/continuity-thinker/forte.md) | Positions the article within the body of work |
+| [promotion-crafter](fortes/promotion-crafter/forte.md) | Crafts platform-native promotion text |
+| [pragmatic-sceptic](fortes/pragmatic-sceptic/forte.md) | Tests whether an idea can survive investment before the work begins |
+| [prospect](fortes/prospect/forte.md) | Scans the landscape for material that connects to existing positions |
+| [harvest](fortes/harvest/forte.md) | Recognises which unfinished ideas have ripened |
+
+## Talents
+
+Shared skill domains in [`talents/`](talents/):
+
+| Talent | Domain |
+|--------|--------|
+| [voice-craft](talents/voice-craft/talent.md) | Voice derivation, components, preservation |
+| [editorial](talents/editorial/talent.md) | Editing hierarchy: argument, structure, clarity, economy, polish |
+| [research](talents/research/talent.md) | Search scope, source hierarchy, gap identification |
+| [verification](talents/verification/talent.md) | Claim categorisation and confidence levels |
+| [slop-detection](talents/slop-detection/talent.md) | Costly cognition analysis; three-read protocol |
+| [serial-publication](talents/serial-publication/talent.md) | Corpus strands, series trajectory, inter-article connections |
+| [distribution](talents/distribution/talent.md) | Platform fit assessment, audience matching |
+| [critical-stance](talents/critical-stance/talent.md) | Evaluative disposition; flag uncertain over miss real |
+
+## The governing principle
+
+All fortes suppress AI's default behaviour: produce confident, well-structured-looking text fast. Every forte carries suppression rules with the same weight as its positive aim. The system is designed to catch the things AI is worst at — the smooth, plausible, empty patterns that pass for good writing if nobody's watching.
+
+## Full specification
+
+The complete syndicate spec — phases, coordination, idea lifecycle — is in [syndicate.md](syndicate.md).
