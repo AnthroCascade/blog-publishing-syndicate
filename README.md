@@ -16,18 +16,18 @@ Each forte has its own spec in [`fortes/`](fortes/). Here's what they do:
 
 | Forte | Job |
 |-------|-----|
-| [drafter](fortes/drafter/forte.md) | Drafts prose in the author's voice |
-| [voice-guardian](fortes/voice-guardian/forte.md) | Protects voice in existing text; detects AI tells |
-| [structural-thinker](fortes/structural-thinker/forte.md) | Ensures the argument builds — no catalogues, no lists-dressed-as-essays |
-| [thesis-sharpener](fortes/thesis-sharpener/forte.md) | Crystallises the actual argument early |
-| [fact-checker](fortes/fact-checker/forte.md) | Sources every claim; verifies against primary material |
-| [research-assembler](fortes/research-assembler/forte.md) | Assembles material before drafting begins |
-| [slop-detector](fortes/slop-detector/forte.md) | Flags AI-generated confidence, vague authority, hedge accumulation |
-| [continuity-thinker](fortes/continuity-thinker/forte.md) | Positions the article within the body of work |
-| [promotion-crafter](fortes/promotion-crafter/forte.md) | Crafts platform-native promotion text |
-| [pragmatic-sceptic](fortes/pragmatic-sceptic/forte.md) | Tests whether an idea can survive investment before the work begins |
-| [prospect](fortes/prospect/forte.md) | Scans the landscape for material that connects to existing positions |
-| [harvest](fortes/harvest/forte.md) | Recognises which unfinished ideas have ripened |
+| [drafter](fortes/drafter.md) | Drafts prose in the author's voice |
+| [voice-guardian](fortes/voice-guardian.md) | Protects voice in existing text; detects AI tells |
+| [structural-thinker](fortes/structural-thinker.md) | Ensures the argument builds — no catalogues, no lists-dressed-as-essays |
+| [thesis-sharpener](fortes/thesis-sharpener.md) | Crystallises the actual argument early |
+| [fact-checker](fortes/fact-checker.md) | Sources every claim; verifies against primary material |
+| [research-assembler](fortes/research-assembler.md) | Assembles material before drafting begins |
+| [slop-detector](fortes/slop-detector.md) | Flags AI-generated confidence, vague authority, hedge accumulation |
+| [continuity-thinker](fortes/continuity-thinker.md) | Positions the article within the body of work |
+| [promotion-crafter](fortes/promotion-crafter.md) | Crafts platform-native promotion text |
+| [pragmatic-sceptic](fortes/pragmatic-sceptic.md) | Tests whether an idea can survive investment before the work begins |
+| [prospect](fortes/prospect.md) | Scans the landscape for material that connects to existing positions |
+| [harvest](fortes/harvest.md) | Recognises which unfinished ideas have ripened |
 
 ## Talents
 
@@ -35,14 +35,14 @@ Shared skill domains in [`talents/`](talents/):
 
 | Talent | Domain |
 |--------|--------|
-| [voice-craft](talents/voice-craft/talent.md) | Voice derivation, components, preservation |
-| [editorial](talents/editorial/talent.md) | Editing hierarchy: argument, structure, clarity, economy, polish |
-| [research](talents/research/talent.md) | Search scope, source hierarchy, gap identification |
-| [verification](talents/verification/talent.md) | Claim categorisation and confidence levels |
-| [slop-detection](talents/slop-detection/talent.md) | Costly cognition analysis; three-read protocol |
-| [serial-publication](talents/serial-publication/talent.md) | Corpus strands, series trajectory, inter-article connections |
-| [distribution](talents/distribution/talent.md) | Platform fit assessment, audience matching |
-| [critical-stance](talents/critical-stance/talent.md) | Evaluative disposition; flag uncertain over miss real |
+| [voice-craft](talents/voice-craft.md) | Voice derivation, components, preservation |
+| [editorial](talents/editorial.md) | Editing hierarchy: argument, structure, clarity, economy, polish |
+| [research](talents/research.md) | Search scope, source hierarchy, gap identification |
+| [verification](talents/verification.md) | Claim categorisation and confidence levels |
+| [slop-detection](talents/slop-detection.md) | Costly cognition analysis; three-read protocol |
+| [serial-publication](talents/serial-publication.md) | Corpus strands, series trajectory, inter-article connections |
+| [distribution](talents/distribution.md) | Platform fit assessment, audience matching |
+| [critical-stance](talents/critical-stance.md) | Evaluative disposition; flag uncertain over miss real |
 
 ## The governing principle
 

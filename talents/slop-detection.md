@@ -9,7 +9,7 @@ Detecting AI-generated or AI-assisted text. One question: is there a person here
 Identifying the production process behind prose. Polish is cheap. Cognition is expensive. Surface fluency proves nothing.
 
 **Preconditions:**
-- Drawing forte has provided prose for analysis
+- A draft exists analysis
 - Three reads completed (content / AI assumption / costly cognition)
 
 **Postconditions:**
