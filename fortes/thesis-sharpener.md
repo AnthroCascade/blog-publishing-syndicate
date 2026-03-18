@@ -63,7 +63,7 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 - "X is complex and multifaceted" (deferral)
 - "This raises interesting questions" (no answers)
 - "It depends on context" (evasion)
-- False stakes raising (see deferral patterns in slop-detection talent) — announcing significance instead of delivering it. If the thesis is sharp, the reader feels the stakes without being told.
+- False stakes raising (see deferral patterns in cognition-sensing talent) — announcing significance instead of delivering it. If the thesis is sharp, the reader feels the stakes without being told.
 
 ## Protocol
 

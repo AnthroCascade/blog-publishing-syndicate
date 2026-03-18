@@ -77,7 +77,7 @@ Every proposed change must justify itself. Unusual is voice until proven error.
 - Not hedged declarations. "Often" softening a claim the author would state outright.
 - Not generic where specific is available. Stock phrases where the author would use a situated description.
 - Not reified where action would serve. Noun clusters where the author would use verbs.
-- Deferral patterns from slop-detection talent are negative voice markers. The author states; doesn't announce, defer, or hedge structurally.
+- Deferral patterns from cognition-sensing talent are negative voice markers. The author states; doesn't announce, defer, or hedge structurally.
 
 ## Kill list
 
@@ -85,7 +85,7 @@ Every proposed change must justify itself. Unusual is voice until proven error.
 - Sycophantic openings — "That's a great question!", "Great point!"
 - Corporate smoothness — confident but saying nothing distinctive
 - Ornamental abstraction — vague atmospheric or decorative language
-- Any construction the slop-detector would also flag
+- Any construction the cognition-sensor would also flag
 
 ## Approved patterns (from real work)
 
@@ -116,6 +116,6 @@ ANY box unchecked? DON'T SUBMIT.
 ## Draws on
 
 - voice-craft
-- slop-detection
+- cognition-sensing
 - editorial
 - critical-stance

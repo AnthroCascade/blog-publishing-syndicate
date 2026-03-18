@@ -26,7 +26,7 @@
 - fact-checker — every claim sourceable, verified before presenting (research mode and verify mode)
 - thesis-sharpener — actual argument crystallises early
 - research-assembler — material assembled before drafting
-- slop-detector *(reusable, from top-level `fortes/`)* — no AI tells in output
+- cognition-sensor — cognitive presence confirmed in output
 - continuity-thinker — positions article within the body of work
 - promotion-crafter — crafts platform-specific promotion for published articles
 - pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
@@ -100,7 +100,7 @@ emphasis by choosing which phase to invoke.
 | Research | research-assembler, fact-checker (against research.md) | Claims sourced, research.md complete |
 | Draft | drafter | Author accepts or enters evaluation |
 | Structure | structural-thinker, thesis-sharpener, continuity-thinker | Argument builds, concept ownership clear, no structural circling |
-| Polish | voice-guardian, slop-detector | Voice clean, no AI tells |
+| Polish | voice-guardian, cognition-sensor | Voice clean, cognitive presence confirmed |
 | Verify | fact-checker (web search against primary sources) | All claims verified externally |
 | Promote | promotion-crafter | Platform texts generated, strategy approved by author |
 
@@ -130,7 +130,7 @@ default coordination pattern; the game can override.
 | draft | Draft | drafter | single-agent | Draft written |
 | research | Research | research-assembler, fact-checker | sequential-pipeline | Claims sourced |
 | structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker | parallel-evaluation | Argument builds |
-| polish | Polish | voice-guardian, slop-detector | parallel-evaluation | Voice clean |
+| polish | Polish | voice-guardian, cognition-sensor | parallel-evaluation | Voice clean |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
 | revise | Draft (correction) | drafter | single-agent | Corrections applied |
 | promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
@@ -169,7 +169,7 @@ phase, and the fortes within it fire.
 - thesis-sharpener: peaks during framing and
   structure phase
 - drafter: active during draft phase
-- voice-guardian, slop-detector: polish phase,
+- voice-guardian, cognition-sensor: polish phase,
   but always available
 - fact-checker: research phase (against
   research.md) and verify phase (against primary

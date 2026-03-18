@@ -29,13 +29,13 @@ Directness. Say the thing without overthinking how it sounds.
 
 **Obligations:**
 - Provides voice-craft talent: draft content for voice constraint application during generation
-- Provides slop-detection talent: generated prose for pattern matching during generation
+- Provides cognition-sensing talent: generated prose for pattern matching during generation
 
 ## Draws on
 
 - voice-craft
 - editorial
-- slop-detection
+- cognition-sensing
 - critical-stance
 
 ## Drafting protocol

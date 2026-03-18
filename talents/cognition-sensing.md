@@ -1,8 +1,8 @@
-# Slop Detection
+# Cognition Sensing
 
 ## Domain
 
-Detecting AI-generated or AI-assisted text. One question: is there a person here? One method: costly cognition.
+Sensing cognitive presence in text. One question: is there a person here? One method: costly cognition.
 
 ## Optimises for
 

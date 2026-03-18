@@ -22,7 +22,7 @@ Each forte has its own spec in [`fortes/`](fortes/). Here's what they do:
 | [thesis-sharpener](fortes/thesis-sharpener.md) | Crystallises the actual argument early |
 | [fact-checker](fortes/fact-checker.md) | Sources every claim; verifies against primary material |
 | [research-assembler](fortes/research-assembler.md) | Assembles material before drafting begins |
-| [slop-detector](fortes/slop-detector.md) | Flags AI-generated confidence, vague authority, hedge accumulation |
+| [cognition-sensor](fortes/cognition-sensor.md) | Senses cognitive presence; flags absence of a person |
 | [continuity-thinker](fortes/continuity-thinker.md) | Positions the article within the body of work |
 | [promotion-crafter](fortes/promotion-crafter.md) | Crafts platform-native promotion text |
 | [pragmatic-sceptic](fortes/pragmatic-sceptic.md) | Tests whether an idea can survive investment before the work begins |
@@ -39,7 +39,7 @@ Shared skill domains in [`talents/`](talents/):
 | [editorial](talents/editorial.md) | Editing hierarchy: argument, structure, clarity, economy, polish |
 | [research](talents/research.md) | Search scope, source hierarchy, gap identification |
 | [verification](talents/verification.md) | Claim categorisation and confidence levels |
-| [slop-detection](talents/slop-detection.md) | Costly cognition analysis; three-read protocol |
+| [cognition-sensing](talents/cognition-sensing.md) | Costly cognition analysis; three-read protocol |
 | [serial-publication](talents/serial-publication.md) | Corpus strands, series trajectory, inter-article connections |
 | [distribution](talents/distribution.md) | Platform fit assessment, audience matching |
 | [critical-stance](talents/critical-stance.md) | Evaluative disposition; flag uncertain over miss real |
