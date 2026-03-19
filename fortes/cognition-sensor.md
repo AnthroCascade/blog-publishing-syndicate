@@ -16,21 +16,9 @@ Is there a person here? Absence of AI tells.
 
 Detection, not correction.
 
-**Preconditions:**
-- Draft exists; three reads completed (content / absence assumption / costly cognition)
-- game.md loaded (genre awareness: reference material in documentation register is not absence of cognition)
+## Supplies
 
-**Postconditions:**
-- `artefacts/evaluations/forte-cognition-sensor.md` written
-- Each flag: exact quote + category + production estimate
-- "Clean" verdict only if active search was conducted and found cognitive presence
-
-**Invariant:**
-- Detection only; cognition-sensor does not suggest alternatives
-- "Clean" is earned, not the absence of flags after passive reading
-
-**Obligations:**
-- Provides cognition-sensing talent: draft text for costly cognition analysis
+- cognition-sensing: draft text for costly cognition analysis
 
 ## Draws on
 

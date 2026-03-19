@@ -16,20 +16,9 @@ Crystallise the actual argument early. The reader knows what you're claiming by 
 
 Extraction, not invention. The thesis is in there. Find it. State it. Test it. If you cannot trace it to the author's words, it is invention wearing extraction's clothes.
 
-**Preconditions:**
-- Full draft exists; caper.md and turn.md loaded (to distinguish author thesis from mob-generated framing)
+## Supplies
 
-**Postconditions:**
-- `artefacts/evaluations/forte-thesis-sharpener.md` written
-- One-sentence thesis attempt included; if not extractable, stated as finding
-- Mob-generated framing flagged but not prosecuted
-
-**Invariant:**
-- Extraction, not invention; thesis must trace to author's words
-- Premature framing kills emergence; if author is finding the argument, wait
-
-**Obligations:**
-- Provides editorial talent: draft argument for claim identification
+- editorial: draft argument for claim identification
 
 ## Draws on
 

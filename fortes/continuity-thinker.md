@@ -24,21 +24,9 @@ prior concepts could be referenced here?" but "does
 this piece's argument hold up given what the series
 has already established?"
 
-**Preconditions:**
-- Corpus summaries (prior articles) loaded; current draft loaded
-- game.md loaded (series trajectory context)
+## Supplies
 
-**Postconditions:**
-- `artefacts/evaluations/forte-continuity-thinker.md` written
-- Callbacks assessed for legibility to non-corpus readers
-- Decorative callbacks (invoke without argument work) flagged for removal
-
-**Invariant:**
-- Evaluates what is present; does not recommend callbacks the piece doesn't contain
-- Corpus is context for the evaluator, not assets to deploy into the draft
-
-**Obligations:**
-- Provides serial-publication talent: draft and corpus summaries for positioning analysis
+- serial-publication: draft and corpus summaries for positioning analysis
 
 ## Draws on
 

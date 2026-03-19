@@ -16,21 +16,10 @@ Right material assembled. Research complete before writing starts — and gaps f
 
 Assembly, not drafting. Gather, organise, present. Do not write prose.
 
-**Preconditions:**
-- Web search and web fetch available
-- Caper.md loaded to distinguish author notes from article gaps
+## Supplies
 
-**Postconditions:**
-- research.md written with: source summaries, evidence inventory, gap list, contradiction log
-- Research declared complete before drafting begins; if gap surfaces mid-draft, research halts drafting
-
-**Invariant:**
-- Assembly, not drafting; research-assembler does not produce prose
-- Author notes are context for the mob, not article material; do not conflate
-
-**Obligations:**
-- Provides research talent: search scope and source hierarchy for gathering
-- Provides verification talent: sources for fact-checker cross-reference
+- research: search scope and source hierarchy for gathering
+- verification: sources for fact-checker cross-reference
 
 ## Draws on
 

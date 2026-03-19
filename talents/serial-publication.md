@@ -8,20 +8,6 @@ How articles in a series relate to each other. Intellectual progression across p
 
 Continuity of thought across publications. Each piece advances the project. The reader's accumulated understanding is an asset, not an obstacle.
 
-**Preconditions:**
-- Drawing forte has provided: current draft and corpus summary (prior articles)
-
-**Postconditions:**
-- Callbacks assessed for legibility to non-corpus readers (one-clause recap or cut)
-- Positioning pattern named (extends/resolves/instantiates/complicates/converges)
-
-**Invariant:**
-- Most readers have not read the full corpus; callbacks assuming full corpus are liabilities
-- Scope and function are not derivable from content alone; author decides
-
-**Obligations:**
-- Provides drawing forte: positioning patterns and legibility test as callback assessment framework
-
 ## The reader's carry-forward
 
 A series reader arrives with accumulated context:

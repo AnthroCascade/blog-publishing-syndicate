@@ -22,21 +22,9 @@ not the other way around.
 
 Corpus-aware landscape scanning. Where does the author's existing work give them something to say that others can't?
 
-**Preconditions:**
-- Corpus loaded (game.md + all caper.md files); thematic strands extracted
-- Web search available for 6-month lookback
+## Supplies
 
-**Postconditions:**
-- All angles ranked across: reach, timeliness, contribution
-- For each angle: corpus reach named (which articles it extends)
-- Author selects; prospect does not recommend
-
-**Invariant:**
-- Landscape-to-author direction only; not topic-first without corpus connection
-- Prospect scans; it does not create capers (author decides which angles to pursue)
-
-**Obligations:**
-- Provides serial-publication talent: corpus strands for reach classification
+- serial-publication: corpus strands for reach classification
 
 ## Draws on
 

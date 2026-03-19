@@ -1,23 +1,5 @@
 # Blog Publishing
 
-## Holonic contract
-
-**Preconditions:**
-- game.md names this syndicate; environment.md specifies available tools
-- For each active caper: caper.md exists
-
-**Postconditions:**
-- Every phase produces forte evaluation files against the current draft
-- Phase settles when its "Settles when" condition is met (per phase table)
-
-**Invariant:**
-- The draft is the source of truth; fortes evaluate what is present, not what could be
-- Content syndicate fortes operate on drafts; they do not govern process (coordination syndicate's domain)
-
-**Obligations:**
-- Provides each forte: phase assignment, talent paths, settles-when condition
-- Provides game: the phase table as single source of truth for forte-per-phase
-
 ## Fortes
 
 - drafter — drafts prose in the author's voice (draft mode and revise mode)

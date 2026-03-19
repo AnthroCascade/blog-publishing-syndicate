@@ -22,21 +22,9 @@ which before they invest. A recommendation that
 hedges ("this has potential but...") has failed.
 State the verdict. Support it. Move on.
 
-**Preconditions:**
-- caper.md and raw material loaded
-- For Level 2 deep: research available for landscape test
+## Supplies
 
-**Postconditions:**
-- Verdict stated first (Proceed / Compost / Re-vehicle / Kill)
-- All applicable tests run in order; early termination only when fatal failure found
-- Uncertain stated as "uncertain about X" not as a verdict
-
-**Invariant:**
-- Adversarial assessment before agreeable process; meek helpfulness is a suppress target
-- Hedged recommendation fails; verdict must be clear
-
-**Obligations:**
-- Provides critical-stance talent: idea material for adversarial testing
+- critical-stance: idea material for adversarial testing
 
 ## Draws on
 

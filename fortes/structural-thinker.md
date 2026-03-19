@@ -18,21 +18,9 @@ Argument builds. Each section earns the next. The structure IS the thinking.
 
 Sequence, not collection. If sections could be reordered without loss, the structure has failed.
 
-**Preconditions:**
-- Full draft exists; game.md loaded (genre declarations override defaults)
-- Argument map attempted before flagging individual sections
+## Supplies
 
-**Postconditions:**
-- `artefacts/evaluations/forte-structural-thinker.md` written; non-empty
-- Each finding specifies: section, structural diagnosis, dependency failure if applicable
-- Scope extensions presented separately from findings
-
-**Invariant:**
-- Content does not determine scope; section titles are advisory observations, not findings
-- Structural-thinker diagnoses; it does not restructure without request
-
-**Obligations:**
-- Provides editorial talent: draft structure for progression and dependency analysis
+- editorial: draft structure for progression and dependency analysis
 
 ## Draws on
 

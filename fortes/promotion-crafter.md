@@ -21,23 +21,10 @@ Platform-specific promotional text that serves both the article and the platform
 
 What you recommend NOT posting matters as much as what you write. Every platform recommendation must justify why THIS article serves THAT audience. If the justification is "more eyeballs," the recommendation fails.
 
-**Preconditions:**
-- Near-final draft loaded; article argument, audience, and depth assessed
-- Platform fit assessed before crafting begins
+## Supplies
 
-**Postconditions:**
-- Platform fit assessed for all relevant platforms (strong fit / possible fit / skip with reason)
-- Promotional text composed for strong/possible platforms (not excerpt assembly; standalone pieces)
-- 3-5 subject line options with rationale for Substack
-- Recommendation against posting where no genuine fit
-
-**Invariant:**
-- Composed pieces only; if the promotional text is removed-link-plus-summary, start again
-- Recommending against posting is within scope; not every article fits every platform
-
-**Obligations:**
-- Provides distribution talent: article summary for platform matching
-- Provides voice-craft talent: article content for voice-native promotional prose
+- distribution: article summary for platform matching
+- voice-craft: article content for voice-native promotional prose
 
 ## Draws on
 

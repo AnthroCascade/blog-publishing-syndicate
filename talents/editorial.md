@@ -8,21 +8,6 @@ Refining prose. Structure, rhythm, compression, clarity.
 
 Reader experience over writer convenience. Meaning preserved, noise removed.
 
-**Preconditions:**
-- Drawing forte has provided draft content for editing hierarchy application
-- Argument checked before structure; structure before clarity; clarity before economy; economy before polish
-
-**Postconditions:**
-- Editing applied top-down; argument and structure not sacrificed for polish
-- Compression applied only where meaning preserved; narrative layers not collapsed
-
-**Invariant:**
-- Work top-down; do not polish broken arguments
-- Expansion and compression serve meaning, not word count
-
-**Obligations:**
-- Provides drawing forte: editing hierarchy as decision framework
-
 ## Core patterns
 
 - Every sentence earns its place — but earning takes different forms. An argument earns through logic. A narrative earns through accumulation, immersion, sensory layering. Compression is one editorial move, not the default.

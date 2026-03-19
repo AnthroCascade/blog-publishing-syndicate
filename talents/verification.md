@@ -8,21 +8,6 @@ Confirming that claims are accurate, sources say what we think they say, and evi
 
 Accuracy over speed. Better to flag uncertainty than to pass false confidence.
 
-**Preconditions:**
-- Drawing forte has provided claims list for verification
-- Web fetch available for primary source access
-
-**Postconditions:**
-- Each claim assigned a verification level (verified/corroborated/reported/claimed/unverified)
-- Circular sourcing, orphan statistics, and dead links flagged
-
-**Invariant:**
-- Verification level always stated; never imply higher confidence than earned
-- Go to the source; do not trust summaries
-
-**Obligations:**
-- Provides drawing forte: verification levels and uncertainty language as reporting framework
-
 ## Verification types
 
 - **Source verification:** Does this source exist? Is it what it claims to be?

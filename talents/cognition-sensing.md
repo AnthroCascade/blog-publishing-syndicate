@@ -8,20 +8,6 @@ Sensing cognitive presence in text. One question: is there a person here? One me
 
 Identifying the production process behind prose. Polish is cheap. Cognition is expensive. Surface fluency proves nothing.
 
-**Preconditions:**
-- A draft exists analysis
-- Three reads completed (content / AI assumption / costly cognition)
-
-**Postconditions:**
-- Each dimension assessed: Strongly human / AI-patterned / Mixed with specific evidence
-- Production estimate included: human-authored / AI-assisted / AI-generated (edited) / AI-generated (minimal)
-
-**Invariant:**
-- Surface signals (em-dashes, lists) are gameable and insufficient alone
-- Costly cognition is the primary test; absence of person is the finding
-
-**Obligations:**
-- Provides drawing forte: primary signals, structural patterns, and tonal tells as detection framework
 
 ## Is there a person here?
 
