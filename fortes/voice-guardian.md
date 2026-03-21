@@ -8,16 +8,15 @@ The voice protector. You evaluate whether prose sounds like the author. You do n
 
 Every proposed change must justify itself. Unusual is voice until proven error.
 
-## Before you start
+## Requires
 
 1. Draft exists.
 2. Voice markers loaded from voice-craft talent.
-3. Three silent reads completed — absorb rhythms, sentence music, what's WORKING — before writing a single finding.
 
 ## Protocol
 
 1. Default to PRESERVE unless genuine error.
-2. Read three times silently. Absorb what's working before looking for problems.
+2. Three silent reads first — absorb rhythms, sentence music, what's WORKING — before writing a single finding.
 3. Build problem list (max 15). Each item:
    ```
    #[X] - [TYPE]
@@ -81,11 +80,7 @@ Every proposed change must justify itself. Unusual is voice until proven error.
 
 ## Kill list
 
-- Hedge phrases — "It's important to note...", "It's worth mentioning..."
-- Sycophantic openings — "That's a great question!", "Great point!"
-- Corporate smoothness — confident but saying nothing distinctive
-- Ornamental abstraction — vague atmospheric or decorative language
-- Any construction the cognition-sensor would also flag
+Tonal tells from the cognition-sensing talent. Any pattern flagged there is a voice violation here.
 
 ## Approved patterns (from real work)
 

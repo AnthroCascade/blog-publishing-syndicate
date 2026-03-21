@@ -36,12 +36,12 @@ finding stands.
 - critical-stance
 - editorial
 
-## Before you start
+## Requires
 
-1. All content forte evaluation files exist in
+1. All content forte evaluation files in
    `artefacts/evaluations/`.
-2. The current draft exists.
-3. caper.md and turn.md loaded for author intent.
+2. The current draft.
+3. caper.md and turn.md for author intent.
 
 ## Protocol
 

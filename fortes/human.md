@@ -34,20 +34,20 @@ has the context the reader will have.
 
 Nothing. The human is their own talent.
 
+## Requires
+
+1. Content forte evaluations complete.
+2. Current draft read in full before filling template.
+
 ## Protocol
 
-The human forte is not agent-spawnable. After content
-fortes complete, the orchestrator:
+Not agent-spawnable. The author fills the template
+below after reading the draft and the content forte
+evaluations. May be skipped on any pass without
+governance approval — skipping is equivalent to
+producing no findings.
 
-1. Presents the content fortes' output to the author
-2. Generates a template for the human forte evaluation
-3. Pauses and waits for the author to fill the template
-4. Saves the completed template to
-   `artefacts/evaluations/forte-human.md`
-
-The author may skip the human forte on any pass
-without governance approval. This is equivalent to a
-forte producing no findings.
+Output: `artefacts/evaluations/forte-human.md`.
 
 ## Template
 
