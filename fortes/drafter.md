@@ -78,15 +78,77 @@ findings are not ambiguous. Author decisions in
 turn.md override the triage — they are already
 decided.
 
+### Pre-revision inventory
+
+Before revising, receive the orchestrator's inventory
+of what's working. Every inventory item is a
+constraint with equal weight to findings. If a
+finding and an inventory item conflict, the inventory
+wins — report the conflict, do not resolve it.
+
+The inventory is paragraph-level:
+
+```
+Para 3: Opening claim — direct, grounded, voice-clean
+Para 7-8: Ruby example — concrete, load-bearing for argument
+```
+
+Treat inventory items as off-limits unless a finding
+names that paragraph explicitly.
+
+### Finding classification
+
+Before touching the draft, classify each finding:
+
+- **Surgical** (default): word swap, factual
+  correction, sentence rewrite. Edit only the flagged
+  passage. No adjacency editing. No transition
+  smoothing. If the fix creates an awkward join, the
+  next mob pass catches it.
+- **Relational**: the finding is about a relationship
+  between passages (e.g. "the opening doesn't set up
+  section 3"). Name both passages explicitly. Edit
+  only the named passages and nothing else.
+
+If a finding classified as surgical requires
+adjacent edits to make sense, report the conflict.
+Do not proceed.
+
 ### Revise constraints
 
 - Apply every actionable finding and every author
   decision from turn.md.
 - Preserve voice. Do not rewrite sections that are
   not flagged.
-- For findings that require creative rewriting (not
-  just word swaps), use the direction in the forte
-  evaluation to guide the rewrite.
-- Return a summary of every change made and any
-  finding that could not be resolved.
+- For findings that require creative rewriting, use
+  the direction in the forte evaluation to guide the
+  rewrite — but only within the named passages.
+- Do not chase consequences. Do not smooth
+  transitions. Do not adjust flow. The drafter in
+  revise mode edits what was flagged and stops.
+
+### Change manifest
+
+Return a structured change manifest, not prose:
+
+```
+## Changes applied
+
+### Finding: [forte-name] — [finding summary]
+Mode: surgical | relational
+Before: "[exact quote]"
+After: "[exact replacement]"
+Passages touched: Para [N]
+
+### Unflagged changes
+[Must be empty under surgical constraint. If not
+empty, explain why each change was necessary.]
+```
+
+The orchestrator diffs this manifest against the
+inventory. Any passage in the inventory that appears
+in the manifest but wasn't a finding target is
+flagged as collateral.
+
+Also return any finding that could not be resolved.
 

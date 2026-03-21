@@ -10,6 +10,8 @@
 - research-assembler — material assembled before drafting
 - cognition-sensor — cognitive presence confirmed in output
 - continuity-thinker — positions article within the body of work
+- protector — tests whether each finding would improve the draft or just make it different
+- human — biologically independent verification from the author (not agent-spawnable, asynchronous)
 - promotion-crafter — crafts platform-specific promotion for published articles
 - pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
 - prospect — corpus-aware landscape scanning, angle synthesis and ranking
@@ -108,11 +110,11 @@ default coordination pattern; the game can override.
 
 | Command | Phase | Fortes | Default pattern | Settles when |
 |---------|-------|--------|-----------------|--------------|
-| mob | (all) | all 7 evaluative | parallel-evaluation | Forte files written |
+| mob | (all) | all 7 evaluative → human → protector | parallel then async then sequential | Forte files written, protector attacks filed |
 | draft | Draft | drafter | single-agent | Draft written |
 | research | Research | research-assembler, fact-checker | sequential-pipeline | Claims sourced |
-| structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker | parallel-evaluation | Argument builds |
-| polish | Polish | voice-guardian, cognition-sensor | parallel-evaluation | Voice clean |
+| structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker → human → protector | parallel then async then sequential | Argument builds, protector attacks filed |
+| polish | Polish | voice-guardian, cognition-sensor → human → protector | parallel then async then sequential | Voice clean, protector attacks filed |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
 | revise | Draft (correction) | drafter | single-agent | Corrections applied |
 | promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
@@ -167,5 +169,13 @@ phase, and the fortes within it fire.
   caper. Does not re-engage during workflow phases
 - prospect: on demand, when the author wants to scan
   for new angles. Not phase-linked
+- human: fires after content fortes, before
+  protector. Asynchronous — orchestrator pauses for
+  the author. May be skipped on any pass
+- protector: fires after content fortes and human
+  forte in every evaluation command (/mob,
+  /structure, /polish). Not phase-specific —
+  wherever evaluative fortes fire, the protector
+  follows
 - harvest: on demand, when the author surveys
   unfinished capers. Not phase-linked

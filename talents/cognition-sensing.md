@@ -19,6 +19,8 @@ You read the text and feel — or don't feel — a person. The method for answer
 
 *Assume polish is cheap. Treat cognition as expensive. Infer the most plausible production process.*
 
+The boundary between surface and depth is the production-process boundary. What can be applied after the fact is surface. What had to be present during production is depth.
+
 ### Primary signals
 
 Evidence of cognition that implies human constraint, risk, or situated judgment:
@@ -75,22 +77,6 @@ they describe.
 **Test:** Do the sensory details come from contact
 with the specific thing, or from the category the
 thing belongs to?
-
-### What cannot be edited in
-
-Surface markers (vocabulary, em-dashes) can be edited out. These deeper qualities cannot be added through revision:
-
-- Situated context
-- Embodied sensing — contact with the specific, not the category
-- Lived experience informing examples
-- Voice that takes risks
-- Original insight from genuine reasoning
-- Productive absence — trust in the reader that completeness would destroy
-
-The boundary between surface and depth is the
-production-process boundary. What can be applied
-after the fact is surface. What had to be present
-during production is depth.
 
 ### Local reasoning dependence
 
