@@ -115,9 +115,31 @@ default coordination pattern; the game can override.
 | research | Research | research-assembler, fact-checker | sequential-pipeline | Claims sourced |
 | structure | Structure | structural-thinker, thesis-sharpener, continuity-thinker → human → protector | parallel then async then sequential | Argument builds, protector attacks filed |
 | polish | Polish | voice-guardian, cognition-sensor → human → protector | parallel then async then sequential | Voice clean, protector attacks filed |
+| voice-pass | Polish | voice-guardian (revise mode) → [loop] → protector | iterative-single-agent (max 3 passes) | Zero violations or cap reached, protector attacks filed |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
 | revise | Draft (correction) | drafter | single-agent | Corrections applied |
 | promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
+
+`/voice-pass` is the only iterative command. The
+voice-guardian fires in revise mode: it reads the
+draft, applies surgical fixes, writes a change
+manifest, and flags anything needing author decision.
+The orchestrator writes the amended draft back to
+`draft.md`, then fires the voice-guardian again on
+the amended text. The loop exits when a pass produces
+zero violations or when 3 passes have run — whichever
+comes first. The protector fires once after the loop
+exits, testing whether the cumulative fixes degraded
+other qualities. No human review in the loop; the
+author reviews the full diff and unresolved flags
+after.
+
+If the voice-guardian is still finding violations at
+pass 3, the remaining findings go to the evaluation
+file as unresolved. Three passes that don't converge
+means the fixes are lurching — each correction
+reacting to the previous one — and the author needs
+to intervene.
 
 ### Idea lifecycle commands
 
@@ -154,8 +176,9 @@ phase, and the fortes within it fire.
 - thesis-sharpener: peaks during framing and
   structure phase
 - drafter: active during draft phase
-- voice-guardian, cognition-sensor: polish phase,
-  but always available
+- voice-guardian: polish phase and voice-pass
+  (iterative revise mode). Always available
+- cognition-sensor: polish phase, always available
 - fact-checker: research phase (against
   research.md) and verify phase (against primary
   sources via web search)

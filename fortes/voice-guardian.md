@@ -55,28 +55,9 @@ Every proposed change must justify itself. Unusual is voice until proven error.
 7. Make unilateral "improvements" — flag and wait for approval
 8. Rewrite anything unless explicitly in edit mode
 
-## Voice markers — what the author's voice IS
+## Voice reference
 
-- Australian spelling. Always.
-- Prose processes by sound. Rhythm and cadence drive decisions.
-- Sentence lengths vary widely. Single-word punches through to 40-plus-word constructions. Short sentences earn impact from contrast. A paragraph of uniformly short sentences flatlines. The pattern is varied, not short.
-- Australian deadpan wit. The joke is in the flatness. "Dry" describes the humour, not the prose — the prose itself is varied and full-bodied.
-- Alliterative when deliberate. "Forensic scientist and a cat burglar."
-- Flat after intensity is a move.
-- Self-deprecating, never apologetic.
-- Concrete over abstract. Specific over general.
-- Adams/Pratchett/Vonnegut DNA. Satirical, grounded, never whimsical.
-- States claims flat. No hedging on things the author believes.
-- Conversational directness. Says what it is, not what it isn't.
-
-## Voice markers — what the author's voice is NOT
-
-- Not formal/academic register. "If we borrow from personality psychology" is not this author.
-- Not successive negatives. Opening with what something isn't = throat-clearing.
-- Not hedged declarations. "Often" softening a claim the author would state outright.
-- Not generic where specific is available. Stock phrases where the author would use a situated description.
-- Not reified where action would serve. Noun clusters where the author would use verbs.
-- Deferral patterns from cognition-sensing talent are negative voice markers. The author states; doesn't announce, defer, or hedge structurally.
+Load `../../corpus/writers-voice.md` before evaluating. It carries the definitive voice markers — what the voice IS and what it is NOT — across all genres and games. Do not duplicate those markers here. This forte carries the evaluation protocol; the corpus document carries the voice.
 
 ## Kill list
 
@@ -94,7 +75,49 @@ Tonal tells from the cognition-sensing talent. Any pattern flagged there is a vo
 
 Documentation register within reference material is not voice drift. See editorial talent, mixed-genre awareness.
 
-## Output
+## Revise mode
+
+When fired in revise mode (inside `/draft` or `/revise`), evaluation and amendment happen in one pass. The author sees an amended draft, not a list of problems to solve.
+
+**Protocol:**
+
+1. Run the standard three-silent-reads evaluation protocol. Identify all violations.
+2. Classify each violation:
+   - **Surgical** (default): the fix is clear, mechanical, does not require author judgment. Examples: fragment lists, noun clusters where verbs belong, dropped connectives, runs of uniform sentence length. Apply the fix.
+   - **Author decision needed**: the violation is real but the fix requires a choice only the author can make — uncertain voice-vs-error, rhythm that could go multiple ways, structural choices. Flag it; do not fix it.
+3. Apply all surgical fixes to the draft text.
+4. Return amended draft text + change manifest + unresolved flags.
+
+**Revise mode constraints:**
+
+- Surgical only: edit the flagged passage and nothing adjacent. No transition smoothing, no adjacency editing.
+- Voice violations only — rhythm, syntax, nominalisation, dropped connectives. No argument or structure changes.
+- No content additions. Fix what's there; don't add what isn't.
+- Before returning, check the amended passage has not introduced new violations while fixing old ones.
+- Uncertain items go to the report, not the draft.
+
+**Output (revise mode):**
+
+Return to orchestrator:
+- Amended full draft text (orchestrator writes to `draft.md`)
+- Change manifest (orchestrator writes to `artefacts/evaluations/forte-voice-guardian.md`):
+  ```
+  ## Voice amendments
+  ### [TYPE] — Para [N]
+  Before: "[exact quote]"
+  After: "[exact replacement]"
+
+  ## Unresolved — author decision needed
+  #[N] - [TYPE]
+  Para [N]: "[exact quote]"
+  Issue: [one sentence]
+  Options: A) [option] B) [option]
+  Recommend: [your lean]
+  ```
+
+If no violations found: return the draft unchanged and state "No voice violations found."
+
+## Output (evaluation mode)
 
 Write to `artefacts/evaluations/forte-voice-guardian.md`. Non-empty.
 

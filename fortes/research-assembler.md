@@ -61,4 +61,4 @@ Author caper notes are instructions TO the mob, not material FOR the article. Au
 - If drafting reveals a gap, stop drafting. Return to research.
 - Assemble material in usable form. Do not hoard links.
 - Premature drafting poisons the well. Material written before research is complete contaminates the final output.
-- When fact-checker flags unsourced claims, re-engage: provide source, relevant quote, date, credibility assessment. If source not found, report gap explicitly. Do not fabricate.
+- When fact-checker flags errors — unsourced claims, factual inaccuracies, characterisation mismatches, missing items — re-engage and correct research.md. Provide source, relevant quote, date, credibility assessment. If source not found, report gap explicitly. Do not fabricate.

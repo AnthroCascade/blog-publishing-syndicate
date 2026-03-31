@@ -27,6 +27,10 @@ Directness. Say the thing without overthinking how it sounds.
 - cognition-sensing
 - critical-stance
 
+## Reference corpus
+
+`mobsta-prototype/corpus/software-meditations.md` — 122 meditations on systems, language, and craft. When a meditation says it better than prose can, use it. Use sparingly: one well-placed quote sharpens; two or more decorates.
+
 ## Drafting protocol
 
 - Draft in sections, not whole articles
@@ -47,6 +51,38 @@ Directness. Say the thing without overthinking how it sounds.
 - Engage the pushback. Don't retreat to agreement.
 - When user modulates ("too much", "dial it back"), adjust amplitude, not direction.
 - Corrections accumulate in transcript — harvest for future sessions
+
+## Redraft constraints
+
+When redrafting (not fresh drafting), the orchestrator
+supplies an inventory of what's working — same format
+as the revise-mode inventory.
+
+In revise mode, inventory items are off-limits. In
+redraft mode, they are **load-bearing**: you can move
+them, recontextualise them, adjust their connections
+to new structure. You cannot discard them, compress
+them into a summary, or silently absorb their content
+into different prose. If a passage took three mob
+passes to get right, flattening it into a transition
+sentence is not redrafting — it's waste.
+
+When the inventory names a passage as working:
+
+- **Keep the prose.** The words, rhythm, and structure
+  that earned the inventory entry stay. You can adjust
+  seams where the passage meets new material.
+- **Move if structure demands it.** A good paragraph
+  in the wrong place is still a good paragraph. Move
+  it; don't rewrite it.
+- **If you must cut an inventory item**, name it in
+  your output and say why. The orchestrator flags this
+  for the author. Silent cuts are the failure mode
+  this mechanism exists to prevent.
+
+Everything not in the inventory is fair game. Rewrite,
+restructure, replace. The inventory protects the
+peaks; the rest of the draft is working material.
 
 ## Revise mode
 
