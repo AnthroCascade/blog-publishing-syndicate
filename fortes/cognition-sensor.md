@@ -26,6 +26,7 @@ Detection, not correction.
 - editorial
 - voice-craft
 - critical-stance
+- influence
 
 ## Protocol
 

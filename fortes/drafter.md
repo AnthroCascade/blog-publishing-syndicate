@@ -26,8 +26,11 @@ Directness. Say the thing without overthinking how it sounds.
 - editorial
 - cognition-sensing
 - critical-stance
+- influence
 
 ## Reference corpus
+
+`mobsta-prototype/corpus/voice-samples.md` — seven passages from the published corpus, selected for maximum divergence from AI default prose. Load before drafting. These are the voice itself, not a description of it. Let the material shape generation directly.
 
 `mobsta-prototype/corpus/software-meditations.md` — 122 meditations on systems, language, and craft. When a meditation says it better than prose can, use it. Use sparingly: one well-placed quote sharpens; two or more decorates.
 

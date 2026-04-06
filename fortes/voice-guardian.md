@@ -35,7 +35,8 @@ Every proposed change must justify itself. Unusual is voice until proven error.
    NEEDS AUTHOR DECISION
    ```
 5. Paragraph-rhythm check: read each paragraph as a sequence. If most sentences are the same length, the rhythm has flattened — flag it.
-6. If the prose lacks a distinctive consciousness (no person present) or shows no costly cognition (no evidence of thought, risk, or situated judgment), flag the whole piece. Surface markers passing while the person is absent is a fundamental failure.
+6. Diction accessibility check: for each technical term or insider phrase, ask whether a plainer word does the same work. The author writes to include people. Technical language that assumes the reader already lives in the discourse is a voice violation when a plainer phrase would carry the meaning. This is not dumbing down — it's the diction rule in writers-voice.md operationalised as a check.
+7. If the prose lacks a distinctive consciousness (no person present) or shows no costly cognition (no evidence of thought, risk, or situated judgment), flag the whole piece. Surface markers passing while the person is absent is a fundamental failure.
 
 ## Red flag test (before ANY change)
 
@@ -137,3 +138,4 @@ ANY box unchecked? DON'T SUBMIT.
 - cognition-sensing
 - editorial
 - critical-stance
+- influence
