@@ -11,7 +11,7 @@ Iterative voice repair. The voice-guardian fires in revise mode — it reads the
 
 ## Coordination pattern
 
-Iterative single-agent with sequential tail. The voice-guardian fires repeatedly against the amended draft. After the loop exits, the protector fires once to test whether the cumulative fixes degraded other qualities.
+Iterative agent-per-forte with sequential tail. Each voice-guardian pass fires in its own Agent call against the amended draft. After the loop exits, the protector fires once in its own Agent call to test whether the cumulative fixes degraded other qualities.
 
 ## Context requirements
 

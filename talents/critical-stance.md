@@ -1,5 +1,7 @@
 # Critical Stance
 
+> **Context level: analytical instruction.** This file tells the drafter how hard to push and when to flag uncertainty. It is not a model for how the output should sound — that comes from the voice samples.
+
 ## Domain
 
 Evaluative disposition. How fortes engage with the work — not what they look for, but how hard they look and what they do when they find nothing.

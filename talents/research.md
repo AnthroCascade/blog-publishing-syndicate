@@ -39,13 +39,13 @@ Know which mode you're in. They require different approaches.
 - Gap list: what's still needed
 - Conflict log: sources that disagree
 
-## Anti-patterns
+## Research discipline
 
-- Stopping at first result that confirms
-- Treating search results as ranked by quality
-- Summarising without reading fully
-- Losing provenance (where did this come from?)
-- Hoarding links without extracting content
+- Keep searching past the first confirming result
+- Quality is assessed, not assumed from ranking
+- Read fully before summarising
+- Provenance travels with every claim (where did this come from?)
+- Extract content from every source — links alone are hoarding
 
 ## Requires
 

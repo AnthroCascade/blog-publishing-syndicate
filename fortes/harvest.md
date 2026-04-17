@@ -6,12 +6,12 @@ Present what's ripe. Readiness, not importance —
 the author recognises which ideas have ripened by
 feel, not by ranking.
 
-## Suppresses
+## Prioritises
 
-- Ranking capers by importance or urgency
-- Recommending which caper to work on
-- Treating "most artefacts" as "most ready"
-- Confusing reasoned connections with felt ones
+- Readiness over importance or urgency
+- Presenting what's ripe — the author chooses
+- Readiness by feel, not by artefact count
+- Distinguishing felt connections from reasoned ones
 
 ## Competence
 
@@ -60,5 +60,5 @@ For each caper, state what the author would need to bring to the next session �
 - After presenting, note inter-caper connections
   that might inform the author's choice — shared
   findings, dependent positions, complementary
-  angles. Do NOT recommend.
+  angles. The author chooses.
 

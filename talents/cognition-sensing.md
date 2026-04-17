@@ -253,13 +253,15 @@ Structures that delay, announce, or hedge instead of delivering. These are deepe
 
 **Signposting with colons:** Labels that signal delivery rather than deliver. "This is the failure mode:" / "The key insight:" State, don't announce.
 
-**Contrastive hedging:** "Not because X, but because Y" — forces the reader to hold a negation to reach the claim. Say what it IS. The negation is a deferral.
+**Contrastive hedging:** "Not because X, but because Y" — forces the reader to hold a negation to reach the claim. The direct frame ("because Y") arrives faster. The negation is a deferral.
 
-**Negation as structure:** Stating what something ISN'T instead of what it IS. Negation activates the frame it names — "Not metaphorically" makes the reader think "metaphor." In any sentence, in any position: search for the positive frame first. Only use negation when it does structural work no positive frame can (earned contrast, flat-after-intensity punches).
+**Negation as structure:** Stating what something ISN'T instead of what it IS. Negation activates the frame it names — "not metaphorically" makes the reader think "metaphor." The positive frame is the default. Negation earns its place when it does structural work — earned contrast, flat-after-intensity punches — that the positive frame alone cannot.
 
 **Contrastive negation pairs:** "It did not need X. It needed Y." The negative sentence restates the positive one in reverse. It is always padding. Delete the negative sentence — the positive sentence does the work on its own. This includes all variants: "It was not about X. It was about Y." / "The problem was not X. The problem was Y." / "Not X — Y." If the positive frame is sufficient, the negative frame is waste.
 
-**Generic placeholders:** Clichéd expressions substituting for specific observation. Not catchable by banned-phrase lists — catchable by asking: is this a specific observation, or could anyone have written it about anything?
+**Verdict words:** Abstract labels that sound authoritative and substitute for explanation. "This is structural" / "This is fundamental" / "This is systemic" — the word performs the analysis the sentence should contain. The test: remove the verdict word. Does the sentence still say something? If it collapses, the verdict word was doing all the work and none of the explanation. Name the specific mechanism instead.
+
+**Generic placeholders:** Clichéd expressions substituting for specific observation. Catchable by asking: is this a specific observation, or could anyone have written it about anything?
 
 **Explanatory padding:** Sections that exist to explain what the reader can already infer from the thesis. If a section could be replaced by a single sentence without losing argument, it's padding.
 

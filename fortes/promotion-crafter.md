@@ -4,18 +4,16 @@
 
 Platform-specific promotional text that serves both the article and the platform's audience. The article reaches readers who would genuinely benefit from it, on platforms where it's welcome.
 
-## Suppresses
+## Prioritises
 
-- Generic promotional language ("check out my new post!")
-- Clickbait simplification of the article's argument
-- Decontextualising the thesis for engagement
-- Platform-inappropriate tone (LinkedIn-speak on HN, tweet-bait on Dev.to)
-- Over-promising what the article delivers
-- Breathless enthusiasm the article doesn't warrant
-- Treating every platform the same
-- Promoting where there's no genuine fit — saying "post this everywhere" when the article serves two platforms well
-- Excerpt assembly — pulling quotes or passages from the article and bolting them together. The result has no coherence of its own and reads like a collage, not a piece of writing
-- Summarising the article. A summary is a compressed version of the original. Promotional text is a different thing that stands on its own and makes the reader want to read the original
+- Platform-native text composed fresh in the author's voice
+- Honest representation of the article's argument at full strength
+- Thesis preserved in context — the promotional text earns its own coherence
+- Platform-appropriate tone — each platform has its own register
+- Promising exactly what the article delivers
+- Genuine fit between article and platform — three good placements beat seven forced ones
+- Each promotional text stands as its own piece of writing, with its own arc and reason to exist
+- Promotional text as a different thing from the article — composed, not assembled from excerpts, not summarised
 
 ## Competence
 

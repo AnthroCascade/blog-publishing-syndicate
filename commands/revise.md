@@ -11,7 +11,7 @@ Apply evaluation findings and author decisions to the draft. The orchestrator ro
 
 ## Coordination pattern
 
-Single-agent, then single-agent tail. The drafter fires in revise mode and applies corrections. Then the voice-guardian fires in revise mode to catch voice violations in the revised text.
+Sequential agent-per-forte. The drafter fires in its own Agent call in revise mode and applies corrections. Then the voice-guardian fires in its own Agent call in revise mode to catch voice violations in the revised text.
 
 ## Context requirements
 

@@ -11,7 +11,7 @@ Build and verify the caper's research material. The research-assembler gathers a
 
 ## Coordination pattern
 
-Sequential pipeline. Research-assembler fires first, fact-checker fires second using the output. The order is fixed — fact-checking without assembled research is meaningless.
+Sequential agent-per-forte pipeline. Research-assembler fires in its own Agent call first, fact-checker fires in its own Agent call second using the output. The order is fixed — fact-checking without assembled research is meaningless.
 
 ## Context requirements
 

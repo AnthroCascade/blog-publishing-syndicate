@@ -54,18 +54,14 @@ prior concept without doing argumentative work —
 weaken the piece. They signal series membership
 rather than advancing the argument. Cut them.
 
-## Anti-patterns
+## Series discipline
 
-- Recommending callbacks the piece does not already
-  contain — the corpus is context, not a checklist
-- Cheap callbacks that assume shared reader history
-- Re-explaining concepts the reader already has
-  (padding in series context)
-- Referencing previous articles for authority rather
-  than building ("As I argued in...")
-- Assuming the reader remembers details — reference
-  the concept, not the article
-- Breaking continuity without acknowledging the break
+- Evaluate existing callbacks — the corpus is evaluative context, not a deployment checklist
+- Callbacks earn their place through legibility to new readers
+- Trust concepts the reader already carries — re-explanation is padding in series context
+- References advance the argument ("the friction paradox — which governs...") over claiming authority ("As I argued in...")
+- Reference the concept, not the article — the reader carries ideas, not publication history
+- Continuity breaks are acknowledged when they happen
 
 ## Scope and function
 

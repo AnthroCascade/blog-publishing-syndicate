@@ -21,7 +21,7 @@ No forte receives another forte's spec or output. Each fires independently again
 
 ## Coordination pattern
 
-Parallel evaluation, then async human, then sequential tail. Content fortes fire simultaneously. After they complete, the human forte fires asynchronously — the orchestrator pauses for the author, who fills or skips. Then the protector walks every finding and runs its six tests. Then the interrogator tests all evaluation files for grounding, specificity, variance, and cross-forte similarity.
+Independent evaluation, then async human, then sequential tail. Content fortes fire in parallel (one Agent call per forte, all dispatched in one message in Claude Code; concurrent API calls in in-concert). After they complete, the human forte fires asynchronously — the orchestrator pauses for the author, who fills or skips. Then the protector fires in its own Agent call and walks every finding. Then the interrogator fires in its own Agent call and tests all evaluation files for grounding, specificity, variance, and cross-forte similarity.
 
 ## Context requirements
 
@@ -45,13 +45,13 @@ Before fortes fire, load:
 
 3. **Clear stale evaluations.** Clear `artefacts/evaluations/` before firing. Evaluations from a prior pass are stale.
 
-4. **Fire content fortes in parallel.** Each forte receives: its own spec, its resolved talents, the shared context bundle (draft, caper.md, turn.md, game.md, research.md, learnings.md), and any forte-specific additions per the table above. No forte receives another forte's spec.
+4. **Execute content fortes independently.** Each forte receives: its own spec, its resolved talents, the shared context bundle (draft, caper.md, turn.md, game.md, research.md, learnings.md), and any forte-specific additions per the table above. No forte receives another forte's spec or output. After each forte writes, add it to `completed` in the plan.
 
 5. **Human forte.** Present findings to the author. The author fills their evaluation or skips. This is asynchronous — the process pauses.
 
-6. **Protector.** Reads all content forte evaluation files and the human evaluation. Tests each finding against six failure modes: echo convergence, lurching, phantom problems, overcorrection, faustian regression, scope extension.
+6. **Protector.** Reads all content forte evaluation files and the human evaluation. Tests each finding against six failure modes: echo convergence, lurching, phantom problems, overcorrection, faustian regression, scope extension. Add to `completed`.
 
-7. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity.
+7. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity. Add to `completed`.
 
 8. **Present to author.** Which fortes fired, key findings, evaluation file locations. Flag findings the interrogator marked shallow. The forte files are the evaluation — no synthesis.
 

@@ -1,5 +1,7 @@
 # Editorial
 
+> **Context level: analytical instruction.** This file tells the drafter what to compress, expand, and prioritise. It is not a model for how the output should sound — that comes from the voice samples.
+
 ## Domain
 
 Refining prose. Structure, rhythm, compression, clarity.
@@ -41,12 +43,12 @@ Work top-down. Do not polish broken arguments.
 - Unpack compression that created ambiguity
 - Let narrative breathe when immersion serves the argument
 
-## Anti-patterns
+## Editorial priorities
 
-- Editing for length, not meaning
-- Compressing narrative accumulation that serves immersion
-- Recommending cuts the author did not request
-- Smoothing voice in pursuit of clarity
-- Restructuring without understanding intent
-- Polishing before the argument is sound
+- Edit for meaning — length follows
+- Preserve narrative accumulation that serves immersion
+- Cuts follow the author's request or serve the argument
+- Clarity comes from precision, preserving voice
+- Restructuring follows understanding of intent
+- Argument first, polish last (work top-down)
 

@@ -8,14 +8,11 @@ uncorrelated with every agent forte — lived context,
 domain expertise, cross-caper memory, and taste that
 no model has.
 
-## Suppresses
+## Prioritises
 
-- Responding to other fortes' framings instead of
-  reading the draft directly
-- Filing findings as turn.md directives (that is the
-  author channel, not the forte channel)
-- Skipping the structured format because "I know
-  what I mean"
+- Reading the draft directly — own observations first
+- Filing findings in the forte template (the forte channel, distinct from turn.md)
+- Using the structured format for every finding
 
 ## Competence
 

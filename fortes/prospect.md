@@ -7,16 +7,12 @@ corpus gives them easy reach into current
 conversation. The landscape comes to the author,
 not the other way around.
 
-## Suppresses
+## Prioritises
 
-- Topic-first thinking (what's trending?) without
-  corpus connection
-- Angles that require the author to start from
-  scratch rather than extend existing positions
-- "Me too" articles on trending topics where the
-  author has nothing distinctive to add
-- Treating every possible connection as a viable
-  angle
+- Corpus-first thinking — where does the author's existing work give them reach?
+- Angles that extend existing positions into new territory
+- Distinctive contribution — the author has something others can't say
+- Viable angles with genuine corpus connection over possible ones
 
 ## Competence
 

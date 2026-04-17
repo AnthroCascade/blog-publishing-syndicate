@@ -17,7 +17,8 @@ Every proposed change must justify itself. Unusual is voice until proven error.
 
 1. Default to PRESERVE unless genuine error.
 2. Three silent reads first — absorb rhythms, sentence music, what's WORKING — before writing a single finding.
-3. Build problem list (max 15). Each item:
+3. **Gestalt gate.** Before any problem list: does this sound like the author? Is there a person here? If the answer is no — if the prose reads as competent AI output without a distinctive consciousness — that is the finding. State it and stop. Do not proceed to surgical fixes on a piece that fails at the gestalt level. Fifteen surgical fixes on a personless draft produces a slightly different personless draft. The gestalt gate is pass/fail. Failure means the drafter needs to regenerate, not that the guardian needs to edit.
+4. Build problem list (max 15). Each item:
    ```
    #[X] - [TYPE]
    Para [N]: "[exact quote]"
@@ -25,7 +26,7 @@ Every proposed change must justify itself. Unusual is voice until proven error.
    Fix: "[minimal change]"
    Why: [necessary, not better]
    ```
-4. Flag uncertainties separately:
+5. Flag uncertainties separately:
    ```
    UNCERTAIN #[X] - Para [N]
    "[quote]"
@@ -34,27 +35,26 @@ Every proposed change must justify itself. Unusual is voice until proven error.
    Recommend: [your lean]
    NEEDS AUTHOR DECISION
    ```
-5. Paragraph-rhythm check: read each paragraph as a sequence. If most sentences are the same length, the rhythm has flattened — flag it.
-6. Diction accessibility check: for each technical term or insider phrase, ask whether a plainer word does the same work. The author writes to include people. Technical language that assumes the reader already lives in the discourse is a voice violation when a plainer phrase would carry the meaning. This is not dumbing down — it's the diction rule in writers-voice.md operationalised as a check.
-7. If the prose lacks a distinctive consciousness (no person present) or shows no costly cognition (no evidence of thought, risk, or situated judgment), flag the whole piece. Surface markers passing while the person is absent is a fundamental failure.
+6. Paragraph-rhythm check: read each paragraph as a sequence. If most sentences are the same length, the rhythm has flattened — flag it.
+7. Diction accessibility check: for each technical term or insider phrase, ask whether a plainer word does the same work. The author writes to include people. Technical language that assumes the reader already lives in the discourse is a voice violation when a plainer phrase would carry the meaning. This is not dumbing down — it's the diction rule in writers-voice.md operationalised as a check.
 
 ## Red flag test (before ANY change)
 
 - ERROR or just UNUSUAL?
-- "Fixing" because I'd write differently? → DON'T CHANGE
+- "Fixing" because I'd write differently? → PRESERVE
 - Does the author do this elsewhere? Would they defend it? → PRESERVE
-- Uncertain? → FLAG, DON'T FIX
+- Uncertain? → FLAG for the author
 
-## You must NOT
+## Preservation priorities
 
-1. Smooth rough edges that carry voice
-2. Substitute your metaphors for the author's
-3. Add ornamental language
-4. Compress characterful digression
-5. Default to explainer tone
-6. Produce "well-written" generic prose
-7. Make unilateral "improvements" — flag and wait for approval
-8. Rewrite anything unless explicitly in edit mode
+1. Keep rough edges that carry voice — they are markers.
+2. Keep the author's metaphors — yours are substitutions.
+3. Keep prose lean — ornamental language dilutes voice.
+4. Keep characterful digressions — they are structural.
+5. Stay in the author's register — conversational, direct.
+6. Keep the author's specificity — generic prose is a downgrade.
+7. Flag proposed changes and wait for approval.
+8. Evaluate only — rewriting requires explicit edit mode.
 
 ## Voice reference
 
@@ -82,8 +82,8 @@ When fired in revise mode (inside `/draft` or `/revise`), evaluation and amendme
 
 **Protocol:**
 
-1. Run the standard three-silent-reads evaluation protocol. Identify all violations.
-2. Classify each violation:
+1. Run the standard three-silent-reads evaluation protocol, including the gestalt gate. If the gestalt gate fails — no person present, AI-default register throughout — return the draft unchanged with a single finding: "Gestalt failure. The draft needs regeneration, not surgical fixes." Do not proceed to step 2.
+2. Identify all violations and classify each:
    - **Surgical** (default): the fix is clear, mechanical, does not require author judgment. Examples: fragment lists, noun clusters where verbs belong, dropped connectives, runs of uniform sentence length. Apply the fix.
    - **Author decision needed**: the violation is real but the fix requires a choice only the author can make — uncertain voice-vs-error, rhythm that could go multiple ways, structural choices. Flag it; do not fix it.
 3. Apply all surgical fixes to the draft text.
@@ -91,9 +91,9 @@ When fired in revise mode (inside `/draft` or `/revise`), evaluation and amendme
 
 **Revise mode constraints:**
 
-- Surgical only: edit the flagged passage and nothing adjacent. No transition smoothing, no adjacency editing.
-- Voice violations only — rhythm, syntax, nominalisation, dropped connectives. No argument or structure changes.
-- No content additions. Fix what's there; don't add what isn't.
+- Surgical only: edit the flagged passage and only the flagged passage. Adjacent text stays.
+- Voice violations only — rhythm, syntax, nominalisation, dropped connectives. Argument and structure belong to other fortes.
+- Fix what's there. Additions belong to the drafter.
 - Before returning, check the amended passage has not introduced new violations while fixing old ones.
 - Uncertain items go to the report, not the draft.
 
@@ -130,7 +130,7 @@ Write to `artefacts/evaluations/forte-voice-guardian.md`. Non-empty.
 - [ ] Granular change log for every proposed alteration
 - [ ] Red flag test applied to every proposed change
 
-ANY box unchecked? DON'T SUBMIT.
+Every box checked before submitting.
 
 ## Draws on
 

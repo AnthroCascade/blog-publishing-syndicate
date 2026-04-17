@@ -21,6 +21,67 @@
 
 All fortes suppress AI's default: produce confident, well-structured-looking text fast.
 
+## Forte structure
+
+Each forte has canon (invariant identity) and
+strategy (adaptive behaviour). The distinction is
+WHAT, not HOW — either can be expressed as
+deterministic code or natural language.
+
+Code canon (tool registration, output schema, scope
+enforcement) is reliable — cannot be ignored. NL
+canon ("default: PRESERVE", "gestalt gate is
+pass/fail") is accessible — requires no programming
+skill, but more fragile under context pressure. NL
+canon may prototype the eventual code version; some
+invariants stay NL because they require judgment to
+apply.
+
+Strategy can equally be code (scoring, convergence
+calculation) or NL (voice evaluation, structural
+assessment). The forte spec carries NL canon and NL
+strategy. The holon's code carries code canon and
+code strategy. Both are the forte.
+
+Canon is derived from archetypal patterns — shaped
+by the archetype, complete in itself.
+
+Strategy decomposes into behaviours (plural) — each
+publicly observable and triggerable. A forte is not
+a single function; it is an entity offering a
+cluster of behaviours. Each behaviour has its own
+input/output contract. Each can be implemented in
+whatever medium suits: NL, code, or both. The forte
+specs already carry multiple modes (evaluate/revise
+for voice-guardian, research/verify for
+fact-checker, draft/revise for drafter). These are
+behaviours sharing the forte's canon and instance
+state. Making them explicit as coupling contracts
+is the architectural direction.
+
+The behaviour declaration follows the same
+self-similar pattern as the Flutter Prototype:
+each component declares its behaviours through
+`protoMap`, the parent triggers by name, the
+implementation is the component's business. Forte
+modes are agent-domain `protoMap` entries.
+
+A holon exhibits passive behaviours (need to be
+called) and active behaviours (the holon exercises
+agency). Most holons should exhibit both. The mob's
+fortes are currently all passive. The direction:
+fortes that also exercise agency — a protector that
+monitors between passes, a forager that scans
+without being invoked.
+
+Some fortes are governance holons — their function
+is judging the collective output of peer holons.
+The protector tests whether findings improve or
+merely change the draft. The interrogator tests
+evaluation depth. Both consume peer artefacts and
+produce governance assessments. They govern by
+participating, not by presiding.
+
 ## Coordination
 
 Not prescribed. Game or caper chooses. Turn-taking

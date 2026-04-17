@@ -1,5 +1,7 @@
 # Voice-Craft
 
+> **Context level: analytical instruction.** This file tells the drafter what to preserve and how to test for voice. It is not a model for how the output should sound — that comes from the voice samples.
+
 ## What this is
 
 The method for recognising, preserving, and working within a writer's distinctive voice. This talent is the method. The markers themselves live in the fortes that use them (voice-guardian).
@@ -37,13 +39,13 @@ When a forte draws on voice-craft, apply the preservation rules and detection pa
 
 The test: Does the author do this elsewhere? Would they defend it? If yes, it's voice.
 
-## You must NOT
+## Preservation priorities
 
-1. Correct to standard English when non-standard is voice.
-2. Smooth rhythm to "improve flow."
-3. Substitute common words for unusual choices.
-4. Add transitions the author deliberately omitted.
-5. Make prose "clearer" by making it generic.
+1. Keep non-standard English that is voice — the author's deviations are deliberate.
+2. Keep the rhythm as written — the author's flow serves the argument.
+3. Keep the author's word choices — unusual diction is the voice.
+4. Keep deliberate omissions — gaps the author left are structural.
+5. Keep specificity — clarity comes from precision, not from generalisation.
 
 ## Voice derivation protocol
 

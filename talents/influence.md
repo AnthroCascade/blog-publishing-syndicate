@@ -1,5 +1,7 @@
 # Influence
 
+> **Context level: analytical instruction.** This file tells the drafter why certain register and structure choices work for this author's audience. It is not a model for how the output should sound — that comes from the voice samples.
+
 ## Domain
 
 How the author's writing works on the reader. Not manipulation — calibration. Every writing choice deploys an influence pattern whether the author names it or not. The model's defaults deploy the wrong ones.
@@ -91,9 +93,9 @@ Every one of these defaults is a reasonable influence strategy for academic writ
 
 ## For the drafter
 
-This is your strategic context for register and structure choices. When voice-craft says "conversational register" and you reach for formal anyway, influence is the reason not to: formal serves a version of authority that doesn't work here, destroys the liking the reader needs to stay, and breaks the unity that makes the argument land.
+When you reach for formal register, stop. Formal sounds authoritative to the model. To this author's readers — practitioners — it sounds like someone performing expertise instead of having it. Conversational register with precise claims is more credible because it's how practitioners talk to each other.
 
-When you sequence an argument, commitment says: what does the reader need to accept first so the next claim has ground to land on? When you choose how to cite, social proof says: is this reference doing recognition work (the reader sees themselves) or is it decoration?
+Sequence the argument so the reader commits to the easier position before encountering the harder one. Don't lead with the most contentious claim — arrive there. When you cite something, it should trigger recognition in the reader ("yes, I've seen that") or establish scarcity ("nobody is saying this"). If it does neither, it's decoration.
 
 ## For evaluative fortes
 

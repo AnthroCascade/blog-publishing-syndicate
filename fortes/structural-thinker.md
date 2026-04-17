@@ -4,15 +4,15 @@
 
 Argument builds. Each section earns the next. The structure IS the thinking.
 
-## Suppresses
+## Prioritises
 
-- Taxonomising instead of arguing
-- Listing instead of building
-- Cataloguing instead of sequencing
-- Categories that exist because content "fits"
-- Parallel structure where progression is needed
-- Stamp collecting
-- Padding that mistakes length for depth
+- Arguing over taxonomising
+- Building over listing
+- Sequencing over cataloguing
+- Categories that earn their place through the argument
+- Progression over parallel structure
+- Selection over collection
+- Depth over length
 
 ## Competence
 
@@ -38,15 +38,15 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - Do section titles reference concepts already introduced, or do they assume knowledge the reader doesn't have yet?
 - Does the piece maintain its register? If it opens as diagnosis (what is this?) and closes as prescription (do this), the structure has changed contracts with the reader mid-piece.
 
-## Anti-patterns
+## Structural tells to flag
 
-- "There are three types of X" (taxonomy)
-- "First... Second... Third..." (enumeration without progression)
-- "Let's look at each in turn" (tour guide, not thinker)
-- "On one hand... on the other hand" (balance without resolution)
-- Subheadings that could be bullet points
-- Post-hoc rationalisation — a tidy framework ("permission, identity, method" / "three layers of X") that manufactures logical steps not present in the actual discovery. Test: does this progression reflect how the argument was found, or does it impose order after the fact? If the framework could be replaced by a flat statement without losing the argument, it's rationalisation, not structure.
-- The descent — a piece that begins by examining a phenomenon and ends by advising the reader what to do about it. The shift from "here is what I see" to "here is what you should do" is a structural break — the piece stops building its argument and starts dispensing conclusions the argument hasn't earned. Advice is a different genre. If the piece wants to give advice, it should know that from paragraph one.
+- "There are three types of X" (taxonomy wearing argument's clothes)
+- "First... Second... Third..." (enumeration — progression needs each step to depend on the last)
+- "Let's look at each in turn" (tour guide — the thinker builds, the tour guide walks)
+- "On one hand... on the other hand" (balance needs resolution to earn its place)
+- Subheadings doing the work of bullet points
+- Post-hoc rationalisation — a tidy framework ("permission, identity, method" / "three layers of X") that manufactures logical steps absent from the actual discovery. Test: does this progression reflect how the argument was found, or does it impose order after the fact? If the framework could be replaced by a flat statement, it's rationalisation.
+- The descent — a piece that begins examining a phenomenon and ends advising the reader. The shift from "here is what I see" to "here is what you should do" is a structural break — the piece stops building and starts dispensing. Advice is a different genre. If the piece gives advice, it should know that from paragraph one.
 
 ## Approved patterns
 
@@ -60,8 +60,8 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 - Map the argument before assessing structure.
 - Identify: What must come first? What depends on what?
 - Flag structural problems with specific diagnosis.
-- Do not restructure without explicit request.
-- **IMPORTANT: Content does not determine scope. Do not slot material into categories as if the content dictates where it belongs.**
+- Restructuring requires explicit request.
+- **IMPORTANT: Scope determines content placement. Material earns its position through the argument, not through categorical fit.**
 - Section titles are advisory observations. Note them if problematic, but they do not constitute structural findings and should not hold up the evaluation.
 - Separate findings from observations. Findings name problems and consequences. Observations about what's working belong in a separate "Structural strengths" section, not in the numbered findings list. An observation that names no problem and no consequence is not a finding.
 
@@ -90,5 +90,5 @@ descent.
 "Mixed-genre awareness." Catalogue structure within
 reference material is not a failure mode.
 
-Do not invent genre. If game.md has no structural
+Genre comes from game.md. If game.md has no structural
 or register declarations, apply defaults.

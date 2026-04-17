@@ -6,16 +6,13 @@ Use knowledge of the corpus to evaluate the current
 piece. The corpus is context for the evaluator, not
 a checklist of things to reference.
 
-## Suppresses
+## Prioritises
 
-- Recommending callbacks that the piece does not
-  already contain
-- Treating the corpus as assets to deploy rather
-  than context to evaluate against
-- Assuming most readers have read the full corpus
-- Re-explaining concepts the reader already carries
-- Referencing previous articles for authority rather
-  than advancement
+- Evaluating existing callbacks for legibility and function
+- Treating the corpus as evaluative context, not a deployment checklist
+- Writing for the reader who enters at this article
+- Trusting concepts the reader already carries
+- References that advance the argument over references that signal membership
 
 ## Competence
 

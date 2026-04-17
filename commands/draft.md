@@ -11,23 +11,38 @@ Fire the drafter to produce or redraft an article. The orchestrator composes and
 
 ## Coordination pattern
 
-Single-agent, then single-agent tail. The drafter fires first and produces the draft. Then voice-guardian fires in revise mode — it evaluates and applies surgical fixes in one pass.
+Sequential agent-per-forte. The drafter fires in its own Agent call and produces the draft. Then voice-guardian fires in its own Agent call in revise mode — it evaluates and applies surgical fixes in one pass.
 
 ## Context requirements
 
-Before the drafter fires, load:
+Follow `coordination/orchestrator-governance.md` → "Generative forte context rules" for drafter context loading. The drafter and voice-guardian have different context needs.
 
+**For the drafter (generative):**
+
+The drafter operates at two levels: analytical instructions that tell it what to do, and voice samples that show it how the output should sound. These sit in the same context window and the model has no built-in way to keep them apart. Each file carries its own context-level declaration — the orchestrator does not stamp labels on content. The governance is in the files, not in the assembly.
+
+Context sections:
+
+- `corpus/voice-samples.md` — carries its own output-register declaration
+- Drafter forte spec and talents from "Draws on" (section-filtered per spec) — each carries its own instruction-register declaration
+- `game.md` — to forte-baseline marker only
 - `caper.md` — durable intent and decisions
 - `turn.md` (if exists) — current pass instructions
 - `artefacts/draft.md` — current draft (if redrafting)
 - `artefacts/research.md` — source material
-- `artefacts/prior-articles.md` — corpus (voice samples and positioning)
 - All files in `artefacts/evaluations/` — forte findings to incorporate (if redrafting)
 - `learnings.md` — patterns and forte refinements
-- `game.md` — baseline context
-- `syndicate.md` — syndicate definitions
-- Drafter forte spec and all talents from its "Draws on" section
-- Voice-guardian forte spec and all talents from its "Draws on" section (for step 2)
+- Do NOT load `writers-voice.md` — analytical markers compete with demonstrated voice
+
+Load voice-samples.md last, immediately before the generation prompt, so the output register is closest to the point of generation. Recency in context strengthens influence on the output.
+
+**For the voice-guardian (evaluative):**
+
+- `corpus/voice-samples.md` — for gestalt comparison
+- `corpus/writers-voice.md` — analytical markers
+- Voice-guardian forte spec and all talents from its "Draws on" section
+- `artefacts/prior-articles.md` — corpus context
+- `learnings.md` — patterns
 
 ## Procedure
 
@@ -39,11 +54,11 @@ Before the drafter fires, load:
 
 4. **Clear stale evaluations.** After writing the new draft, clear `artefacts/evaluations/`. Evaluations produced against the previous draft are stale.
 
-5. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), voice-craft talent, cognition-sensing talent, editorial talent, the produced draft (inline — it returns amended text), prior-articles path, learnings path. Instruction: run the evaluation protocol, apply surgical fixes, return amended draft text, a change manifest, and unresolved flags needing author decision.
+5. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), all talents from "Draws on," voice-samples.md, writers-voice.md, the produced draft (inline — it returns amended text), prior-articles path, learnings path. Instruction: run the gestalt gate first. If the draft fails at the gestalt level (no person present, AI-default register throughout), return the draft unchanged with a single finding — the drafter needs to regenerate, not the guardian needs to edit. If the gestalt passes, proceed to the evaluation protocol: apply surgical fixes, return amended draft text, a change manifest, and unresolved flags needing author decision.
 
-6. **Write outputs.** Amended draft text replaces the drafter's version at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`.
+6. **Write outputs.** If the gestalt gate passed: amended draft text replaces the drafter's version at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`. If the gestalt gate failed: the draft stays as-is. The gestalt failure finding goes to `artefacts/evaluations/forte-voice-guardian.md`. The orchestrator reports the failure to the author — the draft needs regeneration, not revision.
 
-7. **Present to author.** Report what voice-guardian amended (from manifest), what it flagged as needing author decision (unresolved flags). If voice-guardian found nothing, state that explicitly — it is signal, not silence.
+7. **Present to author.** Report what voice-guardian amended (from manifest), what it flagged as needing author decision (unresolved flags), or the gestalt failure. If voice-guardian found nothing, state that explicitly — it is signal, not silence.
 
 8. **Capture learnings.** Note patterns observed during drafting. Check whether unresolved flags or recurring surgical fixes already appear in `learnings.md`. If yes, note that the pattern recurred and suggest propagating it to spec.
 

@@ -4,13 +4,13 @@
 
 Is there a person here? Absence of AI tells.
 
-## Suppresses
+## Prioritises
 
-- Confident vagueness
-- Ornamental abstraction
-- False enthusiasm
-- Hedge-word accumulation
-- The smooth, the generic, the plausible-sounding
+- Specificity and precision
+- Concrete observation over abstraction
+- Genuine engagement
+- Claims stated flat
+- The distinctive, the situated, the earned
 
 ## Competence
 
@@ -32,10 +32,10 @@ Detection, not correction.
 
 - Read once for content. Read again assuming absence — assume the text is AI-generated and search for evidence it isn't. Read a third time for costly cognition.
 - Flag with exact quote and category.
-- One flag per instance. No batching.
-- Do not suggest alternatives. Detection only.
-- If uncertain, flag anyway. False positives cost less than misses.
-- "Clean" is a high bar. Surface-clean text with no person behind it fails. A text that passes surface checks but fails the costly cognition test is not clean.
+- One flag per instance.
+- Detection only — alternatives are the drafter's job.
+- When uncertain, flag. False positives cost less than misses.
+- "Clean" is a high bar. Surface-clean text still fails if there is no person behind it. The costly cognition test is the real threshold.
 
 ## Genre awareness
 

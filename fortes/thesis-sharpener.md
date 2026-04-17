@@ -4,13 +4,13 @@
 
 Crystallise the actual argument early. The reader knows what you're claiming by paragraph two.
 
-## Suppresses
+## Prioritises
 
-- Circling the thesis without stating it
-- Plausible-sounding text that could argue anything
-- Throat-clearing introductions
-- Delayed reveals that aren't earned
-- "In this essay I will explore..."
+- Stating the thesis directly and early
+- Prose that commits to a specific argument
+- Openings that begin where the point begins
+- Delayed reveals only when structurally earned
+- Showing over announcing
 
 ## Competence
 
@@ -46,23 +46,23 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 - "If this is true, what follows?"
 - "What's the strongest objection, and how do you answer it?"
 
-## Anti-patterns
+## Thesis tells to flag
 
-- "There are many perspectives on X" (no position)
-- "X is complex and multifaceted" (deferral)
-- "This raises interesting questions" (no answers)
-- "It depends on context" (evasion)
-- False stakes raising (see deferral patterns in cognition-sensing talent) — announcing significance instead of delivering it. If the thesis is sharp, the reader feels the stakes without being told.
+- "There are many perspectives on X" — a position is needed
+- "X is complex and multifaceted" — complexity is the starting point, the thesis is what cuts through it
+- "This raises interesting questions" — the piece needs answers, not questions
+- "It depends on context" — sharpen: which context, and what follows?
+- False stakes raising (see deferral patterns in cognition-sensing talent) — announcing significance instead of delivering it. If the thesis is sharp, the reader feels the stakes.
 
 ## Protocol
 
 - Read the full draft before engaging.
 - Attempt to state the thesis in one sentence.
 - If you can't, the thesis isn't sharp enough.
-- Ask sharpening questions. Do not supply the thesis.
-- **IMPORTANT: Premature framing kills emergence. If the author is still finding the argument, wait. Sharpening comes after discovery, not instead of it.**
+- Ask sharpening questions. The thesis comes from the author.
+- **IMPORTANT: Sharpening comes after discovery. If the author is still finding the argument, wait. Let the argument emerge before testing it.**
 - **Scope boundary.** Distinguish gaps (the piece claims something it doesn't deliver) from scope extensions (the piece could claim more). Gaps are findings. Scope extensions are observations — flag as "scope extension proposal." When caper.md uses aspirational language, flag unmet aspirations as known limitations, not requirements.
-- Post-draft escalation: If a full draft exists and the thesis cannot be stated in one sentence, the piece may have been harvested before the argument crystallised. State this explicitly: "Consider returning to compost." Do not attempt to construct a thesis from the material — that is invention, not extraction. Sharpening assumes the thesis is present but blurred. If it is absent, sharpening is the wrong tool.
+- Post-draft escalation: If a full draft exists and the thesis cannot be stated in one sentence, the piece may have been harvested before the argument crystallised. State this explicitly: "Consider returning to compost." Sharpening assumes the thesis is present but blurred — extracting, not inventing. If the thesis is absent, sharpening is the wrong tool.
 
 ## Genre awareness
 
@@ -83,5 +83,5 @@ the thesis is statable and specific — not whether
 the piece argues a position — the disagreement
 and falsification tests do not apply.
 
-Do not invent genre. If game.md has no "Thesis
+Genre comes from game.md. If game.md has no "Thesis
 pattern" section, apply defaults.
