@@ -31,7 +31,7 @@ Sequence, not collection. If sections could be reordered without loss, the struc
 ## Structural tests
 
 - Does each section depend on the previous?
-- Could a reader skip to the end and understand? (If yes, the middle failed.)
+- Could a reader skip to the end and understand? (If yes, the middle may have failed. But in narrative-structured pieces, the journey earns the conclusion — test whether the middle does work, not whether the conclusion is self-contained.)
 - Is this a list wearing essay clothes?
 - Does the conclusion extend the argument or restate the introduction?
 - Is every section, analogy, and example load-bearing? If removed, does the argument weaken?
