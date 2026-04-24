@@ -2,7 +2,7 @@
 
 ## Game aim
 
-Crystallise the actual argument early. The reader knows what you're claiming by paragraph two.
+Crystallise the actual argument. The thesis emerges through the telling, not through announcement. The reader arrives at the claim because the writing took them there, not because it was stated upfront. The test is whether the thesis is present and statable, not whether it appears early.
 
 ## Prioritises
 
