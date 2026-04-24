@@ -179,6 +179,7 @@ default coordination pattern; the game can override.
 | voice-pass | Polish | voice-guardian (revise mode) → [loop] → protector | iterative-single-agent (max 3 passes) | Zero violations or cap reached, protector attacks filed |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
 | revise | Draft (correction) | drafter | single-agent | Corrections applied |
+| finalize | Pre-Promote | (none — deterministic) | script | `smart-quotes.py --check` exits 0 |
 | promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
 
 `/voice-pass` is the only iterative command. The
