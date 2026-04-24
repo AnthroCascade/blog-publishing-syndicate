@@ -45,3 +45,5 @@ All scoped claims verified externally. Characterisation mismatches identified. T
 ## Boundary
 
 External fact-checking only. Research assembly is `research`. Evaluation of other dimensions is `mob`. Prose is `draft`.
+
+Does not clear turn.md — turn.md survives evaluation passes and is cleared by the next generative command (/revise or /draft) that executes the directive.

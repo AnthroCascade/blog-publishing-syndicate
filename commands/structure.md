@@ -43,7 +43,19 @@ Before fortes fire, load:
 
 6. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity. Add to `completed`.
 
-7. **Present to author.** Which fortes fired, key findings, evaluation file locations. Flag findings the interrogator marked shallow. The forte files are the evaluation.
+7. **Present to author.** In the author's register — no forte jargon untranslated. See `coordination/orchestrator-governance.md` → "Author register" and "Actionability." Report:
+
+   1. **Which fortes fired** (structural-thinker, thesis-sharpener, continuity-thinker, human, protector, interrogator). Any skipped and why.
+   2. **Key findings from each, in plain terms.** For structural-thinker: where the argument fails to build, or where it catalogues instead of sequences. For thesis-sharpener: whether the claim crystallised and where it drifts. For continuity-thinker: where the piece contradicts or repeats the corpus. Name specific sections.
+   3. **Findings the interrogator marked shallow**, with the reason.
+   4. **Findings the protector argued against.** Ground stated.
+   5. **Evaluation file locations.** The forte files are the evaluation.
+   6. **The resolution path, named as the default.**
+      - **Skill path:** write decisions into `turn.md`, fire `/revise <caper>`. This overwrites `draft.md` with decisions and findings applied, clears evaluations (consumed), preserves turn.md and research, reversible via git.
+      - **Manual path:** edit `draft.md` directly, especially if the findings call for structural rewrite rather than sentence-level surgery.
+   7. **What happens if the author does nothing.** Evaluations stay on disk and will be cleared by the next `/revise` or `/draft`.
+
+   Not a menu. `/revise` is the default next step; name it as such.
 
 8. **Capture learnings.** Note any patterns observed.
 
@@ -63,3 +75,5 @@ Argument builds. Concept ownership is clear. No structural circling. Protector a
 ## Boundary
 
 Evaluates structure, thesis, and continuity only. Voice is `polish`. Facts are `verify`. Prose is `draft`.
+
+Does not clear turn.md — turn.md survives evaluation passes and is cleared by the next generative command (/revise or /draft) that executes the directive.

@@ -53,7 +53,19 @@ Before fortes fire, load:
 
 7. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity. Add to `completed`.
 
-8. **Present to author.** Which fortes fired, key findings, evaluation file locations. Flag findings the interrogator marked shallow. The forte files are the evaluation — no synthesis.
+8. **Present to author.** In the author's register — no forte jargon untranslated. See `coordination/orchestrator-governance.md` → "Author register" and "Actionability." Report:
+
+   1. **Which fortes fired**, as a short list. Which were skipped and why.
+   2. **Key findings, grouped by forte**, in plain terms. For each forte: one or two lines on what it found, with the specific phrase or passage named. Do not paraphrase findings into a synthesis — direct to the file when detail matters.
+   3. **Findings the interrogator marked shallow.** State which ones and what the interrogator said. The author decides whether to discount.
+   4. **Findings the protector argued against.** State which and on which grounds. Author decides whether the protector is right.
+   5. **Evaluation file locations** for the author to read directly. The forte files are the evaluation — not a synthesis.
+   6. **The resolution path, named as the default.**
+      - **Skill path:** write decisions into `turn.md`, fire `/revise <caper>`. This overwrites `draft.md` with decisions and findings applied, clears evaluations (they have been consumed), preserves turn.md and research, reversible via git.
+      - **Manual path:** edit `draft.md` directly, or work through specific findings phase-by-phase with `/structure <caper>` or `/polish <caper>` to re-scope.
+   7. **What happens if the author does nothing.** Evaluations remain on disk as current context for the next generative command. They will be cleared the next time `/revise` or `/draft` fires against this caper.
+
+   Not a menu. Name `/revise` as the default resolution for a mob pass unless the author has reason to do otherwise.
 
 9. **Capture learnings.** Note any patterns observed during evaluation.
 
@@ -77,3 +89,5 @@ All engaged forte evaluation files are written. Protector attacks are filed. Int
 ## Boundary
 
 Delegates all evaluation to fortes. Delegates all prose to `draft`. The forte files are the evaluation — no synthesis files. Author decides; orchestrator executes. With forte selection, `mob` with specific fortes is equivalent to the corresponding phase command. Phase-specific invocations are the norm; `mob` is the exception.
+
+Does not clear turn.md — turn.md survives evaluation passes and is cleared by the next generative command (/revise or /draft) that executes the directive.

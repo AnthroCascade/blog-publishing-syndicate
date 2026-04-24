@@ -36,15 +36,30 @@ Before the drafter fires, load:
 
 3. **Clear stale evaluations.** After writing the revised draft, clear `artefacts/evaluations/`. The findings have been consumed.
 
-4. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), voice-craft talent, cognition-sensing talent, editorial talent, the revised draft (inline — returns amended text), prior-articles path, learnings path. It runs its evaluation protocol, applies surgical fixes, returns amended text, a change manifest, and unresolved flags.
+4. **Leave turn.md in place.** Do not delete turn.md after consumption. It persists for author review and is overwritten only when a new directive is written. See `coordination/turn-taking.md` → "turn.md write discipline."
 
-5. **Write outputs.** Amended draft text replaces the revision at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`.
+5. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), voice-craft talent, cognition-sensing talent, editorial talent, the revised draft (inline — returns amended text), prior-articles path, learnings path. It runs its evaluation protocol, applies surgical fixes, returns amended text, a change manifest, and unresolved flags.
 
-6. **Decision promotion.** If the drafter's change summary shows findings that were overridden by turn.md or caper.md intent, check whether the override represents a durable decision not yet in caper.md. If so, ask the author: "Should this go in caper.md so fortes receive it in future passes?" If yes, append to caper.md. This prevents the same decision being re-fought across evaluation passes.
+6. **Write outputs.** Amended draft text replaces the revision at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`.
 
-7. **Present to author.** Changes applied by drafter (with source forte for each), author decisions executed (from turn.md), findings the drafter could not resolve, decisions promoted to caper.md, what voice-guardian amended, what voice-guardian flagged as needing author decision. If voice-guardian found nothing, state that explicitly.
+7. **Decision promotion.** If the drafter's change summary shows findings that were overridden by turn.md or caper.md intent, check whether the override represents a durable decision not yet in caper.md. If so, ask the author: "Should this go in caper.md so fortes receive it in future passes?" If yes, append to caper.md. This prevents the same decision being re-fought across evaluation passes.
 
-8. **Capture learnings.** Note patterns. Check whether unresolved flags or recurring surgical fixes already appear in learnings.md. If yes, note the recurrence and suggest propagating to spec.
+8. **Present to author.** In the author's register — no forte jargon untranslated. See `coordination/orchestrator-governance.md` → "Author register" and "Actionability." Report:
+
+   1. **What the drafter changed**, grouped by which forte's finding drove each change. In plain terms — say what was edited and to what.
+   2. **Which of the author's turn.md decisions were executed**, so the author can see their directives landed.
+   3. **Findings the drafter could not resolve**, with the specific conflict (turn.md vs finding, or ambiguous fix).
+   4. **Decisions promoted to caper.md**, if any — what moved from ephemeral turn.md to durable caper.md and why.
+   5. **What the voice-guardian changed in its revise pass.** What phrase was edited and to what.
+   6. **What the voice-guardian flagged for author decision.** Each flag as: the phrase, the recommendation, why. One flag per line.
+   7. **The resolution path for those flags, named as the default.**
+      - **Skill path:** write decisions into `turn.md` (append or overwrite — turn.md is rewritten whole), fire `/revise <caper>` again. This overwrites `draft.md`, preserves research, reversible via git.
+      - **Manual path:** edit `draft.md` directly in the IDE. No skill fires; reversible via git.
+   8. **What happens if the author does nothing.** Flags persist; next evaluation may surface them again.
+
+   If voice-guardian found nothing, state "Clean pass. No voice edits." explicitly.
+
+9. **Capture learnings.** Note patterns. Check whether unresolved flags or recurring surgical fixes already appear in learnings.md. If yes, note the recurrence and suggest propagating to spec.
 
 ## Output
 
@@ -53,7 +68,7 @@ Before the drafter fires, load:
 
 ## Settlement condition
 
-Corrections applied. Stale evaluations cleared. Voice-guardian revise pass complete. Unresolvable findings reported to author.
+Corrections applied. Stale evaluations cleared. turn.md left in place for author review. Voice-guardian revise pass complete. Unresolvable findings reported to author.
 
 ## Boundary
 
