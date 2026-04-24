@@ -249,6 +249,8 @@ Structures that delay, announce, or hedge instead of delivering. These are deepe
 
 **Throat clearing:** Filler that delays the point without serving it. "For one reason or another," "in many ways," "it turns out that." Start where the point starts.
 
+**Rumination framing:** Phrases that claim repeated thought or repeated encounter without committing to a conclusion. "We kept running into the same question," "the thing I keep turning over is," "I keep coming back to," "this is the question that won't let me go." Performs depth by implying prolonged grappling rather than delivering it. The honest move is to state what was thought and name the conclusion — if the iteration is load-bearing, name what changed between rounds. "I do not keep running into the same problem EVER" — author feedback, caper 086.
+
 **False stakes raising:** Announcing significance before delivering it. "And the one that stuck hardest:" / "Here's where it gets interesting." If the content is significant, the reader notices. If you have to announce it, the content isn't doing its job.
 
 **Signposting with colons:** Labels that signal delivery rather than deliver. "This is the failure mode:" / "The key insight:" State, don't announce.
