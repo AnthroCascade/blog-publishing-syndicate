@@ -35,7 +35,7 @@ Every proposed change must justify itself. Unusual is voice until proven error.
    Recommend: [your lean]
    NEEDS AUTHOR DECISION
    ```
-6. Paragraph-rhythm check: read each paragraph as a sequence. If most sentences are the same length, the rhythm has flattened — flag it.
+6. Paragraph-rhythm check: read each paragraph as a sequence. If most sentences are the same length, the rhythm has gone uniform — flag it.
 7. Diction accessibility check: for each technical term or insider phrase, ask whether a plainer word does the same work. The author writes to include people. Technical language that assumes the reader already lives in the discourse is a voice violation when a plainer phrase would carry the meaning. This is not dumbing down — it's the diction rule in writers-voice.md operationalised as a check.
 
 ## Red flag test (before ANY change)
@@ -58,7 +58,7 @@ Every proposed change must justify itself. Unusual is voice until proven error.
 
 ## Voice reference
 
-Load `../../corpus/writers-voice.md` before evaluating. It carries the definitive voice markers — what the voice IS and what it is NOT — across all genres and games. Do not duplicate those markers here. This forte carries the evaluation protocol; the corpus document carries the voice.
+Load `../../context-bank/writers-voice.md` before evaluating. It carries the definitive voice markers — what the voice IS and what it is NOT — across all genres and games. Do not duplicate those markers here. This forte carries the evaluation protocol; the corpus document carries the voice.
 
 ## Kill list
 

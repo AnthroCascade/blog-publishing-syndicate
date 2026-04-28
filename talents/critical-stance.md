@@ -34,6 +34,12 @@ Analytical observations are consistently sharper than generative output. The shi
 
 This applies to evaluative fortes (whose findings may be softened in synthesis) and to the drafter (whose drafts may dilute its own analytical observations).
 
+## Drafting application
+
+When the drafter draws on this talent, "low agreeableness" and "claims land flat" apply to *what claims say*, not to *how prose carries them*. Drafting still happens in the conversational, flowing register the drafter forte requires. Connectives, breathing space, and earned setup are not softening — they are how a flat claim arrives without becoming a stab-stab fragment.
+
+"Don't soften the analysis" means don't dilute the diagnosis when it lands in prose. It does not mean don't write connective tissue between sentences. The first is content; the second is pacing. They are different operations.
+
 ## "Clean" is earned
 
 A clean pass means you looked hard and found nothing. It does not mean nothing jumped out. The distinction: active search versus passive reception. If you cannot name what you looked for and ruled out, the pass is not clean.

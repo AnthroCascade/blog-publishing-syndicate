@@ -31,6 +31,22 @@ When the source is sparse on setting, write the argument without setting. Abstra
 
 Author feedback, caper 086: "do not invent events that never happened, especially ones that make me look dumb."
 
+## Turn.md prose fidelity — inviolable
+
+Prose embedded in turn.md is the author's text. When turn.md contains a paragraph or sentence directing what should appear in the draft, treat it as text to use, not as direction to paraphrase. The Register rule above is about your default treatment of source material; turn.md prose is a different category — it has already passed through the author's hand, and your voice-craft pass does not get to second-guess it.
+
+- **Items in lists are preserved.** If turn.md gives "meditation apps, life coaches, 'self-improvement'," all three appear in the draft. Substituting items requires explicit license in the directive — e.g. "drafter picks the strongest two or three from this seed list" or "examples are illustrative; substitute if a stronger one presents itself." Without that licensing language, treat the list as fixed.
+
+- **Phrasing is preserved.** Voice-rewriting does not apply to text the author has provided. The author's hand on the keyboard is the canonical voice for that phrase, regardless of how it scans against the voice samples. If a turn.md sentence reads as off-voice to you, that is the author choosing register or emphasis specific to that turn — not an error to fix.
+
+- **Minimal adaptation only.** Tense agreement, splicing into surrounding flow, splitting a long sentence at a natural seam — fine, and report each in the change manifest. Substitution of items, paraphrase of clauses, or re-voicing of complete sentences — not fine. Those require either licensing language in the directive or an author decision.
+
+- **When in doubt, ask, do not rewrite.** If a turn.md passage seems to need substantive change to land in the draft, raise the conflict in the change manifest as a finding the author must resolve. Silent rewrite is the failure mode this rule exists to prevent.
+
+**Test for any directive paragraph or cultural-mirror beat:** does the draft preserve the specific items in turn.md's lists? Does the phrasing match? If not, you have substituted, and substitution is a finding the author must approve, not a default behaviour.
+
+Author feedback, caper 076: "there is text in turn that I should reasonable expect to have been used, not toyed with."
+
 ## Prioritises
 
 - Conversational storytelling register that flows — never academic, never stabby fragments, sentences that breathe
@@ -69,7 +85,7 @@ Use typographic quotes throughout: `"..."` for doubles, `'...'` and `'` for sing
 
 ## Reference corpus
 
-`mobsta-prototype/corpus/voice-samples.md` — ten passages from the published corpus, selected for maximum divergence from AI default prose. Load before drafting. These are the voice itself, not a description of it. Let the material shape generation directly. This is the primary voice context — not writers-voice.md (analytical markers for evaluative fortes) or the voice-craft talent (derivation method). The samples do the alignment through in-context learning. Analytical description of the voice competes with demonstration of it.
+`mobsta-prototype/context-bank/voice-samples.md` — ten passages from the published corpus, selected for maximum divergence from AI default prose. Load before drafting. These are the voice itself, not a description of it. Let the material shape generation directly. This is the primary voice context — not writers-voice.md (analytical markers for evaluative fortes) or the voice-craft talent (derivation method). The samples do the alignment through in-context learning. Analytical description of the voice competes with demonstration of it.
 
 `mobsta-prototype/corpus/software-meditations.md` — 122 meditations on systems, language, and craft. When a meditation says it better than prose can, use it. Use sparingly: one well-placed quote sharpens; two or more decorates.
 
@@ -235,6 +251,13 @@ Do not proceed.
 - Edit what was flagged and stop. Consequences,
   transitions, and flow adjustments belong to the
   next mob pass.
+- **Turn.md prose has high fidelity.** Items in
+  turn.md lists are preserved verbatim. Phrasing is
+  preserved unless the directive grants explicit
+  substitution license. Voice-rewriting does not
+  apply to author prose in turn.md. See "Turn.md
+  prose fidelity — inviolable" above for the
+  protocol and test.
 
 ### Change manifest
 

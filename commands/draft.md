@@ -23,7 +23,7 @@ The drafter operates at two levels: analytical instructions that tell it what to
 
 Context sections:
 
-- `corpus/voice-samples.md` — carries its own output-register declaration
+- `context-bank/voice-samples.md` — carries its own output-register declaration
 - Drafter forte spec and talents from "Draws on" (section-filtered per spec) — each carries its own instruction-register declaration
 - `game.md` — to forte-baseline marker only
 - `caper.md` — durable intent and decisions
@@ -38,8 +38,8 @@ Load voice-samples.md last, immediately before the generation prompt, so the out
 
 **For the voice-guardian (evaluative):**
 
-- `corpus/voice-samples.md` — for gestalt comparison
-- `corpus/writers-voice.md` — analytical markers
+- `context-bank/voice-samples.md` — for gestalt comparison
+- `context-bank/writers-voice.md` — analytical markers
 - Voice-guardian forte spec and all talents from its "Draws on" section
 - `artefacts/prior-articles.md` — corpus context
 - `learnings.md` — patterns
