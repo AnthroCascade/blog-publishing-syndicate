@@ -1,13 +1,5 @@
 # Distribution
 
-## Domain
-
-How different platforms receive, surface, and reward content. Platform-specific audiences, norms, and format constraints. What makes an article welcome somewhere versus unwanted noise.
-
-## Optimises for
-
-Genuine fit between article and platform audience. The question is not "where can I post this?" but "where does this article serve readers who didn't know they needed it?"
-
 ## Platform profiles
 
 ### Twitter/X
@@ -66,29 +58,9 @@ Genuine fit between article and platform audience. The question is not "where ca
 - **Fails when:** Generic "new post!" announcements, duplicating the article's intro, treating Notes as a broadcast channel
 - **Norms:** Readers expect the author's voice, not a marketing voice. Notes that add something the article doesn't — context, a question, an aside — outperform bare links.
 
-## Matching logic
+## Matching criteria
 
-An article belongs on a platform when:
-
-- The article's core argument genuinely serves that platform's audience
+- The article's core argument serves that platform's audience
 - The article's technical depth matches the platform's expected level
-- The article's framing can be represented honestly in the platform's format
-- The author can engage authentically with that platform's community
-
-Skip a platform when:
-
-- Posting requires oversimplifying the argument to fit
-- The platform's audience has no reason to care about the topic
-- The author would need to adopt a persona foreign to their voice
-- The only reason to post is "more eyeballs"
-
-## Distribution discipline
-
-- Selective placement: post where the fit is genuine
-- Argument at full strength: the promotional text represents the article's nuance
-- Platform-native tone: each platform has its own register
-- Community participation proportional to promotional activity
-- Fresh composition per platform — the text is written for that audience
-- Genuine connection over metrics
-- Every post gives the reader a reason — substance, not announcement
-
+- The article's framing can be represented honestly in the platform's format constraints
+- The author can engage with that platform's community in their own voice

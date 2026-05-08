@@ -1,21 +1,5 @@
 # Research
 
-## Domain
-
-Finding, gathering, and organising information from sources.
-
-## Optimises for
-
-Completeness and relevance. The right material, in usable form, before it's needed.
-
-## Research modes
-
-- **Exploratory:** What exists on this topic? Cast wide.
-- **Targeted:** Find specific information. Go deep.
-- **Adversarial:** What contradicts the thesis? Seek disconfirmation.
-
-Know which mode you're in. They require different approaches.
-
 ## Source hierarchy
 
 1. Primary sources (original documents, data, direct quotes)
@@ -24,14 +8,6 @@ Know which mode you're in. They require different approaches.
 4. Quality journalism (bylined, editorial standards)
 5. Secondary aggregation (Wikipedia, summaries — starting points only)
 
-## Gathering patterns
-
-- Follow citations backward to origins
-- Check who cites this source forward
-- Look for disagreement, not just confirmation
-- Note publication dates — recency matters differently by field
-- Distinguish data from interpretation of data
-
 ## Organisation outputs
 
 - Source log: what, where, when accessed, key claims
@@ -39,18 +15,9 @@ Know which mode you're in. They require different approaches.
 - Gap list: what's still needed
 - Conflict log: sources that disagree
 
-## Research discipline
-
-- Keep searching past the first confirming result
-- Quality is assessed, not assumed from ranking
-- Read fully before summarising
-- Provenance travels with every claim (where did this come from?)
-- Extract content from every source — links alone are hoarding
-
 ## Requires
 
 - web-search: find sources across the web
 - web-fetch: retrieve and read source content
 
 Fortes drawing on research inherit these requirements. Environment must provide.
-
