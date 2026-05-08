@@ -1,6 +1,6 @@
 # pick
 
-Draft a short post from a ripe caper. No mob. No fortes. One claim, author's voice, direct drafting. This is for LinkedIn posts and short Substack pieces — fast, light, and done in one pass. If it needs a mob, it's not a short post.
+Draft a short post from a ripe caper. No mob, no fortes. One claim, author's voice, direct drafting. LinkedIn posts and short Substack pieces — one pass.
 
 ## Fortes
 

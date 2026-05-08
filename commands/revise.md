@@ -30,23 +30,23 @@ Before the drafter fires, load:
 
 ## Procedure
 
-1. **The orchestrator does not triage.** The orchestrator loads context and passes it through. It does not classify findings as actionable or author-decision-needed. That classification is orchestrator judgment about author intent — and it is wrong often enough to be a process failure. The author's decisions are in turn.md. The forte findings are in the evaluation files. Both go to the drafter.
+1. **The orchestrator does not triage.** Load context and pass it through. The author's decisions are in turn.md. The forte findings are in the evaluation files. Both go to the drafter.
 
 2. **Fire drafter in revise mode.** The drafter receives: its forte spec, talents, the draft, caper.md contents (inline), turn.md contents (inline, if exists), all evaluation files, research.md, prior-articles (if exists), learnings (if exists). The drafter applies turn.md decisions (already decided), applies unambiguous fixes from evaluations, and reports anything it could not resolve. Findings that conflict with turn.md or caper.md intent follow the author's stated intent.
 
 3. **Clear stale evaluations.** After writing the revised draft, clear `artefacts/evaluations/`. The findings have been consumed.
 
-4. **Leave turn.md in place.** Do not delete turn.md after consumption. It persists for author review and is overwritten only when a new directive is written. See `coordination/turn-taking.md` → "turn.md write discipline."
+4. **Leave turn.md in place.** Do not delete turn.md after consumption. It persists for author review and is overwritten only when a new directive is written. See `syndicates/coordination/patterns/turn-taking.md` → "turn.md write discipline."
 
-5. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), voice-craft talent, cognition-sensing talent, editorial talent, the revised draft (inline — returns amended text), prior-articles path, learnings path. It runs its evaluation protocol, applies surgical fixes, returns amended text, a change manifest, and unresolved flags.
+5. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), all talents from its "Draws on" section, the revised draft (inline — returns amended text), prior-articles path, learnings path. It runs its evaluation protocol, applies surgical fixes, returns amended text, a change manifest, and unresolved flags.
 
 6. **Write outputs.** Amended draft text replaces the revision at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`.
 
 7. **Decision promotion.** If the drafter's change summary shows findings that were overridden by turn.md or caper.md intent, check whether the override represents a durable decision not yet in caper.md. If so, ask the author: "Should this go in caper.md so fortes receive it in future passes?" If yes, append to caper.md. This prevents the same decision being re-fought across evaluation passes.
 
-8. **Present to author.** In the author's register — no forte jargon untranslated. See `coordination/orchestrator-governance.md` → "Author register" and "Actionability." Report:
+8. **Present to author.** In the author's register — no forte jargon untranslated. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`. Report:
 
-   1. **What the drafter changed**, grouped by which forte's finding drove each change. In plain terms — say what was edited and to what.
+   1. **What the drafter changed**, grouped by article-purpose impact (Strengthens / Protects / Neutral) per the caper-aligned-findings talent. Name the caper anchor for each change so the author sees how it serves the caper's stated intent. In plain terms — say what was edited and to what.
    2. **Which of the author's turn.md decisions were executed**, so the author can see their directives landed.
    3. **Findings the drafter could not resolve**, with the specific conflict (turn.md vs finding, or ambiguous fix).
    4. **Decisions promoted to caper.md**, if any — what moved from ephemeral turn.md to durable caper.md and why.

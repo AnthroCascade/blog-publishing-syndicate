@@ -1,6 +1,6 @@
 # protect
 
-Standalone protector invocation. Tests whether evaluation findings would improve the draft or just make it different. The protector walks every finding in every evaluation file and runs six tests. Use this after any evaluation command when evaluation files exist and you want a quality gate on the findings before acting on them.
+Standalone protector invocation. The protector walks every finding in every evaluation file and runs six tests. Use after any evaluation command when evaluation files exist.
 
 ## Fortes
 

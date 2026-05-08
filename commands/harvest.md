@@ -1,6 +1,6 @@
 # harvest
 
-Survey all unfinished capers and present what each asks of the author, so they can feel which one to pick. This is recognition, not ranking. A backlog ranks by priority. A garden reports on ripeness. The author recognises which ideas have ripened — which ones they've internalised enough that their voice can carry them.
+Survey all unfinished capers and present what each asks of the author. Classify by readiness, present grouped by readiness category. The author chooses.
 
 ## Fortes
 
@@ -14,7 +14,7 @@ Single-agent. The harvest forte fires once with the full caper inventory.
 
 ## Context requirements
 
-Before the harvest forte fires, load:
+Before the harvest forte fires, read:
 
 - `game.md` — corpus state, existing articles, process learnings
 - Every `capers/*/caper.md` — all unfinished capers
@@ -27,11 +27,11 @@ Before the harvest forte fires, load:
 
 2. **Inventory artefacts.** For each caper, check which artefacts are present: status, research.md, draft.md, evaluation files, code-evidence.md, prior-articles.md, etc.
 
-3. **Fire harvest forte.** Pass the caper inventory and corpus context to the harvest forte. The forte applies its readiness taxonomy and author-diagnostic protocol. It classifies each caper by readiness category — not importance.
+3. **Fire harvest forte.** Pass the caper inventory and corpus context to the harvest forte. The forte applies its readiness taxonomy and author-diagnostic protocol. It classifies each caper by readiness category.
 
 4. **Present the garden.** Capers grouped by readiness category. For each caper: title and one-line angle, what exists (artefacts present), what the caper asks of the author.
 
-5. **Note inter-caper connections.** After presenting the garden, note connections between capers that might inform the author's choice — e.g. "007 and 009 share findings and could inform each other" or "006 would update the corpus state that 011 depends on." Do not recommend which caper to work on.
+5. **Note inter-caper connections.** After presenting the garden, note connections between capers that might inform the author's choice — e.g. "007 and 009 share findings and could inform each other" or "006 would update the corpus state that 011 depends on."
 
 ## Output
 
@@ -40,7 +40,3 @@ No files written. Harvest is a read-only survey presented to the author.
 ## Settlement condition
 
 All unfinished capers presented. Readiness categories assigned. Inter-caper connections noted. Author has the information to choose.
-
-## Boundary
-
-Read-only survey. Presents readiness, not ranking. Author chooses. Does not modify any caper files or artefacts.

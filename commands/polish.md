@@ -1,6 +1,6 @@
 # polish
 
-Evaluate voice consistency and cognitive presence. Two content fortes execute independently, then human (asynchronous), then protector and interrogator (sequential). This is the polish phase — it tests whether the draft sounds like the author and whether cognitive presence is confirmed (not AI default patterns).
+Evaluate voice consistency and cognitive presence. Two content fortes independently, then human (asynchronous), then protector and interrogator (sequential).
 
 ## Fortes
 
@@ -41,19 +41,23 @@ Before fortes fire, load:
 
 6. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity. Add to `completed`.
 
-7. **Present to author.** In the author's register — no forte jargon untranslated. See `coordination/orchestrator-governance.md` → "Author register" and "Actionability." Report:
+7. **Present to author.** In the author's register — no forte jargon untranslated. Group findings by article-purpose impact, not by forte. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`.
 
-   1. **Which fortes fired** (voice-guardian, cognition-sensor, human, protector, interrogator). Any skipped and why.
-   2. **Key findings from each, in plain terms.** For voice-guardian: which phrases read as AI drift. For cognition-sensor: whether a person is present in the prose, and where presence thins. Name specific passages.
-   3. **Findings the interrogator marked shallow**, with the reason.
-   4. **Findings the protector argued against.** Ground stated.
-   5. **Evaluation file locations.** The forte files are the evaluation.
-   6. **The resolution path, named as the default.**
+   The forte findings include Caper anchor and Article-purpose impact fields. Group by those impact fields:
+
+   1. **What the article needs to land its central claim.** Findings tagged Strengthens or Required-for-purpose.
+   2. **What protects the work already done.** Findings tagged Protects (voice, register, accuracy).
+   3. **What's mechanical.** Findings tagged Neutral.
+   4. **Where the call belongs to the author.** Findings the protector flagged for author decision; converging findings with different anchors.
+   5. **Findings the interrogator marked shallow**, briefly.
+   6. **Findings the protector argued against**, briefly.
+   7. **Which fortes fired** (voice-guardian, cognition-sensor, human, protector, interrogator) and where the evaluation files live.
+   8. **The resolution path, named as the default.**
       - **Skill path:** write decisions into `turn.md`, fire `/revise <caper>`. This overwrites `draft.md` with decisions and findings applied, clears evaluations (consumed), preserves turn.md and research, reversible via git.
       - **Manual path:** edit `draft.md` directly in the IDE.
-   7. **What happens if the author does nothing.** Evaluations stay on disk and will be cleared by the next `/revise` or `/draft`.
+   9. **What happens if the author does nothing.** Evaluations stay on disk and will be cleared by the next `/revise` or `/draft`.
 
-   Not a menu. `/revise` is the default next step; name it as such.
+   `/revise` is the default next step.
 
 8. **Capture learnings.** Note any patterns observed.
 

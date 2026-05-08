@@ -1,6 +1,6 @@
 # verify
 
-External fact-checking against primary sources via web search. This is different from the research phase. Research verifies claims against research.md. Verify checks claims against the actual published sources — URLs, DOIs, publication venues. It runs on a near-final draft when the article is close to publication.
+External fact-checking against primary sources via web search. Verify checks claims against actual published sources — URLs, DOIs, publication venues. Runs on a near-final draft.
 
 ## Fortes
 

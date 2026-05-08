@@ -1,6 +1,6 @@
 # prospect
 
-Scan the web for recent articles that connect to the existing corpus, propose angles, and set up capers with findings. This is outward-facing landscape scanning — it finds material the author hasn't seen yet and shows how it connects to positions already staked.
+Scan the web for recent articles that connect to the existing corpus, propose angles, and set up capers with findings.
 
 ## Fortes
 

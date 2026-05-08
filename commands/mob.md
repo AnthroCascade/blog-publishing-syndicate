@@ -1,6 +1,6 @@
 # mob
 
-Full evaluative pass against a draft. Fires all 7 content fortes in parallel, then human (asynchronous), then protector and interrogator (sequential). Use this when phase boundaries are unclear or the author wants a complete assessment. Phase-specific commands (`/structure`, `/polish`, `/research`, `/verify`) are the norm — `/mob` is the exception.
+Full evaluative pass against a draft. All 7 content fortes in parallel, then human (asynchronous), then protector and interrogator (sequential). Phase-specific commands (`/structure`, `/polish`, `/research`, `/verify`) are the norm; `/mob` is the exception.
 
 ## Fortes
 
@@ -17,11 +17,15 @@ Full evaluative pass against a draft. Fires all 7 content fortes in parallel, th
 | 3 (sequential) | protector | evaluate | all content forte evaluation files |
 | 4 (sequential) | interrogator | evaluate | all evaluation files including protector |
 
-No forte receives another forte's spec or output. Each fires independently against the draft.
+Each forte receives another forte's spec or output.
 
 ## Coordination pattern
 
 Independent evaluation, then async human, then sequential tail. Content fortes fire in parallel (one Agent call per forte, all dispatched in one message in Claude Code; concurrent API calls in in-concert). After they complete, the human forte fires asynchronously — the orchestrator pauses for the author, who fills or skips. Then the protector fires in its own Agent call and walks every finding. Then the interrogator fires in its own Agent call and tests all evaluation files for grounding, specificity, variance, and cross-forte similarity.
+
+## Artefact mapping
+
+- the file fortes evaluate: `artefacts/draft.md`
 
 ## Context requirements
 
@@ -29,12 +33,13 @@ Before fortes fire, load:
 
 - `caper.md` — durable intent and decisions
 - `turn.md` (if exists) — current pass instructions
-- `artefacts/draft.md` — the draft being evaluated
+- The resolved primary output — the content being evaluated
 - `artefacts/research.md` — source material (confirm existence)
 - `artefacts/prior-articles.md` — corpus context (confirm existence)
 - `game.md` — baseline context for every evaluative forte
 - `syndicate.md` — syndicate definitions
 - `learnings.md` — patterns and forte refinements
+- The syndicate's artefact format section
 - Each forte's spec and all talents listed in its "Draws on" section
 
 ## Procedure
@@ -43,31 +48,36 @@ Before fortes fire, load:
 
 2. **Forte selection.** The author may specify which fortes to fire. If no fortes are specified, all 7 content fortes fire. If specific forte names are given, fire only those — skip the rest. Invalid forte names are an error; stop and report.
 
-3. **Clear stale evaluations.** Clear `artefacts/evaluations/` before firing. Evaluations from a prior pass are stale.
+3. **Clear stale evaluations.** Clear `artefacts/evaluations/` before firing.
 
-4. **Execute content fortes independently.** Each forte receives: its own spec, its resolved talents, the shared context bundle (draft, caper.md, turn.md, game.md, research.md, learnings.md), and any forte-specific additions per the table above. No forte receives another forte's spec or output. After each forte writes, add it to `completed` in the plan.
+4. **Execute content fortes independently.** Each forte receives: its own spec, its resolved talents, the shared context bundle, and any forte-specific additions per the table above. After each forte writes, add it to `completed` in the plan.
 
-5. **Human forte.** Present findings to the author. The author fills their evaluation or skips. This is asynchronous — the process pauses.
+5. **Human forte.** Present findings to the author. The author fills their evaluation or skips.
 
 6. **Protector.** Reads all content forte evaluation files and the human evaluation. Tests each finding against six failure modes: echo convergence, lurching, phantom problems, overcorrection, faustian regression, scope extension. Add to `completed`.
 
 7. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity. Add to `completed`.
 
-8. **Present to author.** In the author's register — no forte jargon untranslated. See `coordination/orchestrator-governance.md` → "Author register" and "Actionability." Report:
+8. **Translate before presenting.** Before the synthesis is shown to the author, rewrite in plain language per `syndicates/coordination/talents/author-register.md` (hard gate). Forte names themselves may appear once in a "which fortes fired" footer; nowhere else. Section labels in the synthesis describe what the *article* needs, not which forte said what.
 
-   1. **Which fortes fired**, as a short list. Which were skipped and why.
-   2. **Key findings, grouped by forte**, in plain terms. For each forte: one or two lines on what it found, with the specific phrase or passage named. Do not paraphrase findings into a synthesis — direct to the file when detail matters.
-   3. **Findings the interrogator marked shallow.** State which ones and what the interrogator said. The author decides whether to discount.
-   4. **Findings the protector argued against.** State which and on which grounds. Author decides whether the protector is right.
-   5. **Evaluation file locations** for the author to read directly. The forte files are the evaluation — not a synthesis.
-   6. **The resolution path, named as the default.**
-      - **Skill path:** write decisions into `turn.md`, fire `/revise <caper>`. This overwrites `draft.md` with decisions and findings applied, clears evaluations (they have been consumed), preserves turn.md and research, reversible via git.
-      - **Manual path:** edit `draft.md` directly, or work through specific findings phase-by-phase with `/structure <caper>` or `/polish <caper>` to re-scope.
-   7. **What happens if the author does nothing.** Evaluations remain on disk as current context for the next generative command. They will be cleared the next time `/revise` or `/draft` fires against this caper.
+9. **Present to author.** In the author's register. Group by what the article needs, not by which forte said what. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`.
 
-   Not a menu. Name `/revise` as the default resolution for a mob pass unless the author has reason to do otherwise.
+   Report in this order:
 
-9. **Capture learnings.** Note any patterns observed during evaluation.
+   1. **What the article needs to land its central claim.** Lead here. Name the central claim from caper.md in plain language. For each finding, name the passage and explain how the fix serves the caper's stated intent.
+   2. **What protects the work already done.** Voice and accuracy housekeeping the author can take or defer.
+   3. **What's mechanical.** Typos, formatting, source cleanup. One line each.
+   4. **Where the call belongs to the author.** Trade-offs flagged by the mob, named in the article's own terms — what it gains and loses with each path.
+   5. **Findings to discount.** Anything the meta-evaluation marked shallow or argued against. Brief — author can override.
+   6. **Which fortes fired** and where the evaluation files live (paths for direct reading when detail matters). One line.
+   7. **The resolution path, named as the default.**
+      - **Skill path:** write decisions into `turn.md`, fire `/revise <caper>`. This overwrites the primary output with decisions and findings applied, clears evaluations (they have been consumed), preserves turn.md and research, reversible via git.
+      - **Manual path:** edit the primary output directly, or work through specific findings phase-by-phase with `/structure <caper>` or `/polish <caper>` to re-scope.
+   8. **What happens if the author does nothing.** Evaluations remain on disk as current context for the next generative command. They will be cleared the next time `/revise` or `/draft` fires against this caper.
+
+   Lead with the article's stated purpose. End with the resolution path that serves it. `/revise` is the default resolution for a mob pass.
+
+10. **Capture learnings.** Note any patterns observed during evaluation.
 
 ## Output
 
@@ -88,6 +98,6 @@ All engaged forte evaluation files are written. Protector attacks are filed. Int
 
 ## Boundary
 
-Delegates all evaluation to fortes. Delegates all prose to `draft`. The forte files are the evaluation — no synthesis files. Author decides; orchestrator executes. With forte selection, `mob` with specific fortes is equivalent to the corresponding phase command. Phase-specific invocations are the norm; `mob` is the exception.
+Delegates all evaluation to fortes. Delegates all prose to `draft`. Author decides; orchestrator executes.
 
 Does not clear turn.md — turn.md survives evaluation passes and is cleared by the next generative command (/revise or /draft) that executes the directive.

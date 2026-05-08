@@ -15,6 +15,7 @@
 - promotion-crafter — crafts platform-specific promotion for published articles
 - pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
 - prospect — corpus-aware landscape scanning, angle synthesis and ranking
+- reader-proxy — models the target reader's experience through the draft: where they check out, push back, nod, or get confused
 - harvest — readiness detection, author-diagnostic assessment of unfinished capers
 
 ## The default is the enemy
@@ -82,6 +83,18 @@ evaluation depth. Both consume peer artefacts and
 produce governance assessments. They govern by
 participating, not by presiding.
 
+## Artefact format
+
+### Primary generative output
+
+- `artefacts/draft.md` — the article. Single file. Full prose.
+
+### Supporting artefacts
+
+- `artefacts/research.md` — source material
+- `artefacts/prior-articles.md` — corpus context
+- `artefacts/evaluations/` — forte evaluation files
+
 ## Coordination
 
 Not prescribed. Game or caper chooses. Turn-taking
@@ -146,6 +159,7 @@ emphasis by choosing which phase to invoke.
 | Draft | drafter | Author accepts or enters evaluation |
 | Structure | structural-thinker, thesis-sharpener, continuity-thinker | Argument builds, concept ownership clear, no structural circling |
 | Polish | voice-guardian, cognition-sensor | Voice clean, cognitive presence confirmed |
+| Reception | reader-proxy | Reader experience mapped, resistance points identified |
 | Verify | fact-checker (web search against primary sources) | All claims verified externally |
 | Promote | promotion-crafter | Platform texts generated, strategy approved by author |
 
@@ -180,6 +194,7 @@ default coordination pattern; the game can override.
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
 | revise | Draft (correction) | drafter | single-agent | Corrections applied |
 | finalize | Pre-Promote | (none — deterministic) | script | `smart-quotes.py --check` exits 0 |
+| reception | Reception | reader-proxy → human → protector | single then async then sequential | Reader reception mapped, protector attacks filed |
 | promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
 
 `/voice-pass` is the only iterative command. The
@@ -212,6 +227,15 @@ These operate before the mob engages.
 | prospect | Prospect | prospect | Scans web for corpus-connected articles, ranks angles, sets up capers with findings |
 | harvest | Harvest | harvest | Surveys unfinished capers, presents readiness (not priority), author recognises what's ripe |
 | weigh | Weigh | pragmatic-sceptic | Tests idea viability. Quick (Level 1) or research-informed (Level 2 with `deep` flag). Verdict: proceed, compost, re-vehicle, kill |
+| pick | Pick | (none — orchestrator drafts) | Draft a short post from a ripe caper. No mob, no fortes, one pass. For LinkedIn posts and short Substack pieces |
+
+### Standalone commands
+
+These can fire independently outside the normal workflow sequence.
+
+| Command | Fortes | What it does |
+|---------|--------|--------------|
+| protect | protector | Standalone protector invocation. Tests whether evaluation findings would improve the draft or just make it different. Quality gate on findings before acting on them. |
 
 ### Meta commands
 
@@ -248,6 +272,9 @@ phase, and the fortes within it fire.
   argument emerges
 - continuity-thinker: structure phase, during
   framing and when structure forms
+- reader-proxy: reception phase, after structure and
+  polish settle. When the author wants to test how
+  the piece lands with its target audience
 - promotion-crafter: post-verify, when article is
   near-publishable or published
 - pragmatic-sceptic: between harvest and research,
@@ -258,10 +285,10 @@ phase, and the fortes within it fire.
 - human: fires after content fortes, before
   protector. Asynchronous — orchestrator pauses for
   the author. May be skipped on any pass
-- protector: fires after content fortes and human
-  forte in every evaluation command (/mob,
-  /structure, /polish). Not phase-specific —
-  wherever evaluative fortes fire, the protector
-  follows
+- protector: (coordination syndicate) fires after
+  content fortes and human forte in every evaluation
+  command (/mob, /structure, /polish). Not
+  phase-specific — wherever evaluative fortes fire,
+  the protector follows
 - harvest: on demand, when the author surveys
   unfinished capers. Not phase-linked

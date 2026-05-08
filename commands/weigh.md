@@ -1,6 +1,6 @@
 # weigh
 
-Test whether a caper idea can survive investment before committing research or drafting effort. The pragmatic-sceptic forte provides adversarial assessment — opinion, not helpfulness. Two levels: Level 1 (quick, works from what exists) and Level 2 (research-informed, adds landscape scanning and counterargument testing).
+Test whether a caper idea can survive investment before committing research or drafting effort. Two levels: Level 1 (quick, works from what exists) and Level 2 (research-informed, adds landscape scanning and counterargument testing).
 
 ## Fortes
 

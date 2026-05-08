@@ -35,7 +35,7 @@ Before the voice-guardian fires, load:
 
 4. **Fire voice-guardian again (passes 2–3).** Same as pass 1, but against the amended draft from the previous pass.
 
-5. **Lurching detection.** If the voice-guardian is still finding violations at pass 3, the remaining findings go to the evaluation file as unresolved. Three passes that don't converge means the fixes are lurching — each correction reacting to the previous one — and the author needs to intervene.
+5. **Lurching detection.** If the voice-guardian is still finding violations at pass 3, remaining findings go to the evaluation file as unresolved.
 
 6. **Fire protector.** After the loop exits, the protector fires once. It reads all evaluation output and tests whether the cumulative fixes degraded other qualities.
 

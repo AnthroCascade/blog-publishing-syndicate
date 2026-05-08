@@ -70,6 +70,15 @@ pauses for the author. May be skipped on any pass.
 The protector fires last, testing whether findings
 would improve the draft or just make it different.
 
+## Reception (how does the reader receive it?)
+
+| Skill | What it does | Fortes | Talents |
+|---|---|---|---|
+| `/reception` | Models the target reader's experience — where they check out, push back, nod, or get confused | reader-proxy → human → protector | reader-empathy, influence, critical-stance, editorial, evaluation-failure-patterns |
+
+Settles when: reader reception mapped, resistance points
+identified, opening contract and takeaway assessed.
+
 ## Promotion (get it out there)
 
 | Skill | What it does | Fortes | Talents |
@@ -113,6 +122,7 @@ Neither modifies specs without author approval.
     |
 /structure caper "..."          focused structural check
 /polish caper "..."             voice and cognition check
+/reception caper "..."          reader reception check
     |
     (repeat as needed)
     |
@@ -152,6 +162,7 @@ paths at `talents/[name].md` from the syndicate root.
 | promotion-crafter | Platform-specific promotion for published articles | distribution, voice-craft, serial-publication, critical-stance |
 | pragmatic-sceptic | Tests whether an idea can survive investment | critical-stance, editorial |
 | prospect | Corpus-aware landscape scanning and angle synthesis | serial-publication, editorial, critical-stance |
+| reader-proxy | Models the target reader's experience through the draft. Reception, not production quality | reader-empathy, influence, critical-stance, editorial |
 | harvest | Readiness detection of unfinished capers | serial-publication, critical-stance |
 
 ### Coordination fortes (used by meta commands)
@@ -165,7 +176,7 @@ paths at `talents/[name].md` from the syndicate root.
 
 ## Talents
 
-9 talent files at `talents/`. Each is domain knowledge
+10 talent files at `talents/`. Each is domain knowledge
 that fortes draw on -- not agents, not evaluators,
 just knowledge.
 
@@ -179,6 +190,7 @@ just knowledge.
 | verification | Claim checking, source validation | fact-checker, research-assembler |
 | serial-publication | Corpus positioning, series continuity | continuity-thinker, promotion-crafter, prospect, harvest |
 | distribution | Platform mechanics, promotional strategy | promotion-crafter |
+| reader-empathy | How readers process, resist, and respond to arguments. Attention economics, resistance patterns, register fit | reader-proxy |
 | evaluation-failure-patterns | How evaluative mobs fail: groupthink, lurching, cosmetic fixes | protector |
 
 ## Coordination pattern
