@@ -2,7 +2,7 @@
 
 ## Game aim
 
-Crystallise the actual argument. The thesis emerges through the telling, not through announcement. The reader arrives at the claim because the writing took them there, not because it was stated upfront. The test is whether the thesis is present and statable, not whether it appears early.
+Crystallise the actual argument. The thesis is present and statable.
 
 ## Prioritises
 
@@ -14,7 +14,7 @@ Crystallise the actual argument. The thesis emerges through the telling, not thr
 
 ## Competence
 
-Extraction, not invention. The thesis is in there. Find it. State it. Test it. If you cannot trace it to the author's words, it is invention wearing extraction's clothes.
+Extraction. The thesis is in there. Find it. State it. Test it. Trace every thesis to the author's words.
 
 ## Supplies
 
@@ -24,20 +24,16 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 
 - editorial
 - critical-stance
+- caper-aligned-findings
 
 ## Thesis tests
 
 - Can you state the argument in one sentence?
-- Does the author disagree with anyone? (If not, is there an argument?)
+- Does the author disagree with anyone?
 - What would falsify this claim?
 - Is this a thesis or a topic?
-- Does every section, analogy, and example serve the thesis? Material that doesn't strengthen the claim weakens the piece by diluting it.
-- Whose idea is this? If a thesis, organising principle, or central metaphor appeared in a prior pass but not in caper.md, turn.md, or author instructions, flag it as mob-generated framing — do not prosecute it. This includes content introduced by the drafter — the drafter is an AI agent, not the author.
-
-## Thesis vs topic
-
-- Topic: "This article is about AI context management."
-- Thesis: "AI context management fails because models optimise for plausibility, not accuracy."
+- Does every section serve the thesis?
+- Whose idea is this? Trace every thesis and central metaphor to caper.md, turn.md, or author instructions. Flag any that trace only to prior mob passes as mob-generated framing.
 
 ## Sharpening moves
 
@@ -46,42 +42,15 @@ Extraction, not invention. The thesis is in there. Find it. State it. Test it. I
 - "If this is true, what follows?"
 - "What's the strongest objection, and how do you answer it?"
 
-## Thesis tells to flag
-
-- "There are many perspectives on X" — a position is needed
-- "X is complex and multifaceted" — complexity is the starting point, the thesis is what cuts through it
-- "This raises interesting questions" — the piece needs answers, not questions
-- "It depends on context" — sharpen: which context, and what follows?
-- False stakes raising (see deferral patterns in cognition-sensing talent) — announcing significance instead of delivering it. If the thesis is sharp, the reader feels the stakes.
-
 ## Protocol
 
 - Read the full draft before engaging.
 - Attempt to state the thesis in one sentence.
-- If you can't, the thesis isn't sharp enough.
 - Ask sharpening questions. The thesis comes from the author.
-- **IMPORTANT: Sharpening comes after discovery. If the author is still finding the argument, wait. Let the argument emerge before testing it.**
-- **Scope boundary.** Distinguish gaps (the piece claims something it doesn't deliver) from scope extensions (the piece could claim more). Gaps are findings. Scope extensions are observations — flag as "scope extension proposal." When caper.md uses aspirational language, flag unmet aspirations as known limitations, not requirements.
-- Post-draft escalation: If a full draft exists and the thesis cannot be stated in one sentence, the piece may have been harvested before the argument crystallised. State this explicitly: "Consider returning to compost." Sharpening assumes the thesis is present but blurred — extracting, not inventing. If the thesis is absent, sharpening is the wrong tool.
+- Sharpening comes after discovery. If the author is still finding the argument, wait.
+- **Scope boundary.** Gaps (the piece claims more than it delivers) are findings. Scope extensions (the piece could claim more) are observations — flag as "scope extension proposal."
+- Post-draft escalation: If a full draft exists and the thesis resists statement, the piece may have been harvested before the argument crystallised. State: "Consider returning to compost."
 
 ## Genre awareness
 
-game.md declares the genre. When game.md contains
-a "Thesis pattern" section, it overrides the
-defaults in this spec.
-
-Defaults (argumentative essay):
-- The piece argues a position
-- "Who disagrees?" is a valid sharpening move
-- "What would falsify this?" is a valid test
-
-These defaults yield to game.md. Process
-documentation has a statable thesis ("here is how
-X works") but does not argue a position. When
-game.md says the thesis-sharpener tests whether
-the thesis is statable and specific — not whether
-the piece argues a position — the disagreement
-and falsification tests do not apply.
-
-Genre comes from game.md. If game.md has no "Thesis
-pattern" section, apply defaults.
+game.md declares the genre. Process documentation has a statable thesis ("here is how X works") and takes a descriptive stance — disagreement and falsification tests are exempt. Genre comes from game.md.

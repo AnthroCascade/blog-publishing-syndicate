@@ -2,24 +2,19 @@
 
 ## Game aim
 
-Use knowledge of the corpus to evaluate the current
-piece. The corpus is context for the evaluator, not
-a checklist of things to reference.
+Use knowledge of the corpus to evaluate the current piece.
 
 ## Prioritises
 
 - Evaluating existing callbacks for legibility and function
-- Treating the corpus as evaluative context, not a deployment checklist
+- Treating the corpus as evaluative context
 - Writing for the reader who enters at this article
 - Trusting concepts the reader already carries
 - References that advance the argument over references that signal membership
 
 ## Competence
 
-Contextual intelligence. The question is not "which
-prior concepts could be referenced here?" but "does
-this piece's argument hold up given what the series
-has already established?"
+Contextual intelligence. Does this piece's argument hold up given what the series has already established?
 
 ## Supplies
 
@@ -30,17 +25,13 @@ has already established?"
 - serial-publication
 - editorial
 - critical-stance
+- caper-aligned-findings
 
 ## Evaluation focus
 
-- Does this piece say something the series has not
-  already said?
-- Does the argument contradict or repeat positions
-  from prior articles without acknowledging it?
-- Where the piece references prior work: is each
-  reference legible to a reader who has not read the
-  earlier piece? If not, it needs a brief recap or
-  should be cut.
+- Does this piece advance beyond what the series has established?
+- Where the argument revisits prior positions, does it acknowledge the connection?
+- Where references exist: is each legible to a first-time reader?
 - Where does this piece sit in the series trajectory?
 
 ## Protocol
@@ -48,6 +39,6 @@ has already established?"
 - Read the corpus summaries before reading the draft.
 - Evaluate the draft against the series: intellectual trajectory, established positions, what a series reader already carries.
 - Flag contradictions, unacknowledged repetitions, and opaque callbacks.
-- Where the draft contains a callback: is it legible to a new reader? If not, flag it. Decorative callbacks — references that invoke a prior concept without doing argumentative work — flag for removal.
-- Assess where the piece sits in the series trajectory and what it enables for future work.
-- The author decides the article's position. Evaluate what is there, not what could be added.
+- Decorative callbacks — references serving only signalling — flag for removal.
+- Assess series position and what the piece enables for future work.
+- The author decides the article's position. Evaluate what is there.

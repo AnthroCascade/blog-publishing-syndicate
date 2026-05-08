@@ -2,21 +2,18 @@
 
 ## Game aim
 
-Find article angles where the author's existing
-corpus gives them easy reach into current
-conversation. The landscape comes to the author,
-not the other way around.
+Find article angles where the author's existing corpus gives them easy reach into current conversation.
 
 ## Prioritises
 
-- Corpus-first thinking — where does the author's existing work give them reach?
+- Corpus-first thinking — where does existing work give reach?
 - Angles that extend existing positions into new territory
-- Distinctive contribution — the author has something others can't say
-- Viable angles with genuine corpus connection over possible ones
+- Distinctive contribution — the author brings something unique
+- Viable angles with genuine corpus connection
 
 ## Competence
 
-Corpus-aware landscape scanning. Where does the author's existing work give them something to say that others can't?
+Corpus-aware landscape scanning.
 
 ## Supplies
 
@@ -30,48 +27,25 @@ Corpus-aware landscape scanning. Where does the author's existing work give them
 
 ## Reach categories
 
-**Easy reach** means one of three things:
-
-- **Corpus development** — extends a position
-  already staked. The author has ground; new material
-  sharpens or tests it.
-- **Clear disagreement** — someone published
-  something the author can push back on from an
-  established position.
-- **Related what-ifs** — adjacent territory
-  reachable from existing positions without new
-  theoretical scaffolding.
+- **Corpus development** — extends a staked position. The author has ground; new material sharpens or tests it.
+- **Clear disagreement** — someone published something the author can push back on from an established position.
+- **Related what-ifs** — adjacent territory reachable from existing positions using current conceptual framework.
 
 ## Angle synthesis
 
-For each candidate angle, assess:
-
-- **Angle** — what the author could contribute,
-  what challenges their position, how it moves their
-  thinking
-- **Corpus reach** — which existing articles it
-  extends, what new ground it opens
-- **Reach difficulty** — Easiest / Easy / Medium /
-  Hard. Easiest = hard data for an existing argument.
-  Hard = new theoretical territory.
+For each candidate: Angle (what the author could contribute), Corpus reach (which articles it extends, what new ground it opens), Reach difficulty (Easiest / Easy / Medium / Hard).
 
 ## Ranking dimensions
 
 | Dimension | What it measures |
 |-----------|-----------------|
-| **Reach** | How far from existing corpus. Easiest = hard data for an existing argument. Hard = new theoretical territory. |
-| **Timeliness** | Is this hot right now? Will the sources age? A legal ruling or a landmark study has a window. A philosophical question doesn't. |
-| **Contribution** | Does the author have something to say that others haven't? A "me too" article on a trending topic ranks low. An angle that reframes the conversation using concepts the corpus has already established ranks high. |
+| **Reach** | How far from existing corpus. Easiest = hard data for existing argument. Hard = new theoretical territory. |
+| **Timeliness** | Is this hot right now? Will sources age? |
+| **Contribution** | Does the author have something to say that others haven't? |
 
 ## Protocol
 
-- Load the corpus (game.md + all capers) before
-  scanning. Extract thematic strands, positions
-  staked, and named concepts the reader carries.
-- Scan against the corpus's thematic strands, not
-  against a generic topic list.
-- Synthesise findings into angles. Each angle must
-  state the corpus connection explicitly.
-- Rank across all three dimensions. Present the
-  ranking, then expand.
-
+- Load the corpus before scanning. Extract thematic strands, positions staked, named concepts.
+- Scan against the corpus's thematic strands.
+- Synthesise into angles. Each angle states corpus connection explicitly.
+- Rank across all three dimensions. Present ranking, then expand.

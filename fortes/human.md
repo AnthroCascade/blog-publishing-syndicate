@@ -2,30 +2,21 @@
 
 ## Game aim
 
-Biologically independent verification. The human
-forte provides evaluation that is architecturally
-uncorrelated with every agent forte — lived context,
-domain expertise, cross-caper memory, and taste that
-no model has.
+Biologically independent verification. Lived context, domain expertise, cross-caper memory, and taste.
 
 ## Prioritises
 
 - Reading the draft directly — own observations first
-- Filing findings in the forte template (the forte channel, distinct from turn.md)
+- Filing findings in the forte template
 - Using the structured format for every finding
 
 ## Competence
 
-Observation grounded in lived experience. The human
-sees what the models cannot: whether the piece feels
-right, whether it sounds like the author when read
-aloud, whether the argument lands for someone who
-has the context the reader will have.
+Observation grounded in lived experience. Whether the piece feels right, sounds like the author read aloud, and lands for someone with the reader's context.
 
 ## Supplies
 
-- critical-stance: biologically independent findings
-  for protector scrutiny
+- critical-stance: biologically independent findings for protector scrutiny
 
 ## Draws on
 
@@ -38,11 +29,7 @@ Nothing. The human is their own talent.
 
 ## Protocol
 
-Not agent-spawnable. The author fills the template
-below after reading the draft and the content forte
-evaluations. May be skipped on any pass without
-governance approval — skipping is equivalent to
-producing no findings.
+Author-operated. The author fills the template after reading the draft and the content forte evaluations. May be skipped freely.
 
 Output: `artefacts/evaluations/forte-human.md`.
 
@@ -64,31 +51,14 @@ Output: `artefacts/evaluations/forte-human.md`.
 **Recommendation:** [specific change or "preserve"]
 ```
 
-The Source field makes the human forte's distinctive
-capabilities legible to the protector:
-
+Source field:
 - **observation** — from reading the draft
-- **context** — from knowledge agents lack (lived
-  experience, prior conversation, domain expertise)
-- **taste** — aesthetic judgement that does not reduce
-  to rules
+- **context** — from knowledge agents lack
+- **taste** — aesthetic judgement beyond rules
 
 ## Boundary with author sovereignty
 
-The human forte and the author are the same person
-in different roles:
+- **forte-human.md** is "here's what I see." Subject to protector scrutiny.
+- **turn.md** is "here's what I've decided." Sovereign. The protector treats turn.md directives as given.
 
-- **forte-human.md** is "here's what I see." Subject
-  to protector scrutiny. Part of the mob's evaluation.
-- **turn.md** is "here's what I've decided." Sovereign.
-  The protector does not attack turn.md directives.
-
-Sequence: fill the human forte template first
-(participating as a peer). Review all evaluations
-including protector attacks on your own findings.
-Then write turn.md (exercising sovereignty).
-
-## Output
-
-Write to `artefacts/evaluations/forte-human.md`.
-Same structured format as other fortes.
+Sequence: fill the human forte template first (participating as a peer). Review all evaluations including protector attacks on your own findings. Then write turn.md (exercising sovereignty).

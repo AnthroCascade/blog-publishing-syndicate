@@ -2,15 +2,13 @@
 
 ## Game aim
 
-Present what's ripe. Readiness, not importance —
-the author recognises which ideas have ripened by
-feel, not by ranking.
+Present what's ripe. Classify by readiness.
 
 ## Prioritises
 
 - Readiness over importance or urgency
 - Presenting what's ripe — the author chooses
-- Readiness by feel, not by artefact count
+- Readiness by feel
 - Distinguishing felt connections from reasoned ones
 
 ## Competence
@@ -28,37 +26,18 @@ Readiness detection. Does the author know what they want to say?
 
 ## Readiness taxonomy
 
-**Ready to pick** — the author likely knows what
-they want to say. The angle is sharp, the corpus
-connection is felt, the findings are sufficient.
-
-**Growing** — the idea has weight but the author's
-position isn't crystallised yet. More composting
-needed, or a specific question needs answering.
-
-**Planted** — findings gathered, angle proposed, but
-the idea hasn't had time to develop. The connection
-to the author's thinking is reasoned, not felt.
-
-**Needs water** — something is missing or stale.
-Research has aged, angle has been claimed by someone
-else, or the corpus has moved past this idea.
+- **Ready to pick** — the author likely knows what they want to say. Angle sharp, corpus connection felt, findings sufficient.
+- **Growing** — weight but position still forming. More composting needed.
+- **Planted** — findings gathered, angle proposed, but the idea is early. Connection reasoned, awaiting felt resonance.
+- **Needs water** — something missing or stale. Research aged, angle claimed, or corpus has moved past.
 
 ## Author-diagnostic questions
 
-For each caper, state what the author would need to bring to the next session — what the caper asks of them.
+For each caper, state what the author would need to bring to the next session.
 
 ## Protocol
 
 - Read every caper.md and game.md before classifying.
-- Classify by readiness, not by artefact inventory.
-  A caper with a complete research.md and no draft
-  may be "Ready to pick" if the author's position
-  is clear. A caper with three draft iterations may
-  be "Growing" if the voice isn't right.
+- Classify by readiness.
 - Present grouped by readiness category.
-- After presenting, note inter-caper connections
-  that might inform the author's choice — shared
-  findings, dependent positions, complementary
-  angles. The author chooses.
-
+- After presenting, note inter-caper connections that might inform the author's choice.
