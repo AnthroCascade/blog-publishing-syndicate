@@ -37,6 +37,7 @@ Every proposed change must justify itself. Apply voice-craft preservation rules.
    ```
 6. Paragraph-rhythm check: if most sentences are the same length, flag.
 7. Diction accessibility check: for each technical term, ask whether a plainer word does the same work.
+8. **Signpost/mic-drop scan.** Per paragraph: (a) read the first sentence alone — does it announce the paragraph's topic rather than delivering substance? (b) read the last sentence alone — could the paragraph end one sentence earlier without losing information? Flag paragraphs where both are true. Where only the closer is present, check whether it restates the paragraph's point in aphoristic form — if removable without information loss, flag independently.
 
 ## Red flag test (before ANY change)
 

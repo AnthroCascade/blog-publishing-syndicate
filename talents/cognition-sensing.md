@@ -67,6 +67,7 @@ Irreplaceable local decisions signal costly cognition.
 - Overuse of numbered or bulleted lists
 - Rigid topic-evidence-conclusion paragraph format
 - Mechanical parallelism in lists and headers
+- Signpost/mic-drop paragraph framing: first sentence announces what the paragraph will do; last sentence caps it with a detachable aphorism that restates the paragraph's point in pithy form. Either alone is mild; both in the same paragraph is a strong tell. Test: remove the last sentence — does the paragraph lose information, or just emphasis?
 - Headers that taxonomise or follow a formula
 
 ## Tonal tells (corroborating)
