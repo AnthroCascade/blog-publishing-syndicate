@@ -65,6 +65,15 @@ finding violations at pass 3, remaining findings go to
 the evaluation file as unresolved. Three passes that
 don't converge means lurching.
 
+`/voice` is a lightweight alternative: fires
+voice-guardian in revise mode directly against the
+draft — evaluates and amends in one pass. No prior
+evaluation files required as input.
+
+| Skill | What it does | Fortes | Talents |
+|---|---|---|---|
+| `/voice` | Surgical voice fixes applied directly to draft. No evaluation files needed as input | voice-guardian (revise mode) | voice-craft, cognition-sensing, editorial, critical-stance |
+
 The human forte is asynchronous -- the orchestrator
 pauses for the author. May be skipped on any pass.
 The protector fires last, testing whether findings
@@ -85,6 +94,14 @@ identified, opening contract and takeaway assessed.
 |---|---|---|---|
 | `/promote` | Crafts platform-specific promotional text for published or near-publishable articles | promotion-crafter | distribution, voice-craft, serial-publication, critical-stance |
 
+## Publication prep (deterministic)
+
+| Skill | What it does | Fortes | Talents |
+|---|---|---|---|
+| `/finalize` | Deterministic publication-prep on draft. Currently: typographic quote conversion via `smart-quotes.py`. No LLM calls | (none) | (none) |
+
+Run after `/polish`, before `/promote`. Mechanical pass only.
+
 ## Meta (across capers)
 
 | Skill | What it does | Fortes |
@@ -93,6 +110,7 @@ identified, opening contract and takeaway assessed.
 | `/learn` | Scans session for author corrections, proposes learnings for caper's learnings.md. Author approves each | learning-capturer (coordination) |
 | `/improve` | Reads learnings, proposes modifications to forte and talent specs. Author approves each change | spec-evolver (coordination) |
 | `/distill` | Compacts a skill, forte, or talent file -- reduces volume while preserving requirements. Author approves each file | spec-distiller (coordination) |
+| `/settle` | Reconciles turn.md decisions into caper.md. Promotes durable decisions, removes superseded material, clears consumed turn instructions. Author approves | settler (coordination) |
 | `/foundations` | Reads foundation documents and current specs, reports drift in both directions. Does not fire fortes or modify files | (none) |
 
 `/learn` and `/improve` are a pipeline. `/learn`
@@ -126,7 +144,11 @@ Neither modifies specs without author approval.
     |
     (repeat as needed)
     |
+/settle caper "..."             promote decisions to caper.md
+    |
 /verify caper "..."             check claims against sources
+    |
+/finalize caper "..."           typographic quotes
     |
 /promote caper "..."            platform texts
     |
@@ -176,14 +198,14 @@ paths at `talents/[name].md` from the syndicate root.
 
 ## Talents
 
-10 talent files at `talents/`. Each is domain knowledge
+12 talent files at `talents/`. Each is domain knowledge
 that fortes draw on -- not agents, not evaluators,
 just knowledge.
 
 | Talent | Domain | Used by |
 |---|---|---|
 | voice-craft | Recognising, preserving, and working within the author's voice | drafter, voice-guardian, cognition-sensor, promotion-crafter |
-| editorial | Essay structure, argument, rhetoric | drafter, voice-guardian, structural-thinker, thesis-sharpener, cognition-sensor, continuity-thinker, protector, pragmatic-sceptic, prospect |
+| editorial | Essay structure, argument, rhetoric | drafter, voice-guardian, structural-thinker, thesis-sharpener, cognition-sensor, continuity-thinker, protector, pragmatic-sceptic, prospect, reader-proxy |
 | critical-stance | Adversarial reasoning, counterargument | all 14 blog-publishing fortes except human |
 | cognition-sensing | Detecting AI tells, confirming cognitive presence | drafter, voice-guardian, cognition-sensor |
 | research | Source finding, evidence assembly | fact-checker, research-assembler |
@@ -191,7 +213,9 @@ just knowledge.
 | serial-publication | Corpus positioning, series continuity | continuity-thinker, promotion-crafter, prospect, harvest |
 | distribution | Platform mechanics, promotional strategy | promotion-crafter |
 | reader-empathy | How readers process, resist, and respond to arguments. Attention economics, resistance patterns, register fit | reader-proxy |
+| influence | Cialdini's seven principles applied to this author's register and structure | reader-proxy, drafter, voice-guardian, promotion-crafter, cognition-sensor, structural-thinker |
 | evaluation-failure-patterns | How evaluative mobs fail: groupthink, lurching, cosmetic fixes | protector |
+| caper-aligned-findings | Anchoring every finding to caper material and assessing article-purpose impact | voice-guardian, cognition-sensor, structural-thinker, thesis-sharpener, continuity-thinker, fact-checker, research-assembler, protector, reader-proxy |
 
 ## Coordination pattern
 

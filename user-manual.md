@@ -1,6 +1,6 @@
 # Blog Publishing Syndicate — User Manual for Claude Code
 
-21 skill commands. 14 fortes. One iterative process that turns ideas into published articles.
+25 skill commands. 15 fortes. One iterative process that turns ideas into published articles.
 
 ## How the system works
 
@@ -153,7 +153,23 @@ This is maintenance, not evolution. `/improve` changes what a forte requires. `/
 
 Targets: `/distill fortes`, `/distill talents`, `/distill skills`, `/distill all`, or a specific file path.
 
+### `/settle`
+
+Reconciles turn.md decisions into caper.md. Fires the settler forte, which classifies every decision in turn.md as live, superseded, stale, absorbed, durable, consumed, or active. Promotes durable decisions to caper.md and removes superseded material from turn.md. You approve the reconciliation grouped by action.
+
+Run when turn.md accumulates decisions across multiple passes. Keeps caper.md as the authoritative source of standing decisions and turn.md lean for the next pass.
+
+### `/foundations`
+
+Reads foundation documents and current specs, then reports drift in both directions: where specs have moved away from the vision, and where foundations are stale relative to proven practice. Diagnostic only — does not fire fortes or modify files.
+
 ## Utility commands
+
+### `/finalize`
+
+Deterministic publication-prep. Currently runs typographic quote conversion (`smart-quotes.py`) on the draft — straight ASCII quotes and apostrophes become curly. No fortes, no LLM calls, no evaluation files.
+
+Run after `/polish` (or after the final `/voice` pass), before `/promote`. The settlement condition is `smart-quotes.py --check` exits 0.
 
 ### `/pick`
 
@@ -206,6 +222,7 @@ Coordination fortes (not in the blog-publishing syndicate, but reachable through
 | learning-capturer | `/learn` | Captures correction patterns |
 | spec-evolver | `/improve` | Evolves specs from learnings |
 | spec-distiller | `/distill` | Compacts specs |
+| settler | `/settle` | Reconciles turn.md into caper.md |
 
 ## Typical workflows
 
@@ -221,9 +238,11 @@ Coordination fortes (not in the blog-publishing syndicate, but reachable through
 8. `/protect 023` — test findings quality
 9. Record decisions in turn.md
 10. `/revise 023` — apply corrections
-11. `/polish 023` — voice and cognition check (if needed beyond the auto voice-guardian pass)
-12. `/verify 023` — external fact-check
-13. `/promote 023` — promotion text
+11. `/settle 023` — promote durable decisions to caper.md (when turn.md accumulates)
+12. `/polish 023` — voice and cognition check (if needed beyond the auto voice-guardian pass)
+13. `/verify 023` — external fact-check
+14. `/finalize 023` — typographic quotes
+15. `/promote 023` — promotion text
 
 ### Quick iteration on an existing draft
 

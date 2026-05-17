@@ -24,10 +24,13 @@ Each forte has its own spec in [`fortes/`](fortes/). Here's what they do:
 | [research-assembler](fortes/research-assembler.md) | Assembles material before drafting begins |
 | [cognition-sensor](fortes/cognition-sensor.md) | Senses cognitive presence; flags absence of a person |
 | [continuity-thinker](fortes/continuity-thinker.md) | Positions the article within the body of work |
+| [reader-proxy](fortes/reader-proxy.md) | Models the target reader's experience through the draft |
+| [protector](fortes/protector.md) | Tests whether findings would improve the draft or just make it different |
 | [promotion-crafter](fortes/promotion-crafter.md) | Crafts platform-native promotion text |
 | [pragmatic-sceptic](fortes/pragmatic-sceptic.md) | Tests whether an idea can survive investment before the work begins |
 | [prospect](fortes/prospect.md) | Scans the landscape for material that connects to existing positions |
 | [harvest](fortes/harvest.md) | Recognises which unfinished ideas have ripened |
+| [human](fortes/human.md) | Biologically independent verification from the author (asynchronous, not agent-spawnable) |
 
 ## Talents
 
@@ -43,6 +46,10 @@ Shared skill domains in [`talents/`](talents/):
 | [serial-publication](talents/serial-publication.md) | Corpus strands, series trajectory, inter-article connections |
 | [distribution](talents/distribution.md) | Platform fit assessment, audience matching |
 | [critical-stance](talents/critical-stance.md) | Evaluative disposition; flag uncertain over miss real |
+| [reader-empathy](talents/reader-empathy.md) | How readers process, resist, and respond to arguments |
+| [influence](talents/influence.md) | Cialdini's principles applied to this author's register |
+| [evaluation-failure-patterns](talents/evaluation-failure-patterns.md) | How evaluative mobs fail: groupthink, lurching, cosmetic fixes |
+| [caper-aligned-findings](talents/caper-aligned-findings.md) | Anchoring every finding to caper material and article purpose |
 
 ## The governing principle
 
