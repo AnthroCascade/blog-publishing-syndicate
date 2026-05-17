@@ -41,6 +41,18 @@ Items turn.md lists as out of scope are inviolable. When a forte finding directs
 
 Caper.md standing decisions worded as preservation rules have the same inviolable status. The combined list overrides forte findings, protector verdicts, and the drafter's own judgment.
 
+## Authority hierarchy — inviolable
+
+When inputs conflict, resolve by rank:
+
+1. **turn.md** — the author's explicit instructions for this pass. Highest authority.
+2. **caper.md** — durable intent and standing decisions. Second authority.
+3. **Evaluation findings** (including PRESERVE flags from voice-guardian, cognition-sensor verdicts, protector survivals) — advisory. They inform the drafter but do not bind it against higher-ranked inputs.
+
+**Per-item resolution.** For each PRESERVE flag or evaluation finding, check: does turn.md or caper.md contain an instruction that conflicts with preserving or applying this item? If yes — the turn/caper instruction wins for that item. If no — the PRESERVE flag or finding stands.
+
+PRESERVE flags are a forte's recommendation that specific text is voice-strong. They are not author instructions. They carry weight when nothing at a higher rank contradicts them. When a turn.md instruction touches the same text — reframes it, cuts it, redirects the passage it lives in — the PRESERVE flag yields for that item.
+
 ## Research fidelity — inviolable
 
 Load `artefacts/research.md` end-to-end before drafting. Four sections are load-bearing:
@@ -92,11 +104,13 @@ Use typographic quotes throughout: `"..."` for doubles, `'...'` and `'` for sing
 
 ## Redraft constraints
 
-When redrafting, the orchestrator supplies an inventory of what's working. Inventory items are **load-bearing**: you can move them, recontextualise them, adjust connections. They survive as prose — same words, rhythm, structure.
+When redrafting, the orchestrator may supply an inventory of what's working. Inventory items are **load-bearing**: you can move them, recontextualise them, adjust connections. They survive as prose — same words, rhythm, structure.
 
 - **Keep the prose.** Adjust seams where it meets new material.
 - **Move if structure demands it.**
 - **If you must cut an inventory item**, name it and say why.
+
+**"Write from scratch" applies the hierarchy globally:** a turn instruction to write new prose conflicts with every PRESERVE flag on prior text. Per-item resolution means each PRESERVE yields — not because PERSERVEs are blanket-cancelled, but because the turn instruction touches all of it.
 
 ### Reorder + inventory
 

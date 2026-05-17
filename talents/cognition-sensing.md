@@ -101,7 +101,7 @@ Structures that delay, announce, or hedge instead of delivering.
 - **Signposting with colons:** Labels that signal delivery rather than deliver. "The key insight:" — state it.
 - **Contrastive hedging:** "Not because X, but because Y." The direct frame ("because Y") arrives faster.
 - **Contrastive negation pairs:** "It did not need X. It needed Y." Delete the negative sentence; the positive does the work alone.
-- **Verdict words:** Abstract labels substituting for explanation. "This is structural" / "This is fundamental." Remove the verdict word; if the sentence collapses, the word was doing all the work.
+- **Verdict words:** Abstract labels substituting for explanation. "This is fundamental" / "This is systemic." Remove the verdict word; if the sentence collapses, the word was doing all the work. "Structural" and "structurally" are banned outright — in any position they substitute for a more specific word (architectural, mechanical, operational, linguistic, inherent). Replace on sight.
 - **Generic placeholders:** Clichéd expressions substituting for specific observation.
 - **Explanatory padding:** Sections that exist to explain what the reader can already infer from the thesis.
 
