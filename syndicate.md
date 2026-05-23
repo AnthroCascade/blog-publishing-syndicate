@@ -12,7 +12,7 @@
 - continuity-thinker — positions article within the body of work
 - protector — tests whether each finding would improve the draft or just make it different
 - human — biologically independent verification from the author (not agent-spawnable, asynchronous)
-- promotion-crafter — crafts platform-specific promotion for published articles
+- share-crafter — writes platform-native text about published articles in the author's voice
 - pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
 - prospect — corpus-aware landscape scanning, angle synthesis and ranking
 - reader-proxy — models the target reader's experience through the draft: where they check out, push back, nod, or get confused
@@ -161,7 +161,7 @@ emphasis by choosing which phase to invoke.
 | Polish | voice-guardian, cognition-sensor | Voice clean, cognitive presence confirmed |
 | Reception | reader-proxy | Reader experience mapped, resistance points identified |
 | Verify | fact-checker (web search against primary sources) | All claims verified externally |
-| Promote | promotion-crafter | Platform texts generated, strategy approved by author |
+| Share | share-crafter | Platform texts written, author approves |
 
 Phases are not strictly sequential. The author may
 return to an earlier phase (e.g. new claims emerge
@@ -193,9 +193,9 @@ default coordination pattern; the game can override.
 | voice-pass | Polish | voice-guardian (revise mode) → [loop] → protector | iterative-single-agent (max 3 passes) | Zero violations or cap reached, protector attacks filed |
 | verify | Verify | fact-checker (web) | single-agent | Claims verified externally |
 | revise | Draft (correction) | drafter | single-agent | Corrections applied |
-| finalize | Pre-Promote | (none — deterministic) | script | `smart-quotes.py --check` exits 0 |
+| finalize | Pre-Share | (none — deterministic) | script | `smart-quotes.py --check` exits 0 |
 | reception | Reception | reader-proxy → human → protector | single then async then sequential | Reader reception mapped, protector attacks filed |
-| promote | Promote | promotion-crafter | single-agent | Author approves strategy and texts |
+| share | Share | share-crafter | single-agent | Author approves texts |
 
 `/voice-pass` is the only iterative command. The
 voice-guardian fires in revise mode: it reads the
@@ -278,7 +278,7 @@ phase, and the fortes within it fire.
 - reader-proxy: reception phase, after structure and
   polish settle. When the author wants to test how
   the piece lands with its target audience
-- promotion-crafter: post-verify, when article is
+- share-crafter: post-verify, when article is
   near-publishable or published
 - pragmatic-sceptic: between harvest and research,
   when the author is considering investing in a

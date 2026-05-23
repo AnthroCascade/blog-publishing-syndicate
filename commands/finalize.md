@@ -40,4 +40,4 @@ That is all. The step is a mechanical pass on prose.
 
 ## When to run
 
-After `/polish` (or `/mob`), before `/promote`. Run when the prose has settled.
+After `/polish` (or `/mob`), before `/share`. Run when the prose has settled.

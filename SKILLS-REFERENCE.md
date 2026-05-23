@@ -88,11 +88,11 @@ would improve the draft or just make it different.
 Settles when: reader reception mapped, resistance points
 identified, opening contract and takeaway assessed.
 
-## Promotion (get it out there)
+## Share (get it out there)
 
 | Skill | What it does | Fortes | Talents |
 |---|---|---|---|
-| `/promote` | Crafts platform-specific promotional text for published or near-publishable articles | promotion-crafter | distribution, voice-craft, serial-publication, critical-stance |
+| `/share` | Writes platform-native text about the article in the author's voice. Same register everywhere — the container changes, the voice does not | share-crafter | distribution, voice-craft, serial-publication, critical-stance, influence |
 
 ## Publication prep (deterministic)
 
@@ -100,7 +100,7 @@ identified, opening contract and takeaway assessed.
 |---|---|---|---|
 | `/finalize` | Deterministic publication-prep on draft. Currently: typographic quote conversion via `smart-quotes.py`. No LLM calls | (none) | (none) |
 
-Run after `/polish`, before `/promote`. Mechanical pass only.
+Run after `/polish`, before `/share`. Mechanical pass only.
 
 ## Readiness (where are we?)
 
@@ -162,7 +162,7 @@ Neither modifies specs without author approval.
     |
 /finalize caper "..."           typographic quotes
     |
-/promote caper "..."            platform texts
+/share caper "..."              platform texts
     |
 /learn                          capture what happened
 /improve                        evolve the specs
@@ -193,7 +193,7 @@ paths at `talents/[name].md` from the syndicate root.
 | continuity-thinker | Positions article within the body of work. Corpus is context, not checklist | serial-publication, editorial, critical-stance |
 | protector | Tests whether each finding would improve the draft or just make it different | evaluation-failure-patterns, critical-stance, editorial |
 | human | Biologically independent verification. Not agent-spawnable, asynchronous | (none -- their own talent) |
-| promotion-crafter | Platform-specific promotion for published articles | distribution, voice-craft, serial-publication, critical-stance |
+| share-crafter | Writes platform-native text about the article in the author's voice | distribution, voice-craft, serial-publication, critical-stance, influence |
 | pragmatic-sceptic | Tests whether an idea can survive investment | critical-stance, editorial |
 | prospect | Corpus-aware landscape scanning and angle synthesis | serial-publication, editorial, critical-stance |
 | reader-proxy | Models the target reader's experience through the draft. Reception, not production quality | reader-empathy, influence, critical-stance, editorial |
@@ -216,16 +216,16 @@ just knowledge.
 
 | Talent | Domain | Used by |
 |---|---|---|
-| voice-craft | Recognising, preserving, and working within the author's voice | drafter, voice-guardian, cognition-sensor, promotion-crafter |
+| voice-craft | Recognising, preserving, and working within the author's voice | drafter, voice-guardian, cognition-sensor, share-crafter |
 | editorial | Essay structure, argument, rhetoric | drafter, voice-guardian, structural-thinker, thesis-sharpener, cognition-sensor, continuity-thinker, protector, pragmatic-sceptic, prospect, reader-proxy |
 | critical-stance | Adversarial reasoning, counterargument | all 14 blog-publishing fortes except human |
 | cognition-sensing | Detecting AI tells, confirming cognitive presence | drafter, voice-guardian, cognition-sensor |
 | research | Source finding, evidence assembly | fact-checker, research-assembler |
 | verification | Claim checking, source validation | fact-checker, research-assembler |
-| serial-publication | Corpus positioning, series continuity | continuity-thinker, promotion-crafter, prospect, harvest |
-| distribution | Platform mechanics, promotional strategy | promotion-crafter |
+| serial-publication | Corpus positioning, series continuity | continuity-thinker, share-crafter, prospect, harvest |
+| distribution | Platform format constraints and audience context | share-crafter |
 | reader-empathy | How readers process, resist, and respond to arguments. Attention economics, resistance patterns, register fit | reader-proxy |
-| influence | Cialdini's seven principles applied to this author's register and structure | reader-proxy, drafter, voice-guardian, promotion-crafter, cognition-sensor, structural-thinker |
+| influence | Cialdini's seven principles applied to this author's register and structure | reader-proxy, drafter, voice-guardian, share-crafter, cognition-sensor, structural-thinker |
 | evaluation-failure-patterns | How evaluative mobs fail: groupthink, lurching, cosmetic fixes | protector |
 | caper-aligned-findings | Anchoring every finding to caper material and assessing article-purpose impact | voice-guardian, cognition-sensor, structural-thinker, thesis-sharpener, continuity-thinker, fact-checker, research-assembler, protector, reader-proxy |
 
@@ -242,6 +242,6 @@ The human step may be skipped. The protector step
 is never skipped in evaluation commands.
 
 Single-forte commands (`/draft`, `/revise`, `/verify`,
-`/promote`) run one agent and return.
+`/share`) run one agent and return.
 
 `/voice-pass` is the only iterative command.

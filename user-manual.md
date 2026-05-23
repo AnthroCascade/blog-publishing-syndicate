@@ -32,7 +32,7 @@ An idea enters the mob when you weigh it and decide to proceed.
 | **Structure** | `/structure` | structural-thinker, thesis-sharpener, continuity-thinker | Argument builds, concept ownership clear |
 | **Polish** | `/polish` | voice-guardian, cognition-sensor | Voice clean, cognitive presence confirmed |
 | **Verify** | `/verify` | fact-checker (web search) | All claims verified against primary sources |
-| **Promote** | `/promote` | promotion-crafter | Platform texts approved |
+| **Share** | `/share` | share-crafter | Platform texts approved |
 
 Phases are not strictly sequential. New claims during drafting? Back to `/research`. Structural problems in a polished draft? `/structure`. Each phase has a "settles when" condition — once settled, it stays settled unless new material destabilises it.
 
@@ -169,7 +169,7 @@ Reads foundation documents and current specs, then reports drift in both directi
 
 Deterministic publication-prep. Currently runs typographic quote conversion (`smart-quotes.py`) on the draft — straight ASCII quotes and apostrophes become curly. No fortes, no LLM calls, no evaluation files.
 
-Run after `/polish` (or after the final `/voice` pass), before `/promote`. The settlement condition is `smart-quotes.py --check` exits 0.
+Run after `/polish` (or after the final `/voice` pass), before `/share`. The settlement condition is `smart-quotes.py --check` exits 0.
 
 ### `/pick`
 
@@ -209,7 +209,7 @@ Every forte is reachable through at least one skill command. Here's the complete
 | pragmatic-sceptic | `/weigh` | Tests idea viability |
 | prospect | `/prospect` | Scans landscape for angles |
 | harvest | `/harvest` | Detects caper readiness |
-| promotion-crafter | `/promote` | Crafts platform-specific promotion |
+| share-crafter | `/share` | Writes platform-native text in the author's voice |
 | human | (template) | Author's own verification (asynchronous, not agent-spawnable) |
 
 \* Voice-guardian fires automatically in revise mode after the drafter in `/draft` and `/revise`.
@@ -242,7 +242,7 @@ Coordination fortes (not in the blog-publishing syndicate, but reachable through
 12. `/polish 023` — voice and cognition check (if needed beyond the auto voice-guardian pass)
 13. `/verify 023` — external fact-check
 14. `/finalize 023` — typographic quotes
-15. `/promote 023` — promotion text
+15. `/share 023` — platform text
 
 ### Quick iteration on an existing draft
 

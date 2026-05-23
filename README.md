@@ -4,7 +4,7 @@ This is a writing system. It coordinates a group of AI collaborators — each wi
 
 ## How it works
 
-An article goes through phases: research, drafting, structural evaluation, voice checking, fact verification, and promotion. At each phase, one or more **fortes** do the work. A forte is a specialised role — it knows what to look for, what to suppress, and when it's done.
+An article goes through phases: research, drafting, structural evaluation, voice checking, fact verification, and sharing. At each phase, one or more **fortes** do the work. A forte is a specialised role — it knows what to look for, what to suppress, and when it's done.
 
 Fortes draw on **talents**: shared skill domains like editorial craft, research method, or voice analysis. A talent is the method; a forte is the role that applies it.
 
@@ -26,7 +26,7 @@ Each forte has its own spec in [`fortes/`](fortes/). Here's what they do:
 | [continuity-thinker](fortes/continuity-thinker.md) | Positions the article within the body of work |
 | [reader-proxy](fortes/reader-proxy.md) | Models the target reader's experience through the draft |
 | [protector](fortes/protector.md) | Tests whether findings would improve the draft or just make it different |
-| [promotion-crafter](fortes/promotion-crafter.md) | Crafts platform-native promotion text |
+| [share-crafter](fortes/share-crafter.md) | Writes platform-native text about the article in the author's voice |
 | [pragmatic-sceptic](fortes/pragmatic-sceptic.md) | Tests whether an idea can survive investment before the work begins |
 | [prospect](fortes/prospect.md) | Scans the landscape for material that connects to existing positions |
 | [harvest](fortes/harvest.md) | Recognises which unfinished ideas have ripened |
@@ -44,7 +44,7 @@ Shared skill domains in [`talents/`](talents/):
 | [verification](talents/verification.md) | Claim categorisation and confidence levels |
 | [cognition-sensing](talents/cognition-sensing.md) | Costly cognition analysis; three-read protocol |
 | [serial-publication](talents/serial-publication.md) | Corpus strands, series trajectory, inter-article connections |
-| [distribution](talents/distribution.md) | Platform fit assessment, audience matching |
+| [distribution](talents/distribution.md) | Platform format constraints and audience context |
 | [critical-stance](talents/critical-stance.md) | Evaluative disposition; flag uncertain over miss real |
 | [reader-empathy](talents/reader-empathy.md) | How readers process, resist, and respond to arguments |
 | [influence](talents/influence.md) | Cialdini's principles applied to this author's register |

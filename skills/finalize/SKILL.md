@@ -1,6 +1,6 @@
 ---
 name: finalize
-description: Run deterministic publication-prep on the current draft. Converts straight ASCII quotes and apostrophes to typographic quotes. No fortes, no LLM calls. Invoke after /polish, before /promote.
+description: Run deterministic publication-prep on the current draft. Converts straight ASCII quotes and apostrophes to typographic quotes. No fortes, no LLM calls. Invoke after /polish, before /share.
 disable-model-invocation: true
 argument-hint: "[caper-path]"
 ---
@@ -55,6 +55,6 @@ One short summary to the author:
 
 ## Boundary
 
-Mechanical publication prep only. Voice is `/polish` or `/voice-pass`. Facts are `/verify`. Prose is `/draft`. Promotional text is `/promote`.
+Mechanical publication prep only. Voice is `/polish` or `/voice-pass`. Facts are `/verify`. Prose is `/draft`. Platform text is `/share`.
 
 Does not fire fortes. Does not consume or produce evaluation files. Does not clear `artefacts/evaluations/`. Does not clear `turn.md`.
