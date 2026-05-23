@@ -1,0 +1,101 @@
+flowchart TD
+    classDef artefact fill:#2d2d2d,stroke:#666,color:#ccc,stroke-dasharray: 5 5
+    classDef lifecycle fill:#1a3a2a,stroke:#4a8,color:#fff
+    classDef workflow fill:#1a2a3a,stroke:#48a,color:#fff
+    classDef governance fill:#3a2a1a,stroke:#a84,color:#fff
+    classDef meta fill:#2a1a3a,stroke:#84a,color:#fff
+    classDef context fill:#1a2a2a,stroke:#4aa,color:#fff
+    classDef utility fill:#2a2a2a,stroke:#888,color:#ccc
+
+    %% ── Artefacts (shared state) ──────────────────
+    caper([caper.md]):::artefact
+    research_md([research.md]):::artefact
+    draft_md([draft.md]):::artefact
+    evals([evaluations/]):::artefact
+    learnings([learnings.md]):::artefact
+    turn([turn.md]):::artefact
+    transcripts([transcripts/]):::artefact
+    specs([forte & talent specs]):::artefact
+
+    %% ── Idea Lifecycle ────────────────────────────
+    prospect[/prospect]:::lifecycle
+    harvest[/harvest]:::lifecycle
+    weigh[/weigh]:::lifecycle
+    pick[/pick]:::lifecycle
+
+    prospect -->|creates| caper
+    caper -->|surveys| harvest
+    caper -->|tests viability| weigh
+    weigh -.->|"verdict: proceed"| research
+
+    %% ── Workflow Phases ───────────────────────────
+    research[/research]:::workflow
+    draft[/draft]:::workflow
+    polish[/polish]:::workflow
+    reception[/reception]:::workflow
+    voice[/voice]:::workflow
+    verify[/verify]:::workflow
+    promote[/promote]:::workflow
+
+    caper -->|context for| research
+    research -->|produces| research_md
+    research_md -->|informs| draft
+    caper -->|context for| draft
+    draft -->|produces| draft_md
+    evals -.->|"findings inform redraft"| draft
+
+    draft_md -->|evaluated by| polish
+    draft_md -->|evaluated by| reception
+    draft_md -->|amended by| voice
+    draft_md -->|verified by| verify
+    draft_md -->|shared via| promote
+    draft_md -->|short-form from| pick
+
+    polish -->|writes| evals
+    reception -->|writes| evals
+    voice -->|writes| evals
+    verify -->|writes| evals
+
+    %% ── Governance ────────────────────────────────
+    protect[/protect]:::governance
+    interrogate[/interrogate]:::governance
+    report[/report]:::governance
+
+    evals -->|consumed by| protect
+    evals -->|consumed by| interrogate
+    evals -->|summarised by| report
+    protect -->|writes| evals
+    interrogate -->|writes| evals
+
+    %% Embedded governance: polish & reception include
+    %% protector + interrogator tails internally
+    polish -.->|"includes tail"| protect
+    reception -.->|"includes tail"| protect
+
+    %% ── Meta / Continuous Improvement ─────────────
+    learn[/learn]:::meta
+    improve[/improve]:::meta
+    distill[/distill]:::meta
+    settle[/settle]:::meta
+
+    learn -->|produces| learnings
+    learnings -->|consumed by| improve
+    improve -->|modifies| specs
+    distill -->|compacts| specs
+    specs -.->|"used by all fortes in"| research
+    specs -.->|"used by all fortes in"| draft
+    specs -.->|"used by all fortes in"| polish
+
+    turn -->|reconciled by| settle
+    settle -->|updates| caper
+
+    %% ── Context Management ────────────────────────
+    extract[/extract]:::context
+    cleanse[/cleanse]:::context
+
+    extract -->|produces| transcripts
+    transcripts -->|cleaned by| cleanse
+    cleanse -.->|"context for next session"| draft
+
+    %% ── Utility ───────────────────────────────────
+    do[/do]:::utility
