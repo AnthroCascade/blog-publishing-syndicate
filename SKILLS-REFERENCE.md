@@ -102,6 +102,16 @@ identified, opening contract and takeaway assessed.
 
 Run after `/polish`, before `/promote`. Mechanical pass only.
 
+## Readiness (where are we?)
+
+| Skill | What it does | Fortes | Talents |
+|---|---|---|---|
+| `/ready` | Assesses publication readiness from artefact evidence. Maps artefacts to pipeline stages, reads evaluation verdicts, checks draft quality, compares against published baseline. `/ready` for all capers, `/ready 097` for one | (none) | (none) |
+
+No fortes, no metadata labels. Derives progress from
+what exists in the artefacts directory and what those
+artefacts contain. Read-only.
+
 ## Meta (across capers)
 
 | Skill | What it does | Fortes |
@@ -127,6 +137,8 @@ Neither modifies specs without author approval.
     |
 /harvest                        what's ripe?
 /weigh caper "..."              can this survive investment?
+    |
+/ready                          where is everything? (any time)
     |
 /research caper "..."           source the claims
     |

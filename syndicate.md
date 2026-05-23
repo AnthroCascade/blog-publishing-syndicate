@@ -237,6 +237,7 @@ These can fire independently outside the normal workflow sequence.
 |---------|--------|--------------|
 | protect | protector | Standalone protector invocation. Tests whether evaluation findings would improve the draft or just make it different. Quality gate on findings before acting on them. |
 | voice | voice-guardian (revise mode) | Lightweight alternative to voice-pass. Fires voice-guardian in revise mode directly against the draft — evaluates and amends in one pass. No prior evaluation files required. |
+| ready | (none) | Assesses publication readiness from artefact evidence. Maps artefacts to pipeline stages, reads evaluation verdicts, checks draft quality markers, compares against published baseline. No fortes, no metadata — derives progress from what exists. |
 
 ### Meta commands
 
