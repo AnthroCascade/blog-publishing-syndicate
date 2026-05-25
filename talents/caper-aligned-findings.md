@@ -6,7 +6,7 @@
 
 In addition to the forte's own output format, every finding includes two fields.
 
-### Caper anchor
+### What this connects to in the caper
 
 The specific claim, decision, marker, or research entry the finding traces to. Examples:
 
@@ -17,7 +17,7 @@ The specific claim, decision, marker, or research entry the finding traces to. E
 
 A finding that cannot be anchored to anything traceable is itself a finding — flag it as ungrounded.
 
-### Article-purpose impact
+### What this does to the article's main claim
 
 What happens to the article's central claim if the fix is applied:
 
@@ -29,7 +29,7 @@ What happens to the article's central claim if the fix is applied:
 
 ## When findings cluster
 
-Use the caper-anchor field to distinguish echo convergence (one finding in multiple hats) from genuine multi-axis problems (different concerns about the same passage).
+Use the "what this connects to in the caper" field to distinguish repeated findings (one finding in multiple hats) from genuine multi-axis problems (different concerns about the same passage).
 
 ## Output format
 
@@ -37,15 +37,15 @@ Each forte's existing output format stands. Augment with:
 
 ```
 [forte's own format]
-Caper anchor: [traced reference]
-Article-purpose impact: Required-for-purpose | Strengthens | Protects | Weakens | Neutral — [one-sentence explanation]
+What this connects to in the caper: [traced reference]
+What this does to the article's main claim: Required-for-purpose | Strengthens | Protects | Weakens | Neutral — [one-sentence explanation]
 ```
 
 Findings missing these fields are incomplete. The protector and interrogator treat their absence as a finding-quality flag.
 
 ## For orchestrators (presentation)
 
-Group by article-purpose impact, not by forte:
+Group by what the finding does to the article's main claim, not by forte:
 
 1. **What the article needs to land its central claim.** Findings tagged Required-for-purpose or Strengthens.
 2. **What protects the work already done.** Findings tagged Protects.

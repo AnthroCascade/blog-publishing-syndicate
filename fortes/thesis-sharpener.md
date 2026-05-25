@@ -44,6 +44,8 @@ Extraction. The thesis is in there. Find it. State it. Test it. Trace every thes
 
 ## Protocol
 
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 - Read the full draft before engaging.
 - Attempt to state the thesis in one sentence.
 - Ask sharpening questions. The thesis comes from the author.

@@ -12,6 +12,8 @@ A series reader arrives with: concepts already argued, frameworks established, p
 - **Complicates:** Reveals something that makes a previous claim harder to hold.
 - **Converges:** Brings together threads from multiple previous pieces.
 
+These categories are for your thinking. In your findings, describe the relationship plainly — don't label it.
+
 ## Callback patterns
 
 **Legibility test:** Can a reader who has not read the earlier piece follow this reference? If not, it needs a brief recap or should be cut.

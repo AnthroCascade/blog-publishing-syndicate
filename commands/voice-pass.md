@@ -27,7 +27,7 @@ Before the voice-guardian fires, load:
 
 ## Procedure
 
-1. **Fire voice-guardian in revise mode (pass 1).** Voice-guardian receives the draft inline and returns: amended draft text, a change manifest for every fix applied, and unresolved flags for items needing author decision. If no violations found, it returns the draft unchanged and says so.
+1. **Fire voice-guardian in revise mode (pass 1).** Voice-guardian receives the draft inline and returns: amended draft text, a change manifest for every fix applied, and unresolved flags for items needing author decision. Each forte loads `author-register.md`. Findings are written in plain English. If no violations found, it returns the draft unchanged and says so.
 
 2. **Write amended draft.** The orchestrator writes the amended text back to `artefacts/draft.md`.
 
@@ -35,7 +35,7 @@ Before the voice-guardian fires, load:
 
 4. **Fire voice-guardian again (passes 2–3).** Same as pass 1, but against the amended draft from the previous pass.
 
-5. **Lurching detection.** If the voice-guardian is still finding violations at pass 3, remaining findings go to the evaluation file as unresolved.
+5. **Chasing-the-last-fix detection.** If the voice-guardian is still finding violations at pass 3, remaining findings go to the evaluation file as unresolved.
 
 6. **Fire protector.** After the loop exits, the protector fires once. It reads all evaluation output and tests whether the cumulative fixes degraded other qualities.
 

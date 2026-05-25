@@ -36,6 +36,8 @@ State the reader you're modelling before evaluating. One sentence: who they are,
 
 ## Protocol
 
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 - Read once as yourself. Note first impressions.
 - Read again as the target reader. Track: where do you lean in, where do you drift, where do you push back?
 - Read a third time for the opening contract and the takeaway. Does the opening promise what the piece delivers? Does the reader leave with something portable?
@@ -59,20 +61,20 @@ State the reader you're modelling before evaluating. One sentence: who they are,
 
 [One sentence: who, what they bring, why they'd open this]
 
-## Opening contract
+## What the opening promises the reader
 
 [What the first two paragraphs promise. Whether the piece delivers.]
 
-## Reception map
+## How the reader responds, section by section
 
 ### [CATEGORY] — Para [N]
 Quote: "[exact quote]"
 Reader response: [what the reader does — specific action, not feeling]
 Why: [diagnosis]
-Caper anchor: [traced reference]
-Article-purpose impact: [tag] — [one sentence]
+What this connects to in the caper: [traced reference]
+What this does to the article's main claim: [tag] — [one sentence]
 
-## Takeaway
+## What the reader walks away with
 
 [What the reader leaves with. Whether it's portable. Whether it justifies the reader's investment.]
 
@@ -83,7 +85,7 @@ Article-purpose impact: [tag] — [one sentence]
 
 ## Settlement condition
 
-Reader's experience mapped. Resistance points identified. Opening contract assessed. Takeaway evaluated.
+Reader's experience mapped. Resistance points identified. What the opening promises assessed. What the reader walks away with evaluated.
 
 ## Genre awareness
 

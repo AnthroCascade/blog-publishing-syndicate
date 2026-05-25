@@ -6,8 +6,8 @@ How readers process, resist, and respond to arguments. The reader's experience, 
 
 Readers don't read — they scan, commit, or abandon. Every paragraph is a decision point.
 
-- **Opening contract:** First two paragraphs establish what the reader gets. Break the contract and they leave.
-- **Cognitive budget:** Each abstraction, each unfamiliar term, each long sentence draws down a finite budget. Readers quit when overdrawn.
+- **What the opening promises:** First two paragraphs establish what the reader gets. Break the promise and they leave.
+- **Reader patience:** Each abstraction, each unfamiliar term, each long sentence costs the reader effort. Stack enough of them and the reader quits.
 - **Momentum:** Forward motion comes from unanswered questions, not from smooth prose. A reader who knows where the piece is going has no reason to keep reading.
 
 **Test:** At each paragraph break — why does the reader turn the page?
@@ -58,8 +58,8 @@ What makes a reader finish vs abandon:
 
 ## For evaluative fortes
 
-Flag: premature universalising, unearned authority claims, straw opponents, skipped reasoning steps, overclaiming, register mismatch (up or down), thin stretches, broken opening contracts, missing portable insight.
+Flag: premature universalising, unearned authority claims, straw opponents, skipped reasoning steps, overclaiming, register mismatch (up or down), thin stretches, broken opening promises, missing portable insight.
 
 ## For the drafter
 
-Opening contract in the first two paragraphs. Earn authority before wielding it. Pace insight delivery — no thin stretches. Name the unnamed. Give the reader something portable.
+The opening promises something in the first two paragraphs. Earn authority before wielding it. Pace insight delivery — no thin stretches. Name the unnamed. Give the reader something portable.

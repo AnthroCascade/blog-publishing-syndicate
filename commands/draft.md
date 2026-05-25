@@ -63,7 +63,7 @@ Load voice-samples.md `writers-voice.md` and last immediately before the generat
 
 7. **Write outputs.** If the gestalt gate passed: amended text replaces the drafter's version at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`. If the gestalt gate failed: the draft stays as-is. The gestalt failure finding goes to `artefacts/evaluations/forte-voice-guardian.md`. The orchestrator reports the failure to the author — the draft needs regeneration.
 
-8. **Present to author.** In the author's voice and register. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`. The voice-guardian's flagged items must include Caper anchor and Article-purpose impact per the talent — name those when presenting. Report:
+8. **Present to author.** In the author's voice and register. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`. The voice-guardian's flagged items must include What this connects to in the caper and What this does to the article's main claim per the talent — name those when presenting. Report:
 
    1. **What the voice-guardian changed.** In author's voice and register — say what phrase was edited and to what.
    2. **What the voice-guardian flagged for author decision.** Each flag as: the phrase, the recommendation, why.

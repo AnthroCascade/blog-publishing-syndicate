@@ -16,6 +16,7 @@
 - pragmatic-sceptic — tests whether an idea can survive investment before research or drafting begins
 - prospect — corpus-aware landscape scanning, angle synthesis and ranking
 - reader-proxy — models the target reader's experience through the draft: where they check out, push back, nod, or get confused
+- findings-synthesiser — surfaces the argument evidence wants to make, post-research, pre-compost
 - harvest — readiness detection, author-diagnostic assessment of unfinished capers
 
 ## The default is the enemy
@@ -214,9 +215,9 @@ after.
 If the voice-guardian is still finding violations at
 pass 3, the remaining findings go to the evaluation
 file as unresolved. Three passes that don't converge
-means the fixes are lurching — each correction
-reacting to the previous one — and the author needs
-to intervene.
+means the fixes are chasing the last fix — each
+correction reacting to the previous one — and the
+author needs to intervene.
 
 ### Idea lifecycle commands
 
@@ -237,6 +238,7 @@ These can fire independently outside the normal workflow sequence.
 |---------|--------|--------------|
 | protect | protector | Standalone protector invocation. Tests whether evaluation findings would improve the draft or just make it different. Quality gate on findings before acting on them. |
 | voice | voice-guardian (revise mode) | Lightweight alternative to voice-pass. Fires voice-guardian in revise mode directly against the draft — evaluates and amends in one pass. No prior evaluation files required. |
+| findings | findings-synthesiser | Surface the argument the evidence wants to make. Post-research, pre-compost. Maps default argument shape, evidence strength, author departures. No file output. |
 | ready | (none) | Assesses publication readiness from artefact evidence. Maps artefacts to pipeline stages, reads evaluation verdicts, checks draft quality markers, compares against published baseline. No fortes, no metadata — derives progress from what exists. |
 
 ### Meta commands

@@ -50,11 +50,11 @@ Before fortes fire, load:
 
 3. **Clear stale evaluations.** Clear `artefacts/evaluations/` before firing.
 
-4. **Execute content fortes independently.** Each forte receives: its own spec, its resolved talents, the shared context bundle, and any forte-specific additions per the table above. After each forte writes, add it to `completed` in the plan.
+4. **Execute content fortes independently.** Each forte receives: its own spec, its resolved talents, the shared context bundle, and any forte-specific additions per the table above. Each forte loads `author-register.md`. Findings are written in plain English. After each forte writes, add it to `completed` in the plan.
 
 5. **Human forte.** Present findings to the author. The author fills their evaluation or skips.
 
-6. **Protector.** Reads all content forte evaluation files and the human evaluation. Tests each finding against six failure modes: echo convergence, lurching, phantom problems, overcorrection, faustian regression, scope extension. Add to `completed`.
+6. **Protector.** Reads all content forte evaluation files and the human evaluation. Tests each finding against six failure modes: same finding repeated, chasing the last fix, finding about text the author didn't write, right but the cost is too high, fix one thing break another, asking the piece to do more than it claims. Add to `completed`.
 
 7. **Interrogator.** Reads all evaluation files including the protector's. Tests for grounding, specificity, variance, and cross-forte similarity. Add to `completed`.
 

@@ -30,12 +30,12 @@ Before the protector fires, load:
 
 1. **Check precondition.** Confirm that content forte evaluation files exist. If not, report and stop.
 
-2. **Fire protector.** The protector receives: its forte spec, all talents from "Draws on", the current draft (inline), caper.md contents (inline), turn.md contents (inline, if exists), and all content forte evaluation files. It walks every finding in every evaluation file and runs six tests:
-   - **Echo convergence** — are multiple fortes reporting the same thing in different words?
-   - **Lurching** — is this finding reacting to a prior fix rather than addressing the actual object?
-   - **Phantom problems** — is this a real problem or a preference masquerading as a finding?
-   - **Overcorrection** — would acting on this fix damage what's already working?
-   - **Faustian regression** — does fixing this degrade something else?
+2. **Fire protector.** The protector receives: its forte spec, all talents from "Draws on", the current draft (inline), caper.md contents (inline), turn.md contents (inline, if exists), and all content forte evaluation files. Each forte loads `author-register.md`. Findings are written in plain English. It walks every finding in every evaluation file and runs six tests:
+   - **Same finding repeated** — are multiple fortes reporting the same thing in different words?
+   - **Chasing the last fix** — is this finding reacting to a prior fix rather than addressing the actual object?
+   - **Finding about text the author didn't write** — is this a real problem or a preference masquerading as a finding?
+   - **Right but the cost is too high** — would acting on this fix damage what's already working?
+   - **Fix one thing, break another** — does fixing this degrade something else?
    - **Scope extension** — is this finding about the article or about a different article the forte wishes existed?
 
 3. **Present attacks.** Findings that failed tests, grouped by source forte, with the attack type and what would be lost. Count of findings that survived all tests (clean pass). If no findings failed any test, state that explicitly — the mob did its job.

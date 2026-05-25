@@ -98,11 +98,11 @@ A lightweight alternative to `/polish` when all you want is voice violations fix
 
 Fires the protector forte against existing evaluation files. The protector's question is not "what's wrong with the draft?" — it's "what's wrong with the findings?" It walks every finding from every evaluation file and runs six tests:
 
-1. **Echo convergence** — multiple fortes raise the same concern with the same reasoning (amplification, not independent validation)
-2. **Lurching** — the finding addresses a problem created by a prior fix, not a problem in the original draft
-3. **Phantom problems** — the finding attacks drafter-introduced content, not the author's material
-4. **Overcorrection** — technically right but acting on it strips something load-bearing
-5. **Faustian regression** — fixes one quality while degrading another
+1. **Same finding repeated** — multiple fortes raise the same concern with the same reasoning (amplification, not independent validation)
+2. **Chasing the last fix** — the finding addresses a problem created by a prior fix, not a problem in the original draft
+3. **Finding about text the author didn't write** — the finding attacks drafter-introduced content, not the author's material
+4. **Right but the cost is too high** — technically right but acting on it strips something load-bearing
+5. **Fix one thing, break another** — fixes one quality while degrading another
 6. **Scope extension** — asks the piece to do something the author hasn't claimed
 
 Run `/protect` after any evaluation command (`/structure`, `/polish`, `/verify`). It's the quality gate between evaluation and revision — it catches findings that would make the draft different without making it better.

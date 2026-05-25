@@ -4,26 +4,26 @@ Recognition patterns for findings that look right but would damage the draft if 
 
 ## Six failure modes
 
-### Echo convergence
+### Same finding repeated
 
-Multiple fortes raise the same concern with substantially the same reasoning. Shared architecture producing correlated output. Remove one and the others don't stand independently.
+Two or more fortes flag the same concern with the same reasoning. They're correlated because they share architecture, not because the concern is twice as important. Take one away and the others collapse.
 
-### Lurching
+### Chasing the last fix
 
-A finding addresses a problem created by a prior fix, not a problem in the original draft. The flagged passage didn't exist before the last revision. Compound form: a chain where each pass's fix creates the next pass's problem.
+The finding targets a problem the previous revision introduced, not something in the original draft. The flagged passage wasn't there before the last round of edits. Compound form: a chain where each round's fix becomes the next round's problem.
 
-### Phantom problems
+### Finding about text the author didn't write
 
-A finding identifies a real pattern in content the author did not write and would not defend. The flagged content cannot be traced to caper.md, turn.md, or the author's original material. Fix: remove the drafter's addition, not revise it further.
+The finding spots a real pattern — but in content the author never wrote and wouldn't defend. The flagged text can't be traced to caper.md, turn.md, or the author's source material. The fix is to remove the drafter's addition, not revise it further.
 
-### Overcorrection
+### Right but the cost is too high
 
-A finding is technically right but acting on it would strip something load-bearing. The loss from following the finding exceeds the gain.
+The finding is correct on its own terms, but following it would strip something the draft needs. The loss outweighs the gain.
 
-### Faustian regression
+### Fix one thing, break another
 
-A finding would fix one quality while degrading another. The fix and the damage are both real. This is a trade, not a fix — the author decides.
+Following the finding would improve one quality while damaging a different one. Both the improvement and the damage are real. This is a trade, not a fix — the author decides.
 
-### Scope extension dressed as finding
+### Asking the piece to do more than it claims
 
-A finding asks the piece to include something the author chose to exclude. The draft is evaluated against its own claims, not against what the evaluator thinks it should claim.
+The finding wants the draft to cover something the author chose to leave out. The draft gets judged against what it actually claims, not against what the evaluator thinks it should claim.

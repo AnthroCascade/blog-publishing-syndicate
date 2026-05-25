@@ -15,6 +15,8 @@ Every proposed change must justify itself. Apply voice-craft preservation rules.
 
 ## Protocol
 
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 1. Default to PRESERVE. Change only genuine errors.
 2. Three silent reads first — absorb rhythms, sentence music, what's WORKING.
 3. **Gestalt gate.** Does this sound like the author? Is there a person here? A missing answer is the finding. State it and stop. The gestalt gate is pass/fail.

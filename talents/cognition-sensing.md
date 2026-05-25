@@ -81,13 +81,13 @@ Irreplaceable local decisions signal costly cognition.
 
 Statistical sentence-length variance.
 
-## Nominalisation accumulation
+## Noun pile-up
 
 Noun-phrase chains that sound authoritative without committing to specific action. Subjects that sit as labels rather than act; verbs reduced to copulas linking noun phrases.
 
-**Verb-strip test:** Strip the verbs. If the sentence still reads as noun phrases connected by prepositions, the verbs weren't load-bearing.
+**Test:** Strip the verbs. If the sentence still reads as noun phrases connected by prepositions, the verbs weren't load-bearing.
 
-## Subject reification
+## Abstract subject where a concrete one would do
 
 Single abstract nouns used as subjects where a concrete subject exists. "The architecture" when you mean "the model." "The framework" when you mean "the people who wrote the rules." Replace with the concrete subject.
 

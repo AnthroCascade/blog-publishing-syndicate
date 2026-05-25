@@ -30,7 +30,7 @@ Before the fact-checker fires, load:
 
 2. **Fire fact-checker with web access.** The fact-checker receives research.md and the scoped verify targets. It web-searches only the scoped targets. For each, it reports: verified, unverified, or contradicted. It flags characterisation mismatches (e.g. "one thing" when the source describes two).
 
-3. **Present to author.** Claims verified, unverified, or contradicted. Characterisation mismatches. Specific fixes needed. Whether the draft is cleared for publication from a factual accuracy standpoint.
+3. **Present to author.** In plain English — no forte jargon. See `author-register.md`. Claims verified, unverified, or contradicted. Characterisation mismatches. Specific fixes needed. Whether the draft is cleared for publication from a factual accuracy standpoint.
 
 Verify is additive — it does not clear `artefacts/evaluations/`. Its output sits alongside existing evaluations.
 

@@ -36,6 +36,8 @@ Contextual intelligence. Does this piece's argument hold up given what the serie
 
 ## Protocol
 
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 - Read the corpus summaries before reading the draft.
 - Evaluate the draft against the series: intellectual trajectory, established positions, what a series reader already carries.
 - Flag contradictions, unacknowledged repetitions, and opaque callbacks.

@@ -63,7 +63,7 @@ commands are the default.
 `/voice-pass` is the only iterative command. If still
 finding violations at pass 3, remaining findings go to
 the evaluation file as unresolved. Three passes that
-don't converge means lurching.
+don't converge means chasing the last fix.
 
 `/voice` is a lightweight alternative: fires
 voice-guardian in revise mode directly against the
@@ -226,7 +226,7 @@ just knowledge.
 | distribution | Platform format constraints and audience context | share-crafter |
 | reader-empathy | How readers process, resist, and respond to arguments. Attention economics, resistance patterns, register fit | reader-proxy |
 | influence | Cialdini's seven principles applied to this author's register and structure | reader-proxy, drafter, voice-guardian, share-crafter, cognition-sensor, structural-thinker |
-| evaluation-failure-patterns | How evaluative mobs fail: groupthink, lurching, cosmetic fixes | protector |
+| evaluation-failure-patterns | How evaluative mobs fail: repeated findings, chasing fixes, cosmetic fixes | protector |
 | caper-aligned-findings | Anchoring every finding to caper material and assessing article-purpose impact | voice-guardian, cognition-sensor, structural-thinker, thesis-sharpener, continuity-thinker, fact-checker, research-assembler, protector, reader-proxy |
 
 ## Coordination pattern

@@ -35,7 +35,7 @@ Before fortes fire, load:
 
 1. **Clear stale evaluations.** Clear `artefacts/evaluations/` before firing.
 
-2. **Fire content fortes in parallel.** Each forte receives its own spec, resolved talents, and the shared context bundle. Continuity-thinker additionally receives `prior-articles.md`. No forte receives another forte's spec or output. After each forte writes, add it to `completed` in the plan.
+2. **Fire content fortes in parallel.** Each forte receives its own spec, resolved talents, and the shared context bundle. Each forte loads `author-register.md`. Findings are written in plain English. Continuity-thinker additionally receives `prior-articles.md`. No forte receives another forte's spec or output. After each forte writes, add it to `completed` in the plan.
 
 4. **Human forte.** Present findings to the author. The author fills their evaluation or skips.
 
@@ -45,7 +45,7 @@ Before fortes fire, load:
 
 7. **Present to author.** In the author's register — no forte jargon untranslated. Group findings by article-purpose impact, not by forte. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`.
 
-   The forte findings include Caper anchor and Article-purpose impact fields. Group by those impact fields:
+   The forte findings include What this connects to in the caper and What this does to the article's main claim fields. Group by those impact fields:
 
    1. **What the article needs to land its central claim.** Findings tagged Strengthens or Required-for-purpose.
    2. **What protects the work already done.** Findings tagged Protects.

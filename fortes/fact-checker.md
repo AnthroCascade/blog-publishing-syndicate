@@ -43,6 +43,10 @@ Verification only. Trace every claim to source. Flag gaps.
 - Decontextualised quotes
 - Statistics lacking methodology or date
 
+## Protocol
+
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 ## Research mode (default)
 
 Verify claims against `research.md`.

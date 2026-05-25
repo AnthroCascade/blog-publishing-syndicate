@@ -34,31 +34,33 @@ For each finding, articulate what the draft would lose if the finding is followe
 
 ## Protocol
 
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 Walk every finding in every evaluation file. For each, run six tests. A finding fails if any test catches it.
 
-### 1. Echo convergence
+### 1. Same finding repeated
 
-Multiple fortes, same concern, same reasoning. Test: remove one forte's finding — does the remaining reasoning stand independently?
+Two or more fortes flagged the same thing for the same reason. Test: take one forte's finding away — do the others still stand on their own reasoning?
 
-### 2. Lurching
+### 2. Chasing the last fix
 
-The finding addresses a problem created by a prior fix. Test: was this passage in the draft before the last revision?
+The finding is about a problem the previous revision created, not something in the original draft. Test: was this passage there before the last round of edits?
 
-### 3. Phantom problems
+### 3. Finding about text the author didn't write
 
-The finding attacks content the drafter added beyond the author's instructions. Test: trace the flagged content to the author's material or explicit intent.
+The finding targets content the drafter invented — it can't be traced back to the author's material or instructions. Test: can you point to something in caper.md, turn.md, or the author's source that this content came from?
 
-### 4. Overcorrection
+### 4. Right but the cost is too high
 
-Technically right but acting on it strips something load-bearing. Test: what does the draft lose if this finding is followed?
+The finding is correct on its own terms, but following it would strip something the draft needs. Test: what does the draft lose if you act on this?
 
-### 5. Faustian regression
+### 5. Fix one thing, break another
 
-Fixing one quality degrades another. Test: name what improves and what degrades. If both are real, it's a trade — flag as author decision.
+Following the finding would improve one quality while damaging a different one. Test: name what gets better and what gets worse. If both are real, it's a trade — flag it for the author to decide.
 
-### 6. Scope extension
+### 6. Asking the piece to do more than it claims
 
-Asks the piece to go beyond the author's claim. Test: does the finding reference something already in the draft, or something it "should also" include?
+The finding wants the draft to cover something the author chose to leave out. Test: does the finding point at something already in the draft, or something the evaluator thinks "should also" be there?
 
 ## Output format
 
@@ -70,7 +72,7 @@ For each finding that fails a test:
 ## [forte-name] — finding [number]
 
 **Finding:** [quote the finding]
-**Attack:** [echo convergence | lurching | phantom problem | overcorrection | faustian regression | scope extension]
+**Attack:** [same finding repeated | chasing the last fix | finding about text the author didn't write | right but the cost is too high | fix one thing, break another | asking the piece to do more than it claims]
 **What would be lost:** [one sentence]
 **Recommendation:** drop | modify | author decision
 ```

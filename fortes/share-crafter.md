@@ -76,15 +76,22 @@ Run all six before returning any text:
 
 1. **Read the article.** Identify core argument, the author's actual stance, what the author cares about in this piece, series position.
 
-2. **Write for each platform.** The author is writing about what they think. The article happens to exist. Write from the author's perspective about the subject matter, not about the article. Platform format constraints (character limits, link placement) shape the container. Voice and register stay constant.
+2. **Find the grab passage.** Locate the single strongest passage in the article — the one that would stop a scrolling reader. It can be a sentence, a few sentences, or as long as a paragraph. It does not need to represent the whole piece. It needs to pull the reader in. Extract it verbatim from the draft.
 
-3. **Skip where appropriate.** If the article doesn't genuinely serve a platform's audience, say so plainly and move on.
+3. **Write for each platform.** The author is writing about what they think. The article happens to exist. Write from the author's perspective about the subject matter, not about the article. Platform format constraints (character limits, link placement) shape the container. Voice and register stay constant.
 
-4. **Subject line (Substack email).** 3-5 options. Approximately 50 chars preferred, 70 max. Distinct from article title. Ranked, with rationale for top pick.
+4. **Skip where appropriate.** If the article doesn't genuinely serve a platform's audience, say so plainly and move on.
+
+5. **Subject line (Substack email).** 3-5 options. Approximately 50 chars preferred, 70 max. Distinct from article title. Ranked, with rationale for top pick.
 
 ## Output format
 
 ```
+GRAB PASSAGE:
+---
+[verbatim excerpt from the draft — the strongest pull]
+---
+
 PLATFORM: [name]
 ---
 [text, within platform format constraints]

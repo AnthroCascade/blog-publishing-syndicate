@@ -56,6 +56,8 @@ Sequence. Each section depends on the previous. Reorderable sections signal stru
 
 ## Protocol
 
+Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
+
 - Map the argument before assessing structure.
 - Identify: What must come first? What depends on what?
 - Flag structural problems with specific diagnosis.
