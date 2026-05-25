@@ -30,9 +30,9 @@ Before the share-crafter fires, load:
 
 2. **Fire share-crafter.** The share-crafter receives selected platforms, the draft, prior-articles, and game.md corpus state. It writes platform-native text for confirmed platforms.
 
-3. **Present to author.** For each platform: the text, and any platform-specific format notes (char counts, link placement). Also present subject line options (3-5) with the share-crafter's top pick and rationale.
+3. **Present to author.** First: the grab passage — the verbatim excerpt the share-crafter identified as the strongest pull from the draft. Then for each platform: the text, and any platform-specific format notes (char counts, link placement). Also present subject line options (3-5) with the share-crafter's top pick and rationale.
 
-4. **Author decides per platform.** Approve (text ready to use), modify (author adjusts, orchestrator records), or skip (platform dropped). The author also selects or modifies a subject line.
+4. **Author decides per platform.** The grab passage is context for decisions, not a deliverable — the author may use it as a starting point, ignore it, or let it inform their angle. Approve platform texts (text ready to use), modify (author adjusts, orchestrator records), or skip (platform dropped). The author also selects or modifies a subject line.
 
 5. **Record approved texts.** Write all approved or author-modified texts to `artefacts/share.md`. Include skipped platforms at the end with rationale, so the record shows what was considered and rejected. Include the chosen subject line.
 
