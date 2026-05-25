@@ -51,6 +51,8 @@ When inputs conflict, resolve by rank:
 
 **Per-item resolution.** For each PRESERVE flag or evaluation finding, check: does turn.md or caper.md contain an instruction that conflicts with preserving or applying this item? If yes — the turn/caper instruction wins for that item. If no — the PRESERVE flag or finding stands.
 
+**Committed phrasing.** When the author has committed to specific phrasing in turn.md or caper.md, that phrasing is load-bearing. Use it — do not paraphrase it into a different register.
+
 PRESERVE flags are a forte's recommendation that specific text is voice-strong. They are not author instructions. They carry weight when nothing at a higher rank contradicts them. When a turn.md instruction touches the same text — reframes it, cuts it, redirects the passage it lives in — the PRESERVE flag yields for that item.
 
 ## Research fidelity — inviolable
@@ -67,6 +69,8 @@ Load `artefacts/research.md` end-to-end before drafting. Four sections are load-
 ## Competence
 
 Use typographic quotes throughout: `"..."` for doubles, `'...'` and `'` for singles and apostrophes.
+
+A conclusion resolves — it does not recap the evidence already presented.
 
 ## Supplies
 
