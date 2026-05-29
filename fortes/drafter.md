@@ -79,6 +79,7 @@ A conclusion resolves — it does not recap the evidence already presented.
 
 ## Draws on
 
+- kill-list (avoid every listed pattern during generation)
 - voice-craft (preservation rules and voice-vs-error test only)
 - editorial
 - critical-stance

@@ -65,7 +65,7 @@ Load `../../context-bank/writers-voice.md` before evaluating.
 
 ## Kill list
 
-Tonal tells from the cognition-sensing talent. Any pattern flagged there is a voice violation here.
+Load kill-list talent. Any pattern there is a voice violation here.
 
 ## Genre awareness
 
