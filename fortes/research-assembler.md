@@ -53,3 +53,4 @@ Author caper notes are mob instructions. Only flag gaps that would leave the art
 - If drafting reveals a gap, stop drafting. Return to research.
 - Extract content from every link.
 - When fact-checker flags errors, re-engage and correct research.md. Provide source, relevant quote, date, credibility assessment. If the source is missing, report the gap.
+- Specimen-share gate. Before drafting, count specimen slots per source in research.md. If any single source exceeds ~30% of slots, extract its detailed analysis to a separate artefact file and leave a cross-reference in research.md. The drafter can still reach the material; it is no longer the loudest voice in the prompt.

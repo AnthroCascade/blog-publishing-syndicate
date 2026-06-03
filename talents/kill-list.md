@@ -28,6 +28,12 @@ Structures that delay, announce, or hedge instead of delivering.
 - **Generic placeholders:** Cliched expressions substituting for specific observation.
 - **Explanatory padding:** Sections that exist to explain what the reader can already infer from the thesis.
 
+## Sameness announcements
+
+"The same X" / "the same pattern" / "the same operation" — telling the reader that what follows is the same as something already stated. The reader makes the connection or they don't. Announcing it is hand-holding. State the thing; trust the reader.
+
+**Test:** Remove "the same" and say the thing directly. If the sentence still works, the announcement was doing nothing.
+
 ## Noun pile-up
 
 Noun-phrase chains that sound authoritative without committing to specific action. Subjects that sit as labels rather than act; verbs reduced to copulas linking noun phrases.
