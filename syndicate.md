@@ -3,6 +3,7 @@
 ## Fortes
 
 - drafter — drafts prose in the author's voice (draft mode and revise mode)
+- conversational-anchor — sets the target (one author/reader, no audience) and holds the conversational register before any voice-bearing generation
 - voice-guardian — protects voice in existing text
 - structural-thinker — argument builds, never catalogues
 - fact-checker — every claim sourceable, verified before presenting (research mode and verify mode)
