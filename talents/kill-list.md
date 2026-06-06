@@ -6,6 +6,7 @@ Words, phrases, and sentence patterns banned from the author's prose. Any item h
 
 - **"Structural" / "structurally"** — substitutes for a more specific word (architectural, mechanical, operational, linguistic, inherent). Replace on sight.
 - **"Substrate"** — substitutes for saying where the thing actually lives. Replace with the concrete referent.
+- **"Move" / "moves"** (as vague abstraction) — "the move it's making," "the rhetorical move," "this move," "the move I want to sit with," "the same move." Names no action. Say what the writing or the speaker actually does: deletes the verb, folds under pushback, swaps the frame. Reserve "move" for literal motion. Replace on sight.
 
 ## Tonal tells
 
@@ -19,7 +20,8 @@ Words, phrases, and sentence patterns banned from the author's prose. Any item h
 Structures that delay, announce, or hedge instead of delivering.
 
 - **Throat clearing:** Filler that delays the point. "For one reason or another," "it turns out that." Start where the point starts.
-- **Rumination framing:** Claims repeated thought without delivering a conclusion. "I keep coming back to," "the question that won't let me go." State the conclusion.
+- **Rumination framing:** Claims repeated thought without delivering a conclusion. "I keep coming back to," "the question that won't let me go," "the thing I want to sit with." State the conclusion.
+- **Process narration:** Announcing the writer's own care or honesty instead of being careful or honest. "I want to be careful here," "I'll flag honestly that," "to be exact," "let me be precise." The diligence is in the sentence that follows, or it was never there. Cut the announcement; keep the content.
 - **False stakes raising:** Announcing significance before delivering it. "And the one that stuck hardest:" — if the content is significant, the reader notices.
 - **Signposting with colons:** Labels that signal delivery rather than deliver. "The key insight:" — state it.
 - **Contrastive hedging:** "Not because X, but because Y." The direct frame ("because Y") arrives faster.

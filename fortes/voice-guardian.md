@@ -67,6 +67,8 @@ Load `../../context-bank/writers-voice.md` before evaluating.
 
 Load kill-list talent. Any pattern there is a voice violation here.
 
+**Scan positionally, not by prominence.** Run the kill-list against every paragraph in order, opening paragraphs first. The plain early instances — "it isn't a bug report. It's hypnosis," "the move I want to sit with" — hide where ornateness doesn't draw the eye, and an elaborate climactic instance will absorb the whole scan while a flat pair in paragraph two goes through untouched. Catching the ornate contrastives and missing the plain ones inverts the rule. **In a generated draft, no contrastive landing is preserve-by-default:** the author places payoff contrastives by hand, so any contrastive in machine-drafted text is flag-worthy regardless of how climactic it reads.
+
 ## Genre awareness
 
 Expect documentation register in reference material. See editorial talent, mixed-genre awareness.
