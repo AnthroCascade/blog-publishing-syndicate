@@ -7,6 +7,9 @@ Words, phrases, and sentence patterns banned from the author's prose. Any item h
 - **"Structural" / "structurally"** — substitutes for a more specific word (architectural, mechanical, operational, linguistic, inherent). Replace on sight.
 - **"Substrate"** — substitutes for saying where the thing actually lives. Replace with the concrete referent.
 - **"Move" / "moves"** (as vague abstraction) — "the move it's making," "the rhetorical move," "this move," "the move I want to sit with," "the same move." Names no action. Say what the writing or the speaker actually does: deletes the verb, folds under pushback, swaps the frame. Reserve "move" for literal motion. Replace on sight.
+- **"Fill" / "filling-in"** (for the gap-supplying move) — when a hearer or reader supplies what was deleted, the author names it with a specific verb (hallucinate, interpret, supply, grab). Do not substitute the generic "fill" / "filling-in." Replace on sight.
+- **"Load-bearing"** — tech-writer tic standing in for "structural" or "it holds weight." Say the concrete thing (solid, holds the roof up, the wall that is actually holding something). Replace on sight.
+- **"Name" / "named" / "naming"** (as a stand-in for specify, identify, or point to) — "the named cause," "the verb names no action," "worth naming." Names no action of its own; use the concrete verb (specify, point to, pin down). Exceptions: literal christening (a person coining a term) and section headings.
 
 ## Tonal tells
 
@@ -24,6 +27,7 @@ Structures that delay, announce, or hedge instead of delivering.
 - **Process narration:** Announcing the writer's own care or honesty instead of being careful or honest. "I want to be careful here," "I'll flag honestly that," "to be exact," "let me be precise." The diligence is in the sentence that follows, or it was never there. Cut the announcement; keep the content.
 - **False stakes raising:** Announcing significance before delivering it. "And the one that stuck hardest:" — if the content is significant, the reader notices.
 - **Signposting with colons:** Labels that signal delivery rather than deliver. "The key insight:" — state it.
+- **Structure-narration:** Naming the article's own scaffolding — "layer," "axis," "level," "this section," "as we'll see," "in what follows." The structure does the work; the prose never announces it.
 - **Contrastive hedging:** "Not because X, but because Y." The direct frame ("because Y") arrives faster.
 - **Contrastive negation pairs:** "It did not need X. It needed Y." Delete the negative sentence; the positive does the work alone.
 - **Verdict words:** Abstract labels substituting for explanation. "This is fundamental" / "This is systemic." Remove the verdict word; if the sentence collapses, the word was doing all the work.
