@@ -34,19 +34,23 @@ Before the drafter fires, load:
 
 2. **Fire drafter in revise mode.** The drafter receives: its forte spec, talents, the draft, caper.md contents (inline), turn.md contents (inline, if exists), all evaluation files, research.md, prior-articles (if exists), learnings (if exists). The drafter applies turn.md decisions (already decided), applies unambiguous fixes from evaluations, and reports anything it could not resolve. Findings that conflict with turn.md or caper.md intent follow the author's stated intent.
 
+   **Demotion semantics.** A demotion is a placement instruction, not a cut. It specifies what job the material does and where it now does it — moved to research.md, compressed to a clause, repositioned under a different point. Material leaves the draft entirely only when the author has said "cut" explicitly. If a demotion's destination is ambiguous, the drafter keeps the material in place and flags it in the manifest rather than deciding deletion is safe.
+
+   **Integration manifest.** The drafter returns a ledger accounting for every finding in every evaluation file and every turn.md decision — none silently dropped. Each entry: the finding or decision, its disposition (**applied** — with where in the draft / **overridden** — by which turn.md or caper.md authority / **unresolved** — with the specific conflict), one line each.
+
 3. **Clear stale evaluations.** After writing the revised draft, clear `artefacts/evaluations/`. The findings have been consumed.
 
 4. **Leave turn.md in place.** Do not delete turn.md after consumption. It persists for author review and is overwritten only when a new directive is written. See `syndicates/coordination/patterns/turn-taking.md` → "turn.md write discipline."
 
 5. **Fire voice-guardian in revise mode.** Voice-guardian receives: its forte spec (revise mode section), all talents from its "Draws on" section, the revised draft (inline — returns amended text), prior-articles path, learnings path. It runs its evaluation protocol, applies surgical fixes, returns amended text, a change manifest, and unresolved flags.
 
-6. **Write outputs.** Amended draft text replaces the revision at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`.
+6. **Write outputs.** Amended draft text replaces the revision at `artefacts/draft.md`. Change manifest and unresolved flags go to `artefacts/evaluations/forte-voice-guardian.md`. The drafter's integration manifest goes to `artefacts/integration-manifest.md` (overwritten each pass — it describes this revision, not history; outside `evaluations/` so it is never mistaken for a work order).
 
 7. **Decision promotion.** If the drafter's change summary shows findings that were overridden by turn.md or caper.md intent, check whether the override represents a durable decision not yet in caper.md. If so, ask the author: "Should this go in caper.md so fortes receive it in future passes?" If yes, append to caper.md. This prevents the same decision being re-fought across evaluation passes.
 
 8. **Present to author.** In the author's register — no forte jargon untranslated. See `syndicates/coordination/talents/author-register.md` and `syndicates/coordination/fortes/synthesiser.md` → "Caper-aligned presentation." See also `syndicates/blog-publishing/talents/caper-aligned-findings.md`. Report:
 
-   1. **What the drafter changed**, grouped by article-purpose impact (Strengthens / Protects / Neutral) per the caper-aligned-findings talent. Name the caper anchor for each change so the author sees how it serves the caper's stated intent. In plain terms — say what was edited and to what.
+   1. **What the drafter changed**, grouped by article-purpose impact (Strengthens / Protects / Neutral) per the caper-aligned-findings talent. Name the caper anchor for each change so the author sees how it serves the caper's stated intent. In plain terms — say what was edited and to what. State the finding count up front — "14 findings: 11 applied, 2 overridden by turn.md, 1 unresolved" — so the author verifies integration by reading, not by asking. The full ledger is at `artefacts/integration-manifest.md`.
    2. **Which of the author's turn.md decisions were executed**, so the author can see their directives landed.
    3. **Findings the drafter could not resolve**, with the specific conflict (turn.md vs finding, or ambiguous fix).
    4. **Decisions promoted to caper.md**, if any — what moved from ephemeral turn.md to durable caper.md and why.
@@ -64,6 +68,7 @@ Before the drafter fires, load:
 ## Output
 
 - `artefacts/draft.md` (revised)
+- `artefacts/integration-manifest.md` (every finding accounted for: applied / overridden / unresolved)
 - `artefacts/evaluations/forte-voice-guardian.md`
 
 ## Settlement condition
