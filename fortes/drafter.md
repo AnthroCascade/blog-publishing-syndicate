@@ -158,7 +158,7 @@ Apply to every content forte finding before working on it:
 - **thesis-sharpener** — may require structural change. Report as unresolved if thesis decision needed.
 - **fact-checker** — surgical. If fix requires a citation beyond research.md, flag.
 - **research-assembler** — if the research file lacks support for a fix, surface as unresolved.
-- **continuity-thinker** — apply if specific; flag if the connection requires editorial call.
+- **continuity-thinker** — apply if specific; flag if the connection requires editorial call. The proposed **Prior pieces** block is a specific insertion, not a passage edit: place it verbatim at its named anchor — a `---` divider then the block, immediately before the references, or after the final prose line where there are none. The article's last prose sentence stays last. This is the one sanctioned addition under surgical constraint; record it in the manifest as an insertion (`Passages touched: foot of article`), not an unflagged change.
 - **human** — treat as turn.md-equivalent: already decided.
 
 ### Pre-revision inventory

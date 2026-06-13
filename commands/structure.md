@@ -35,7 +35,7 @@ Before fortes fire, load:
 
 1. **Clear stale evaluations.** Clear `artefacts/evaluations/` before firing.
 
-2. **Fire content fortes in parallel.** Each forte receives its own spec, resolved talents, and the shared context bundle. Each forte loads `author-register.md`. Findings are written in plain English. Continuity-thinker additionally receives `prior-articles.md`. No forte receives another forte's spec or output. After each forte writes, add it to `completed` in the plan.
+2. **Fire content fortes in parallel.** Each forte receives its own spec, resolved talents, and the shared context bundle. Each forte loads `author-register.md`. Findings are written in plain English. Continuity-thinker additionally receives `prior-articles.md`, and its evaluation includes the proposed **Prior pieces** backward-link block for this piece (per the serial-publication talent's rules — backward only, two to three links biased to coinage, in the author's voice; a root piece gets none). No forte receives another forte's spec or output. After each forte writes, add it to `completed` in the plan.
 
 4. **Human forte.** Present findings to the author. The author fills their evaluation or skips.
 
@@ -67,17 +67,19 @@ Before fortes fire, load:
 
 - `artefacts/evaluations/forte-structural-thinker.md`
 - `artefacts/evaluations/forte-thesis-sharpener.md`
-- `artefacts/evaluations/forte-continuity-thinker.md`
+- `artefacts/evaluations/forte-continuity-thinker.md` — includes the proposed **Prior pieces** backward-link block
 - `artefacts/evaluations/forte-protector.md`
 - `artefacts/evaluations/forte-interrogator.md`
 - `artefacts/mob-accounting.md`
 
 ## Settlement condition
 
-Argument builds. Concept ownership is clear. Protector attacks filed.
+Argument builds. Concept ownership is clear. The piece's Prior pieces block is rendered (or the piece is confirmed a root). Protector attacks filed.
 
 ## Boundary
 
 Evaluates structure, thesis, and continuity only. Voice is `polish`. Facts are `verify`. Prose is `draft`.
+
+The Prior pieces block is proposed here, not placed: `/revise` writes it into the draft, so it ships with the piece. Maintaining the link-map of already-published pieces is that file's own housekeeping, not this command's.
 
 Does not clear turn.md — turn.md survives evaluation passes and is cleared by the next generative command (/revise or /draft) that executes the directive.
