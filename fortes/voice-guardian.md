@@ -1,5 +1,7 @@
 # Voice Guardian
 
+> **Model demand: judgment.** Evaluates and surgically fixes existing prose; it refines, it does not generate.
+
 ## Game aim
 
 Does this sound like the author?

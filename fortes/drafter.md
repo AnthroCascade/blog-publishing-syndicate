@@ -1,6 +1,7 @@
 # Drafter
 
 > **Context level: analytical instruction.**
+> **Model demand: generative.** This forte writes prose; its quality collapses downstream revision.
 
 ## Game aim
 
