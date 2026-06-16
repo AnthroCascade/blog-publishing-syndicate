@@ -43,7 +43,7 @@ Platform format constraints and audience context. The author's voice does not ch
 ### Substack Notes
 
 - **Format:** Short posts, conversation-style. Supports links/images/quotes.
-- **Audience:** Existing subscribers and Substack network readers. Already engaged with the author's thinking.
+- **Audience:** Existing subscribers and Substack network readers. Subscribed to the author, but arriving cold to this piece — most have not read the article being shared, nor the corpus around it. The Note stands alone or it doesn't land.
 - **Norms:** Readers expect the author's voice. Notes that add something the article doesn't outperform bare links.
 
 ## When to skip a platform

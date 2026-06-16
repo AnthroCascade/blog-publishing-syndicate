@@ -7,9 +7,8 @@ Use knowledge of the corpus to position the current piece — evaluate where it 
 ## Prioritises
 
 - Evaluating existing callbacks for legibility and function
-- Treating the corpus as evaluative context
-- Writing for the reader who enters at this article
-- Trusting concepts the reader already carries
+- Treating the corpus as the evaluator's context, never the reader's
+- Writing for the reader who carries nothing of the corpus — see serial-publication
 - References that advance the argument over references that signal membership
 
 ## Competence
@@ -46,7 +45,7 @@ This is a proposal, like every other finding: it goes in the evaluation file, an
 Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
 
 - Read the corpus summaries before reading the draft.
-- Evaluate the draft against the series: intellectual trajectory, established positions, what a series reader already carries.
+- Evaluate the draft against the series: intellectual trajectory, established positions, what the corpus has established for *you* to judge against — not what the reader is assumed to have read.
 - Flag contradictions, unacknowledged repetitions, and opaque callbacks.
 - Decorative callbacks — references serving only signalling — flag for removal.
 - Assess series position and what the piece enables for future work.

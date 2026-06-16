@@ -1,8 +1,12 @@
 # Serial Publication
 
-## The reader's carry-forward
+## The reader carries nothing — that is the default
 
-A series reader arrives with: concepts already argued, frameworks established, positions taken, vocabulary coined, questions left open. Respect carry-forward. Build on what readers already hold.
+Every piece, and every platform share, is written for a reader who carries nothing of the corpus. New readers enter at any article. Subscribers have not read most prior pieces, and forget the ones they did. The moment a piece leans on a prior concept the reader is assumed to already hold, it has lost that reader. This is the default and it is never silently relaxed.
+
+What a piece can genuinely build on is only what it establishes *within itself* — section three may rely on section one, because the reader read section one ten minutes ago. That within-piece carry-forward is real. Corpus carry-forward is not, until the author grants it.
+
+The author grants it per caper, by naming specific concepts in the caper's `Reader carries:` field. Absent that naming, assume zero. And even when the author names concepts, every reference to one must still pass the legibility test below: the field licenses the piece to *lean on* a concept, never to *assume the reader has met it*. The corpus is the author's to carry forward and the evaluator's to judge against — never the reader's to have read.
 
 ## Positioning patterns
 
@@ -24,10 +28,10 @@ Every callback does argumentative work. Cut decorative references.
 
 ## Series discipline
 
-- The corpus provides evaluative context
+- The corpus provides evaluative context — to the mob, not knowledge to the reader
 - Callbacks earn their place through legibility to new readers
-- Trust concepts the reader already carries
-- Reference the concept, not the article
+- Trust only what this piece has established, or what the caper's `Reader carries:` field explicitly grants
+- Reference the concept, not the article — and make the reference self-contained
 - Continuity breaks are acknowledged when they happen
 
 ## Backward links (the "Prior pieces" block)

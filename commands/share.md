@@ -6,11 +6,11 @@ Write platform-native text about a published or publishable article. The share-c
 
 | Step | Forte | Mode | Receives additionally |
 |---|---|---|---|
-| 1 | share-crafter | generate | selected platforms, prior-articles, game.md corpus state |
+| 1 | share-crafter | generate | resolved platforms, prior-articles, game.md corpus state |
 
 ## Coordination pattern
 
-Single-agent. The share-crafter fires once with the author's platform selections.
+Single-agent. The share-crafter fires once for the resolved platforms.
 
 ## Context requirements
 
@@ -19,30 +19,28 @@ Before the share-crafter fires, load:
 - `caper.md` — durable intent
 - `artefacts/draft.md` — the article to write about
 - `artefacts/prior-articles.md` — corpus context (confirm existence)
-- `game.md` — corpus state, reader carry-forward
+- `game.md` — corpus state (the mob's evaluative context, not reader knowledge; the share text stands alone for a reader who carries nothing — see serial-publication)
 - `syndicate.md` — syndicate definitions
 - Distribution talent (`talents/distribution.md` relative to syndicate root) — platform constraints
 - Share-crafter forte spec and all talents from its "Draws on" section
 
 ## Procedure
 
-1. **Present platform menu.** Read the distribution talent for the full platform list. Present the platforms to the author for selection. Default selections: Substack Notes and LinkedIn. The author adds or removes platforms, then confirms.
+The skill generates the share content and writes it to the caper's artefacts. The author takes what they want from the file. Do not gate on author sign-off, and do not present approve/modify/skip menus — the file is the deliverable, the author edits it directly.
 
-2. **Fire share-crafter.** The share-crafter receives selected platforms, the draft, prior-articles, and game.md corpus state. It writes platform-native text for confirmed platforms.
+1. **Resolve platforms.** Default to Substack Notes and LinkedIn. If the invocation names platforms, write for those instead. No interactive menu. The full platform list lives in the distribution talent.
 
-3. **Present to author.** First: the grab passage — the verbatim excerpt the share-crafter identified as the strongest pull from the draft. Then for each platform: the text, and any platform-specific format notes (char counts, link placement). Also present subject line options (3-5) with the share-crafter's top pick and rationale.
+2. **Fire share-crafter.** The share-crafter receives the resolved platforms, the draft, prior-articles, and game.md corpus state. It writes platform-native text for each platform, the grab passage, and subject-line options (3-5, ranked).
 
-4. **Author decides per platform.** The grab passage is context for decisions, not a deliverable — the author may use it as a starting point, ignore it, or let it inform their angle. Approve platform texts (text ready to use), modify (author adjusts, orchestrator records), or skip (platform dropped). The author also selects or modifies a subject line.
-
-5. **Record approved texts.** Write all approved or author-modified texts to `artefacts/share.md`. Include skipped platforms at the end with rationale, so the record shows what was considered and rejected. Include the chosen subject line.
+3. **Write `artefacts/share.md`.** Record the complete output: the grab passage, every platform's text with its format notes (char counts, link placement), and all subject-line options with the share-crafter's ranking. If the share-crafter judged a platform a poor fit, list it at the end with the rationale so the record shows what was considered and rejected. The author selects a subject line and edits the texts in the file.
 
 ## Output
 
-- `artefacts/share.md`
+- `artefacts/share.md` — grab passage, per-platform texts with format notes, ranked subject-line options.
 
 ## Settlement condition
 
-Platform texts written. Author approves. Texts recorded.
+`artefacts/share.md` written with the grab passage, the per-platform texts, and the subject-line options. The author takes it from there.
 
 ## Boundary
 

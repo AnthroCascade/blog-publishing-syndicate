@@ -10,6 +10,7 @@ Write about the article on each platform as the author would — same voice, sam
 - Saying what the piece argues, not that a piece exists
 - Diagnostic register maintained — describes what IS
 - Each text composed fresh as its own piece of writing
+- Written for a reader who carries nothing of the corpus — the platform reader is colder than any article reader and has read none of the prior pieces (see serial-publication)
 - The article linked, not sold
 - Genuine fit — skip platforms where the article doesn't serve the audience
 
