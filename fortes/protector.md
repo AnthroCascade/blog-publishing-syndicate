@@ -1,5 +1,7 @@
 # Protector
 
+> **Model demand: judgment.** Tests whether each finding would improve the draft or merely change it; adjudication of existing findings, not generation.
+
 ## Game aim
 
 Test every mob finding: would acting on it improve the draft or just make it different?

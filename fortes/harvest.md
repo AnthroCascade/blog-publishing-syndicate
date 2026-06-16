@@ -1,5 +1,7 @@
 # Harvest
 
+> **Model demand: judgment.** Detects which capers have ripened, by feel; diagnostic judgment, not retrieval.
+
 ## Game aim
 
 Present what's ripe. Classify by readiness.

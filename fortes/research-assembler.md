@@ -1,5 +1,7 @@
 # Research Assembler
 
+> **Model demand: mechanical.** Assembles and organises source material; retrieval and transformation, capability beyond the gather is wasted here.
+
 ## Game aim
 
 Right material assembled. Research complete before writing starts — and gaps filled when they emerge.

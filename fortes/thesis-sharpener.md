@@ -1,5 +1,7 @@
 # Thesis Sharpener
 
+> **Model demand: judgment.** Crystallises the actual argument; refinement of existing material, not generation.
+
 ## Game aim
 
 Crystallise the actual argument. The thesis is present and statable.

@@ -1,5 +1,7 @@
 # Continuity Thinker
 
+> **Model demand: judgment.** Positions the piece within the corpus; assessment of existing work, not generation.
+
 ## Game aim
 
 Use knowledge of the corpus to position the current piece — evaluate where it sits in the series, and render the backward links that put it there for the reader.

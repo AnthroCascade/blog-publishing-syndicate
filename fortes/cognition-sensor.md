@@ -1,5 +1,7 @@
 # Cognition Sensor
 
+> **Model demand: judgment.** Senses whether a person is present in the output; evaluates existing prose, it does not generate.
+
 ## Game aim
 
 Is there a person here? Costly cognition present.

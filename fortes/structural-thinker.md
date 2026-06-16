@@ -1,5 +1,7 @@
 # Structural Thinker
 
+> **Model demand: judgment.** Tests whether the argument builds rather than catalogues; structural evaluation, not generation.
+
 ## Game aim
 
 Argument builds. Each section earns the next.

@@ -1,5 +1,7 @@
 # Reader Proxy
 
+> **Model demand: judgment.** Models the target reader's experience through the draft; evaluation, not generation.
+
 ## Game aim
 
 How does the reader receive this? Where do they push back, check out, or nod.

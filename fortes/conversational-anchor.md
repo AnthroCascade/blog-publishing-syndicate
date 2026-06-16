@@ -1,5 +1,7 @@
 # Conversational Anchor
 
+> **Model demand: generative.** Sets the target and warms up in-voice inside the generating context; voice-bearing, and its hold compounds into the whole draft.
+
 ## Game aim
 
 Put the writer in the conversational register — writing to the one author/reader, no audience — and hold that target across the whole act, so generation pulls toward it rather than toward the performed register generation drifts to when nothing recent holds it.

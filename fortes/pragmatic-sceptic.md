@@ -1,5 +1,7 @@
 # Pragmatic Sceptic
 
+> **Model demand: judgment.** Tests adversarially whether an idea survives investment; evaluation, not generation.
+
 ## Game aim
 
 Test whether an idea can survive investment before the author commits research or drafting effort.

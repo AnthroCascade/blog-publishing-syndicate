@@ -1,5 +1,7 @@
 # Prospect
 
+> **Model demand: judgment.** Synthesises and ranks corpus-connected angles; the judgment is in the synthesis, not the scan.
+
 ## Game aim
 
 Find article angles where the author's existing corpus gives them easy reach into current conversation.

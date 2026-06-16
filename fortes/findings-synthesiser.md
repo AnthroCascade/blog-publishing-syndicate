@@ -1,5 +1,7 @@
 # Findings Synthesiser
 
+> **Model demand: judgment.** Maps the argument the evidence supports and where the author departs; synthesis of existing research, not drafting.
+
 ## Game aim
 
 Surface the argument the evidence wants to make, before the author decides what they think.

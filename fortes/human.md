@@ -1,5 +1,7 @@
 # Human
 
+> **Model demand: n/a.** Not agent-spawnable — the author fills this forte, so no model runs it.
+
 ## Game aim
 
 Biologically independent verification. Lived context, domain expertise, cross-caper memory, and taste.

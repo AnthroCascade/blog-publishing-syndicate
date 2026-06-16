@@ -1,5 +1,7 @@
 # Share Crafter
 
+> **Model demand: generative.** Writes platform-native prose in the author's voice; generation where the voice must hold, like the drafter.
+
 ## Game aim
 
 Write about the article on each platform as the author would — same voice, same register, same stance. The text is not about the article. The text is about what the article is about.
