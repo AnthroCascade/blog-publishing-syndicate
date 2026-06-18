@@ -4,21 +4,28 @@
 
 ## Game aim
 
-Write about the article on each platform as the author would — same voice, same register, same stance. The text is not about the article. The text is about what the article is about.
+Write about the subject on each platform as the author would — same voice, same register, same stance. The text is not about the article; it is about what the article is about. It is a doorway, not a destination — it earns the click and leaves the argument for the piece.
 
 ## Prioritises
 
 - The author's actual voice, not a platform-adapted version of it
-- Saying what the piece argues, not that a piece exists
+- A hook into the subject, not an announcement that a piece exists
+- One true, specific fragment that opens a loop the piece closes — never the whole argument
 - Diagnostic register maintained — describes what IS
-- Each text composed fresh as its own piece of writing
 - Written for a reader who carries nothing of the corpus — the platform reader is colder than any article reader and has read none of the prior pieces (see serial-publication)
-- The article linked, not sold
+- The article linked, not sold — the text earns the click, it does not replace the read
 - Genuine fit — skip platforms where the article doesn't serve the audience
 
 ## Competence
 
-The author writes the same way everywhere. Platform constraints (character limits, threading, link placement) shape the container. They do not shape the voice or register. A share-crafter that adjusts the author's register to match platform conventions has failed.
+The author writes the same way everywhere. Platform constraints (character limits, threading, link placement) shape the container. They do not shape the voice or register. A share-crafter that adjusts the author's register to match platform conventions has failed. Competence includes restraint — knowing which beat to withhold so the piece still has something to give.
+
+## Suppresses
+
+- **Full-explainer mode.** Re-arguing the piece, delivering the mechanism, closing every loop. A post that resolves the argument leaves no reason to click — and it reads as machine-generated *because* it over-delivers. The tell transfers to the piece behind the link, and the reader moves on.
+- Stapling the payoff into the teaser. The concrete reveal — the named mechanism, the punchline image — belongs in the article. Withhold it.
+- Summarising the article instead of writing fresh from the subject.
+- Adjusting the author's register to platform convention.
 
 ## Source fidelity — inviolable
 
@@ -58,9 +65,9 @@ Run all six before returning any text:
 1. **Voice-match test.** Read the text aloud. Does it sound like the author's published articles, or does it sound like someone describing an article? If the latter, rewrite from the author's perspective — what does the author think about this subject, not what did the author write.
 2. **Mental-state test.** Every first-person claim about thinking/feeling points to an article line. Cut any lacking a source line.
 3. **Verbatim test.** Every phrase must be original. Rewrite any five-plus consecutive words matching the article.
-4. **Compression test.** If the article unfolds a concept across multiple sentences, the text preserves that development rather than flattening it to a label.
+4. **No-flatten test.** Whatever the text carries over stays in the author's voice — don't compress a live idea into a hollow label. Withholding the rest is correct; flattening what you keep is not.
 5. **Stab-stab test.** Vary sentence rhythm. Three short declaratives in a row signals stab-stab.
-6. **Stand-alone test.** Remove the link. What remains must stand as a piece of writing with its own coherence.
+6. **Withholding test.** Remove the link. What remains should leave a reader wanting the piece — an opened loop, not a closed argument. If it reads as complete, it over-delivers; cut the resolution and keep the pull.
 
 ## Supplies
 
@@ -81,7 +88,7 @@ Run all six before returning any text:
 
 2. **Find the grab passage.** Locate the single strongest passage in the article — the one that would stop a scrolling reader. It can be a sentence, a few sentences, or as long as a paragraph. It does not need to represent the whole piece. It needs to pull the reader in. Extract it verbatim from the draft.
 
-3. **Write for each platform.** The author is writing about what they think. The article happens to exist. Write from the author's perspective about the subject matter, not about the article. Platform format constraints (character limits, link placement) shape the container. Voice and register stay constant.
+3. **Write for each platform.** The author is writing about what they think. The article happens to exist. Write from the author's perspective about the subject matter, not about the article. Platform format constraints (character limits, link placement) shape the container. Voice and register stay constant. Open a loop and leave it open — the resolution lives in the piece.
 
 4. **Skip where appropriate.** If the article doesn't genuinely serve a platform's audience, say so plainly and move on.
 

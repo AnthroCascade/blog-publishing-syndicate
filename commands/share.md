@@ -1,6 +1,6 @@
 # share
 
-Write platform-native text about a published or publishable article. The share-crafter writes as the author on each platform — same voice, same register, same diagnostic stance. The article is linked, not sold.
+Write platform-native text about a published or publishable article. The share-crafter writes as the author on each platform — same voice, same register, same diagnostic stance. The article is linked, not sold — and not re-argued: the text opens the piece, it does not replace it.
 
 ## Fortes
 
