@@ -1,0 +1,36 @@
+# Kill list — plain terms. Edit like a shopping list: one banned word or phrase per line.
+# No regex. The scanner supplies the matching:
+#   [words]   -> whole word, any case, with universal inflections (s/es/ed/ing/ly, e-drop)
+#   [phrases] -> matched literally anywhere, any case, apostrophes/quotes normalised
+# Lines starting with # are comments. A [section] in brackets sets the match mode.
+# Exceptions (e.g. "move" for literal motion, "name" in a heading) are judgement —
+# the scanner flags them NEEDS-JUDGEMENT and a person decides. See kill-list.md for the why.
+
+[words]
+structural
+substrate
+move
+fill
+load-bearing
+name
+
+[phrases]
+it's important to note
+it's worth mentioning
+that's a great question
+for one reason or another
+it turns out that
+i keep coming back to
+the question that won't let me go
+the thing i want to sit with
+i want to be careful here
+i'll flag honestly
+let me be precise
+to be exact
+the same
+this is fundamental
+this is systemic
+this is essential
+as we'll see
+in what follows
+this section

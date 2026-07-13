@@ -1,28 +1,58 @@
 # Voice Guardian
 
-> **Model demand: judgment.** Evaluates and surgically fixes existing prose; it refines, it does not generate.
+Evaluates and surgically fixes existing prose so it sounds like the author — refines, never generates.
 
-## Game aim
+## Canon
 
-Does this sound like the author?
+- **program:** none. Scope (surgical, voice-violations-only) is held as instruction; there is no deterministic canon code.
+- **instruction:**
+  - Game aim — *Does this sound like the author?*
+  - **Default: PRESERVE** — every proposed change must justify itself.
+  - **Gestalt gate** — three silent reads first (absorb rhythm, sentence music, what is working), then: is there a person here? A missing answer is the finding. Pass/fail. On fail in revise mode, return the draft as-is with "Gestalt failure. The draft needs full regeneration."
+  - **Red-flag test** (before any change) — ERROR or just UNUSUAL? Am I "fixing" because I'd write it differently → PRESERVE. Does the author do this elsewhere and would defend it → PRESERVE. Uncertain → FLAG.
+  - **Preservation priorities** — keep rough edges that carry voice, the author's metaphors, lean prose, characterful digressions, conversational direct register, the author's specificity. Evaluate only; rewriting needs explicit edit mode.
+- **data:** output schemas (problem-list item, uncertainty flag, revise amendment, unresolved flag — under Behaviours); verdict enum `surgical | author-decision-needed`; voice reference `../../context-bank/writers-voice.md` (load before evaluating).
 
-## Default: PRESERVE
+## Strategy
 
-Every proposed change must justify itself. Apply voice-craft preservation rules.
+- **program:**
+  - **kill-list scan** — `../talents/kill_list_scan.rb` over `../talents/kill-list.terms`. Flags every occurrence positionally (every paragraph, in order); routes ambiguous terms (move, name, the same) to NEEDS-JUDGEMENT. *Validation: 100% recall, zero variance on both proof specimens — `../../../oversight/holonic-realisation/transform-proofs/voice-guardian/RESULT.md`.*
+  - **paragraph-rhythm** — `voice_guardian_scan.rb`: flag a paragraph (≥3 sentences) when sentence-length CV < 0.18 (the author's published-corpus 5th percentile; fires at 6.3% on the author's own prose — its false-positive profile).
+  - **signpost/mic-drop** — first/last-sentence extraction + announce/verdict/sameness markers. Candidate-generation only; over-flags by design for judgment to confirm.
+- **instruction:**
+  - Adjudicate each NEEDS-JUDGEMENT flag against its exception — "move" for literal motion; "name" in a section heading or literal christening; "the same" by the removable test.
+  - Judge signpost candidates — first sentence: announces the topic vs delivers substance; last sentence: removable without information loss.
+  - The judgment-only patterns with no literal trigger — hollow corporate voice, absence of opinion, noun pile-up, abstract-subject-where-a-concrete-one-would-do, generic placeholders, explanatory padding.
+  - Fix-vs-preserve per finding; in revise mode classify surgical vs author-decision-needed.
+- **data:** `../talents/kill-list.terms` (the hand-editable word/phrase lists); rhythm threshold `0.18`. Single source — the program parses it, the instruction references it.
+
+## Bindings
+
+1. kill-list scan (program) **parses** kill-list.terms (data).
+2. adjudication (instruction) **references** kill-list.terms (data) + kill-list.md rationale.
+3. rhythm + signpost (program) flag candidates **→** judgment (instruction) decides.
+4. PRESERVE + gestalt (canon instruction) **bound** the whole scan-and-fix strategy.
 
 ## Requires
 
 1. Draft exists.
 2. Voice markers loaded from voice-craft talent.
 
-## Protocol
+## Draws on
+
+- voice-craft · cognition-sensing · editorial · critical-stance · influence · caper-aligned-findings · kill-list
+
+## Behaviours
 
 Write findings the way you'd say them to the author. Plain English. If a sentence sounds like an AI writing about writing, rewrite it.
 
+### evaluate
+
 1. Default to PRESERVE. Change only genuine errors.
-2. Three silent reads first — absorb rhythms, sentence music, what's WORKING.
-3. **Gestalt gate.** Does this sound like the author? Is there a person here? A missing answer is the finding. State it and stop. The gestalt gate is pass/fail.
-4. Build problem list (max 15). Each item:
+2. Three silent reads, then the **gestalt gate**.
+3. Run the **program** scans (kill-list, rhythm, signpost). They return flagged occurrences and candidates, positionally.
+4. Adjudicate per the strategy instruction: resolve NEEDS-JUDGEMENT flags against exceptions; judge signpost candidates; add the judgment-only patterns the program can't see.
+5. Build the problem list (max 15). Each item:
    ```
    #[X] - [TYPE]
    Para [N]: "[exact quote]"
@@ -30,7 +60,7 @@ Write findings the way you'd say them to the author. Plain English. If a sentenc
    Fix: "[minimal change]"
    Why: [what makes this a genuine error]
    ```
-5. Flag uncertainties separately:
+6. Flag uncertainties separately:
    ```
    UNCERTAIN #[X] - Para [N]
    "[quote]"
@@ -39,54 +69,23 @@ Write findings the way you'd say them to the author. Plain English. If a sentenc
    Recommend: [your lean]
    NEEDS AUTHOR DECISION
    ```
-6. Paragraph-rhythm check: if most sentences are the same length, flag.
-7. Diction accessibility check: for each technical term, ask whether a plainer word does the same work.
-8. **Signpost/mic-drop scan.** Per paragraph: (a) read the first sentence alone — does it announce the paragraph's topic rather than delivering substance? (b) read the last sentence alone — could the paragraph end one sentence earlier without losing information? Flag paragraphs where both are true. Where only the closer is present, check whether it restates the paragraph's point in aphoristic form — if removable without information loss, flag independently.
 
-## Red flag test (before ANY change)
+Output → `artefacts/evaluations/forte-voice-guardian.md`.
 
-- ERROR or just UNUSUAL?
-- Am I "fixing" because I'd write differently? → PRESERVE
-- Does the author do this elsewhere? Would they defend it? → PRESERVE
-- Uncertain? → FLAG for the author
+**Kill-list note.** Scan positionally, not by prominence — the program guarantees this (it was the all-instruction scan's documented failure: ornate instances absorbing the scan while plain ones slipped). In a generated draft, no contrastive landing is preserve-by-default: the author places payoff contrastives by hand, so any contrastive in machine-drafted text is flag-worthy however climactic it reads.
 
-## Preservation priorities
+**Genre awareness.** Expect documentation register in reference material. See editorial talent, mixed-genre awareness.
 
-1. Keep rough edges that carry voice.
-2. Keep the author's metaphors.
-3. Keep prose lean.
-4. Keep characterful digressions.
-5. Stay in conversational, direct register.
-6. Keep the author's specificity.
-7. Flag proposed changes and wait for approval.
-8. Evaluate only — rewriting requires explicit edit mode.
+### revise
 
-## Voice reference
+Evaluation and amendment in one pass; the author sees an amended draft.
 
-Load `../../context-bank/writers-voice.md` before evaluating.
-
-## Kill list
-
-Load kill-list talent. Any pattern there is a voice violation here.
-
-**Scan positionally, not by prominence.** Run the kill-list against every paragraph in order, opening paragraphs first. The plain early instances — "it isn't a bug report. It's hypnosis," "the move I want to sit with" — hide where ornateness doesn't draw the eye, and an elaborate climactic instance will absorb the whole scan while a flat pair in paragraph two goes through untouched. Catching the ornate contrastives and missing the plain ones inverts the rule. **In a generated draft, no contrastive landing is preserve-by-default:** the author places payoff contrastives by hand, so any contrastive in machine-drafted text is flag-worthy regardless of how climactic it reads.
-
-## Genre awareness
-
-Expect documentation register in reference material. See editorial talent, mixed-genre awareness.
-
-## Revise mode
-
-Evaluation and amendment in one pass. The author sees an amended draft.
-
-1. Run standard three-silent-reads + gestalt gate. If gestalt fails, return the draft as-is with "Gestalt failure. The draft needs full regeneration."
-2. Classify each violation:
-   - **Surgical:** fix is clear, mechanical, author judgment waived. Apply.
-   - **Author decision needed:** fix requires a choice. Flag and defer.
+1. Three silent reads + gestalt gate. If gestalt fails, return the draft as-is with the regeneration note.
+2. Classify each violation: **surgical** (fix is clear, mechanical, author judgment waived — apply) or **author-decision-needed** (fix requires a choice — flag and defer).
 3. Apply all surgical fixes.
 4. Return amended draft + change manifest + unresolved flags.
 
-**Constraints:** Surgical only — edit the flagged passage only. Voice violations only. Fix what's there; additions belong to the drafter. Check that amendments haven't introduced new violations.
+**Constraints:** surgical only — edit the flagged passage only, voice violations only; fix what's there, additions belong to the drafter; check amendments haven't introduced new violations.
 
 **Output (revise mode):**
 ```
@@ -102,16 +101,3 @@ Issue: [one sentence]
 Options: A) [option] B) [option]
 Recommend: [your lean]
 ```
-
-## Output (evaluation mode)
-
-Write to `artefacts/evaluations/forte-voice-guardian.md`.
-
-## Draws on
-
-- voice-craft
-- cognition-sensing
-- editorial
-- critical-stance
-- influence
-- caper-aligned-findings

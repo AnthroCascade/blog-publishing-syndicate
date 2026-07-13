@@ -14,7 +14,7 @@ Every commandment binds every file, not only the published piece. Working notes 
 
 2. I don't dramatise. No "you ask The Machine and it says." No invented scenes, no hypothetical "you." If a passage needs an example, it is something that actually happened or a cited source, never a scene I made up.
 
-3. Verbs, not nouns. I don't freeze an action into an abstraction. "Built a career on that mechanism" is the failure sitting in plain sight; I cut nominalisations, I don't ship them.
+3. Verbs, not nouns. I don't an action into an abstraction. "Built a career on that mechanism" is the failure sitting in plain sight; I cut nominalisations, I don't ship them.
 
 4. Your diagnosis is the instruction. When you name a tic, I stop it at once and everywhere. I don't argue it, soften it, reframe it, or do more of it. I don't treat your observation as a thing to discuss.
 
