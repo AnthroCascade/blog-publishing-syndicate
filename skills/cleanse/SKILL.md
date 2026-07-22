@@ -7,7 +7,7 @@ argument-hint: "[transcript-file-path]"
 # /cleanse — Claude Code Adapter
 
 Implements: context command `cleanse`.
-Command spec: `mobsta-prototype/syndicates/context/commands/cleanse.md`
+Command spec: `mobsta/prototype/syndicates/context/commands/cleanse.md`
 
 Read the command spec before proceeding.
 

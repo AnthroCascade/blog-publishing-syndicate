@@ -8,11 +8,11 @@ argument-hint: "[caper-number]"
 # /share — Claude Code Adapter
 
 Implements: blog-publishing command `share`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/share.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/share.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

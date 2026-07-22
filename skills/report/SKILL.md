@@ -8,7 +8,7 @@ argument-hint: "[caper-path]"
 # /report — Claude Code Adapter
 
 Implements: coordination command `report`.
-Command spec: `mobsta-prototype/syndicates/coordination/commands/report.md`
+Command spec: `mobsta/prototype/syndicates/coordination/commands/report.md`
 
 Read the command spec before proceeding.
 

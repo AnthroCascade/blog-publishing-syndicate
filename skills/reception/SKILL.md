@@ -8,12 +8,12 @@ argument-hint: "[draft-file-path]"
 # /reception — Claude Code Adapter
 
 Implements: blog-publishing command `reception`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/reception.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/reception.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md` and
-`mobsta-prototype/syndicates/coordination/commands/evaluation-phase-template.md`.
+Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md` and
+`mobsta/prototype/syndicates/coordination/commands/evaluation-phase-template.md`.
 
 ## Argument parsing
 

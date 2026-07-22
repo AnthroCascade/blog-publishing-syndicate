@@ -7,7 +7,7 @@ argument-hint: "[caper-number or 'garden' to review what's ripe]"
 # /pick — Claude Code Adapter
 
 Implements: blog-publishing command `pick`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/pick.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/pick.md`
 
 Read the command spec before proceeding.
 

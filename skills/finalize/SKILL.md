@@ -8,7 +8,7 @@ argument-hint: "[caper-path]"
 # /finalize — Claude Code Adapter
 
 Implements: blog-publishing command `finalize`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/finalize.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/finalize.md`
 
 Read the command spec before proceeding.
 
@@ -16,7 +16,7 @@ Read the command spec before proceeding.
 
 $ARGUMENTS contains the caper path (e.g. `070` for caper `070-unsafe-at-any-speed`).
 
-Resolve to the full path. If the caper is under `mobsta-prototype/games/emperors-new-code/capers/`, the target is `<caper-path>/artefacts/draft.md`.
+Resolve to the full path. If the caper is under `mobsta/prototype/games/emperors-new-code/capers/`, the target is `<caper-path>/artefacts/draft.md`.
 
 ## Execution
 
@@ -27,7 +27,7 @@ This is a deterministic pass. Do not dispatch agents. Do not write evaluation fi
 Run:
 
 ```bash
-python3 mobsta-prototype/tools/smart-quotes.py --check <target>
+python3 mobsta/prototype/tools/smart-quotes.py --check <target>
 ```
 
 Report the result. If the file is already clean, state that and stop (no conversion needed).
@@ -37,7 +37,7 @@ Report the result. If the file is already clean, state that and stop (no convers
 If the file is dirty:
 
 ```bash
-python3 mobsta-prototype/tools/smart-quotes.py <target>
+python3 mobsta/prototype/tools/smart-quotes.py <target>
 ```
 
 The script writes in place and prints a summary (how many doubles and apostrophes converted, any remaining straight quotes).

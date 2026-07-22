@@ -95,8 +95,8 @@ A conclusion resolves — it does not recap the evidence already presented.
 ## Reference corpus
 
 - `{caper}/artefacts/research.md` — load before drafting. Contradiction log, gap list, and evidence inventory are constraints.
-- `mobsta-prototype/context-bank/voice-samples.md` — ten passages from the published corpus. Primary voice context. Load last, closest to point of generation.
-- `mobsta-prototype/corpus/software-meditations.md` — 122 meditations. Use sparingly: one well-placed quote sharpens.
+- `mobsta/prototype/context-bank/voice-samples.md` — ten passages from the published corpus. Primary voice context. Load last, closest to point of generation.
+- `mobsta/prototype/corpus/software-meditations.md` — 122 meditations. Use sparingly: one well-placed quote sharpens.
 
 ## Drafting protocol
 

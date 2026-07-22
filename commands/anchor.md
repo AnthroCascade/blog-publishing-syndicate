@@ -42,7 +42,7 @@ Mode selection: if the conversation history already contains the content of `con
 
 ## Coordination pattern
 
-None. Main-loop only. The Machine produces directly; no Agent dispatch. Deliberately does not follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md` — the orchestrator preamble governs forte dispatch through Agent calls, which is not what this command does.
+None. Main-loop only. The Machine produces directly; no Agent dispatch. Deliberately does not follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md` — the orchestrator preamble governs forte dispatch through Agent calls, which is not what this command does.
 
 ## Context requirements
 

@@ -8,11 +8,11 @@ argument-hint: "[caper-path] [filename]"
 # /draft — Claude Code Adapter
 
 Implements: blog-publishing command `draft`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/draft.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/draft.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

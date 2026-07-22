@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /findings — Claude Code Adapter
 
 Implements: blog-publishing command `findings`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/findings.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/findings.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

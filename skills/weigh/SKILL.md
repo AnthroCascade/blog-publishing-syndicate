@@ -8,11 +8,11 @@ argument-hint: "[caper-path] [deep]"
 # /weigh — Claude Code Adapter
 
 Implements: blog-publishing command `weigh`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/weigh.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/weigh.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

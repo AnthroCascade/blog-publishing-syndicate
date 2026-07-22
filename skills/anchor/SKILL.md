@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /anchor — Claude Code Adapter
 
 Implements: blog-publishing command `anchor`.
-Command spec: `mobsta-prototype/syndicates/blog-publishing/commands/anchor.md`
+Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/anchor.md`
 
 Read the command spec before proceeding.
 
-This skill deliberately does **not** follow `mobsta-prototype/syndicates/coordination/orchestrator-preamble.md`. The orchestrator preamble governs forte dispatch through Agent calls; this skill runs in the main loop and demands in-voice production directly. No Agent dispatch. No forte loading.
+This skill deliberately does **not** follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`. The orchestrator preamble governs forte dispatch through Agent calls; this skill runs in the main loop and demands in-voice production directly. No Agent dispatch. No forte loading.
 
 ## Argument parsing
 
