@@ -13,7 +13,7 @@ module KillList
 
   def flags(text, source = terms) =
     paragraphs(text).each_with_index.flat_map do |para, i|       
-      endparagraph_flags(normalised(para), i + 1, source)
+      paragraph_flags(normalised(para), i + 1, source)
     end
 
   def paragraph_flags(para, para_no, source) =
@@ -23,15 +23,15 @@ module KillList
 
   def word_flags(para, words, para_no) =
     words.flat_map do |word|       
-      endpara.scan(word_pattern(word)).map do         
-        endflag(word, 'word', para_no, _1)
+      para.scan(word_pattern(word)).map do
+        flag(word, 'word', para_no, _1)
       end             
     end
 
   def phrase_flags(para, phrases, para_no) =
     phrases.flat_map do |phrase| 
       para.scan(/#{Regexp.escape(normalised(phrase))}/).map do      
-        endflag(phrase, 'phrase', para_no, phrase)
+        flag(phrase, 'phrase', para_no, phrase)
       end
     end
 
