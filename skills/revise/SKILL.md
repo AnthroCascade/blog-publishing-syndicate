@@ -8,11 +8,11 @@ argument-hint: "[caper-number]"
 # /revise — Claude Code Adapter
 
 Implements: blog-publishing command `revise`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/revise.md`
+Command spec: `syndicates/blog-publishing/commands/revise.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 
@@ -55,9 +55,9 @@ Agent prompt includes:
   unresolvable findings
 
 After the Agent returns, clear stale evaluations
-per `mobsta/prototype/syndicates/coordination/commands/evaluation-phase-template.md`. Leave turn.md in
+per `syndicates/coordination/commands/evaluation-phase-template.md`. Leave turn.md in
 place for author review — do not delete it. See
-`mobsta/prototype/syndicates/coordination/patterns/turn-taking.md` → "turn.md write
+`syndicates/coordination/patterns/turn-taking.md` → "turn.md write
 discipline".
 
 **Step 2: Voice-guardian (revise mode).**

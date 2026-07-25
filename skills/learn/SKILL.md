@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /learn — Claude Code Adapter
 
 Implements: coordination command `learn`.
-Command spec: `mobsta/prototype/syndicates/coordination/commands/learn.md`
+Command spec: `syndicates/coordination/commands/learn.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

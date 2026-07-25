@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /anchor — Claude Code Adapter
 
 Implements: blog-publishing command `anchor`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/anchor.md`
+Command spec: `syndicates/blog-publishing/commands/anchor.md`
 
-Read the command spec before proceeding.
+Detect the mode first. Read the command spec only in establish mode — refresh mode reads nothing, including the spec.
 
-This skill deliberately does **not** follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`. The orchestrator preamble governs forte dispatch through Agent calls; this skill runs in the main loop and demands in-voice production directly. No Agent dispatch. No forte loading.
+This skill deliberately does **not** follow `syndicates/coordination/orchestrator-preamble.md`. The orchestrator preamble governs forte dispatch through Agent calls; this skill runs in the main loop and demands in-voice production directly. No Agent dispatch. No forte loading.
 
 ## Argument parsing
 
@@ -27,11 +27,11 @@ Before doing anything else, check whether the content of `context-bank/voice-sam
 
 ## Execution
 
-Follow the command spec procedure for the detected mode.
+Establish mode follows the command spec procedure. Refresh mode is fully specified below — no file reads at all.
 
 ### Establish mode
 
-1. Read `context-bank/writers-voice.md` and `context-bank/voice-samples.md` in full.
+1. Read the command spec, then `context-bank/writers-voice.md` and `context-bank/voice-samples.md` in full.
 2. If caper-path given, read `game.md` and the caper's `caper.md`.
 3. Produce three short paragraphs (60–120 words each, ~250–360 words total). Each in the author's voice. Topics drawn from the caper if given; otherwise three different topics demonstrating range.
 4. Do not self-critique. Do not evaluate the warm-up.

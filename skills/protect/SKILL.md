@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /protect — Claude Code Adapter
 
 Implements: blog-publishing command `protect`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/protect.md`
+Command spec: `syndicates/blog-publishing/commands/protect.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

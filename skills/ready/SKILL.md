@@ -8,7 +8,7 @@ argument-hint: "[caper-number]"
 # /ready — Claude Code Adapter
 
 Implements: blog-publishing command `ready`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/ready.md`
+Command spec: `syndicates/blog-publishing/commands/ready.md`
 
 Read the command spec before proceeding.
 

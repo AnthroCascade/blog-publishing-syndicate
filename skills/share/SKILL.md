@@ -8,11 +8,11 @@ argument-hint: "[caper-number]"
 # /share — Claude Code Adapter
 
 Implements: blog-publishing command `share`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/share.md`
+Command spec: `syndicates/blog-publishing/commands/share.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 
@@ -20,21 +20,13 @@ $ARGUMENTS contains the caper path.
 
 ## Execution
 
-Follow the command spec procedure.
+The command spec owns the procedure. The adapter adds
+only the Claude Code mechanic: each forte runs in its
+own Agent call, with its spec, talents, and context
+composed inline.
 
-**Platform selection.** Use AskUserQuestion with
-multiSelect to present the platform menu. Read the
-distribution talent for the full platform list.
-Pre-select Substack Notes and LinkedIn.
-
-**Share-crafter.** Fire in its own Agent call
-with: selected platforms, forte spec and talents
-inline, prior-articles.md and game.md corpus state.
-Step label: `[/share — share-crafter]`.
-
-**Author review.** Present per-platform: the text
-and format notes. Author chooses per platform:
-approve, modify, skip.
-
-**Write.** Record approved texts to
-`artefacts/share.md` in the caper directory.
+Fire the **share-crafter** as one Agent call — resolved
+platforms, forte spec and talents inline,
+prior-articles.md and game.md corpus state. Step label:
+`[/share — share-crafter]`. Write its output where the
+command spec directs.

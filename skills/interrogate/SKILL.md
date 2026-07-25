@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /interrogate — Claude Code Adapter
 
 Implements: coordination command `interrogate`.
-Command spec: `mobsta/prototype/syndicates/coordination/commands/interrogate.md`
+Command spec: `syndicates/coordination/commands/interrogate.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 
@@ -27,7 +27,7 @@ Follow the command spec procedure. Fire the
 interrogator in its own Agent call.
 
 Read the interrogator forte spec at:
-`mobsta/prototype/syndicates/coordination/fortes/interrogator.md`
+`syndicates/coordination/fortes/interrogator.md`
 
 Resolve talents: governance, prosecution (from
 coordination syndicate talents). Compose Agent

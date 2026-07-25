@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /settle — Claude Code Adapter
 
 Implements: coordination command `settle`.
-Command spec: `mobsta/prototype/syndicates/coordination/commands/settle.md`
+Command spec: `syndicates/coordination/commands/settle.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

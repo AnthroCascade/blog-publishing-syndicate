@@ -8,11 +8,11 @@ argument-hint: "[draft-file-path]"
 # /verify — Claude Code Adapter
 
 Implements: blog-publishing command `verify`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/verify.md`
+Command spec: `syndicates/blog-publishing/commands/verify.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

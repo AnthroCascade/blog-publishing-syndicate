@@ -7,7 +7,7 @@ disable-model-invocation: true
 # /foundations — Claude Code Adapter
 
 Implements: coordination command `foundations`.
-Command spec: `mobsta/prototype/syndicates/coordination/commands/foundations.md`
+Command spec: `syndicates/coordination/commands/foundations.md`
 
 Read the command spec before proceeding.
 

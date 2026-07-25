@@ -8,11 +8,11 @@ argument-hint: "[caper-path]"
 # /improve — Claude Code Adapter
 
 Implements: coordination command `improve`.
-Command spec: `mobsta/prototype/syndicates/coordination/commands/improve.md`
+Command spec: `syndicates/coordination/commands/improve.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

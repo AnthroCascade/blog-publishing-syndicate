@@ -8,12 +8,12 @@ argument-hint: "[caper-path] [forte-name forte-name ...]"
 # /mob — Claude Code Adapter
 
 Implements: blog-publishing command `mob`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/mob.md`
+Command spec: `syndicates/blog-publishing/commands/mob.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md` and
-`mobsta/prototype/syndicates/coordination/commands/evaluation-phase-template.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md` and
+`syndicates/coordination/commands/evaluation-phase-template.md`.
 
 ## Argument parsing
 
@@ -40,7 +40,7 @@ forte dispatch.
 
 Follow the command spec procedure and
 evaluation-phase-template. Dispatch fortes in
-groups per `mobsta/prototype/syndicates/coordination/patterns/independent-evaluation.md`.
+groups per `syndicates/coordination/patterns/independent-evaluation.md`.
 
 ### Group 1 — content fortes (parallel)
 

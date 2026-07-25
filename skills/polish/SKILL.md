@@ -8,12 +8,12 @@ argument-hint: "[draft-file-path]"
 # /polish — Claude Code Adapter
 
 Implements: blog-publishing command `polish`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/polish.md`
+Command spec: `syndicates/blog-publishing/commands/polish.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md` and
-`mobsta/prototype/syndicates/coordination/commands/evaluation-phase-template.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md` and
+`syndicates/coordination/commands/evaluation-phase-template.md`.
 
 ## Argument parsing
 
@@ -23,7 +23,7 @@ $ARGUMENTS contains the caper path.
 
 Follow the command spec and evaluation-phase-template
 procedures. Dispatch fortes in groups per
-`mobsta/prototype/syndicates/coordination/patterns/independent-evaluation.md`.
+`syndicates/coordination/patterns/independent-evaluation.md`.
 
 ### Group 1 — content fortes (parallel)
 

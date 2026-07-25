@@ -19,8 +19,8 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="$SCRIPT_DIR/skills"
-# Workspace root is four levels up: blog-publishing -> syndicates -> prototype -> mobsta -> workspace.
-REPO_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
+# Workspace root is two levels up: blog-publishing -> syndicates -> workspace.
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 DST="$REPO_ROOT/.claude/skills"
 
 PRUNE=0

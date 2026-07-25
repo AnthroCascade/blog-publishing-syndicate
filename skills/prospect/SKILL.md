@@ -7,11 +7,11 @@ disable-model-invocation: true
 # /prospect — Claude Code Adapter
 
 Implements: blog-publishing command `prospect`.
-Command spec: `mobsta/prototype/syndicates/blog-publishing/commands/prospect.md`
+Command spec: `syndicates/blog-publishing/commands/prospect.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 

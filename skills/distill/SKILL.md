@@ -8,11 +8,11 @@ argument-hint: "[file-path | skills | fortes | talents | all]"
 # /distill — Claude Code Adapter
 
 Implements: coordination command `distill`.
-Command spec: `mobsta/prototype/syndicates/coordination/commands/distill.md`
+Command spec: `syndicates/coordination/commands/distill.md`
 
 Read the command spec before proceeding.
 
-Follow `mobsta/prototype/syndicates/coordination/orchestrator-preamble.md`.
+Follow `syndicates/coordination/orchestrator-preamble.md`.
 
 ## Argument parsing
 
