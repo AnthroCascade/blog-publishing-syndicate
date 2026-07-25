@@ -32,15 +32,18 @@ Before the fact-checker fires, load:
 
 3. **Present to author.** In plain English — no forte jargon. See `author-register.md`. Claims verified, unverified, or contradicted. Characterisation mismatches. Specific fixes needed. Whether the draft is cleared for publication from a factual accuracy standpoint.
 
+4. **Record participation.** Append a `/verify` entry to `artefacts/mob-accounting.md` per the mob-accounting protocol (`coordination/talents/mob-accounting.md`): the fact-checker engaged (verify mode) and its output file, the counts verified / unverified / contradicted, any characterisation watch-notes deferred to the author, and the subversion flag (none — the roster is the fact-checker alone). Append; do not overwrite. Verify is an evaluation phase, so the ledger entry is not optional.
+
 Verify is additive — it does not clear `artefacts/evaluations/`. Its output sits alongside existing evaluations.
 
 ## Output
 
 - `artefacts/evaluations/forte-fact-checker-verify.md`
+- `artefacts/mob-accounting.md` — participation entry appended (per the mob-accounting protocol)
 
 ## Settlement condition
 
-All scoped claims verified externally. Characterisation mismatches identified. The author has a clear picture of factual accuracy.
+All scoped claims verified externally. Characterisation mismatches identified. The author has a clear picture of factual accuracy. Participation recorded in `artefacts/mob-accounting.md`.
 
 ## Boundary
 
