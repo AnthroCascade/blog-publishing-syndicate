@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# tend — deterministic implementation of commands/tend.md (Track E, E2 first wave).
+# tend — deterministic implementation of commands/tend.md.
 # Regenerates the garden.md snapshot between the tend markers and reports drift.
 # Never touches anything outside the markers.
 #

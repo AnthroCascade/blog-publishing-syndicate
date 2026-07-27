@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# ready — deterministic implementation of commands/ready.md (Track E, E2 first wave).
+# ready — deterministic implementation of commands/ready.md.
 # Read-only: assesses publication readiness from artefact evidence. Writes nothing.
 #
 #   ruby commands/ready.rb --root <dir-containing-games/> [caper] [--json]

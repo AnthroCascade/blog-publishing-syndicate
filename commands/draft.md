@@ -15,7 +15,7 @@ Sequential agent-per-forte. The drafter fires in its own Agent call and produces
 
 ## Artefact mapping
 
-- **Target file.** The filename given as the second argument, resolved under the caper's `artefacts/` (e.g. `artefacts/process-test.md`). When no filename is given, the target is `artefacts/draft.md`. "The target file" below always means this.
+- **Target file.** The filename given as the second argument, resolved under the caper's `artefacts/`. When no filename is given, the target is `artefacts/draft.md`. "The target file" below always means this.
 - Primary output: the target file
 - Voice-guardian reads/writes: the target file
 
@@ -29,7 +29,7 @@ Read thoroughly and comply with:
 
 - `conversational-anchor` forte spec — run it on yourself BEFORE generating: hold the target (one author/reader, no audience), produce the in-voice warm-up in your own context, then draft. Inviolable; no cold generation without anchoring first.
 - `context-bank/voice-samples.md` — use as exemplars of writer's voice to model all writing/communication
-- `writers-voice.md` — writer's declared style, to guide all writing/communication
+- `context-bank/writers-voice.md` — writer's declared style, to guide all writing/communication
 - Drafter forte spec and talents from "Draws on" (section-filtered per spec) — each contains critical intructions that must complied with
 - `game.md` — to forte-baseline marker only
 - `caper.md` — durable intent and decisions
@@ -39,7 +39,7 @@ Read thoroughly and comply with:
 - All files in `artefacts/evaluations/` — forte findings that must be incorporated in drafting/writing
 - `learnings.md` — findings ot be followed in conintuous improvement processes
 
-Load voice-samples.md `writers-voice.md` and last immediately before the generation prompt.
+Load `context-bank/voice-samples.md` and `context-bank/writers-voice.md` last, immediately before the generation prompt.
 
 **For the voice-guardian (evaluative):**
 

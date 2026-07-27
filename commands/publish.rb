@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# publish — deterministic implementation of commands/publish.md (Track E, E2 first wave).
+# publish — deterministic implementation of commands/publish.md.
 # Records a publication that already happened: folder move, link-map append, tend refresh.
 # The pasting into Substack stays manual; the in-voice link-map description lines stay NL —
 # they arrive via --entry-file, drafted in the main loop and approved by the author.
