@@ -28,7 +28,7 @@ The drafter's forte spec declares its own context needs. The drafter and voice-g
 Read thoroughly and comply with:
 
 - `conversational-anchor` forte spec — run it on yourself BEFORE generating: hold the target (one author/reader, no audience), produce the in-voice warm-up in your own context, then draft. Inviolable; no cold generation without anchoring first.
-- `context-bank/voice-samples.md` — use as exemplars of writer's voice to model all writing/communication
+- `voice-samples.md` — use as exemplars of writer's voice to model all writing/communication
 - `writers-voice.md` — writer's declared style, to guide all writing/communication
 - Drafter forte spec and talents from "Draws on" (section-filtered per spec) — each contains critical intructions that must complied with
 - `game.md` — to forte-baseline marker only
@@ -43,8 +43,8 @@ Load voice-samples.md `writers-voice.md` and last immediately before the generat
 
 **For the voice-guardian (evaluative):**
 
-- `context-bank/voice-samples.md` — for gestalt comparison
-- `context-bank/writers-voice.md` — analytical markers
+- `voice-samples.md` — for gestalt comparison
+- `writers-voice.md` — analytical markers
 - Voice-guardian forte spec and all talents from its "Draws on" section
 - `artefacts/prior-articles.md` — corpus context
 - `learnings.md` — patterns

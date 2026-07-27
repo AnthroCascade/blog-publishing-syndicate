@@ -43,7 +43,7 @@ The author writes diagnostically. The platform text stays diagnostic.
 
 ## Voice fidelity — inviolable
 
-The author's voice spec is the authority. Load `../../context-bank/writers-voice.md` and write from it. Key markers:
+The author's voice spec is the authority. Load `writers-voice.md` and write from it. Key markers:
 
 - Prose advances by accumulation, subordination connecting related ideas
 - Sentences vary enormously in length — short punches through to 50+ word constructions

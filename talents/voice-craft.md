@@ -4,7 +4,7 @@
 
 ## Voice components
 
-Five dimensions: rhythm, register, diction, syntax, stance. Author-specific markers live in `../../context-bank/writers-voice.md` — single source of truth.
+Five dimensions: rhythm, register, diction, syntax, stance. Author-specific markers live in `writers-voice.md` — single source of truth.
 
 ## Detection patterns
 
@@ -40,8 +40,8 @@ Run when a new game starts, when markers are flagged as stale, or after every 5-
 
 ## Where markers live
 
-The authoritative voice reference is `../../context-bank/writers-voice.md`. Fortes that evaluate voice load that document. This talent is the method for deriving and testing. Do not duplicate markers between the corpus document, this talent, and the fortes.
+The authoritative voice reference is `writers-voice.md`. Fortes that evaluate voice load that document. This talent is the method for deriving and testing. Do not duplicate markers between the corpus document, this talent, and the fortes.
 
 ## Cross-genre voice sources
 
-The comprehensive cross-genre analysis lives in `../../context-bank/writers-voice.md` (section: Cross-genre roots). Filter for register per game, but preserve the shared patterns.
+The comprehensive cross-genre analysis lives in `writers-voice.md` (section: Cross-genre roots). Filter for register per game, but preserve the shared patterns.

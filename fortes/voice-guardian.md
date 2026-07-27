@@ -11,7 +11,7 @@ Evaluates and surgically fixes existing prose so it sounds like the author — r
   - **Gestalt gate** — three silent reads first (absorb rhythm, sentence music, what is working), then: is there a person here? A missing answer is the finding. Pass/fail. On fail in revise mode, return the draft as-is with "Gestalt failure. The draft needs full regeneration."
   - **Red-flag test** (before any change) — ERROR or just UNUSUAL? Am I "fixing" because I'd write it differently → PRESERVE. Does the author do this elsewhere and would defend it → PRESERVE. Uncertain → FLAG.
   - **Preservation priorities** — keep rough edges that carry voice, the author's metaphors, lean prose, characterful digressions, conversational direct register, the author's specificity. Evaluate only; rewriting needs explicit edit mode.
-- **data:** output schemas (problem-list item, uncertainty flag, revise amendment, unresolved flag — under Behaviours); verdict enum `surgical | author-decision-needed`; voice reference `../../context-bank/writers-voice.md` (load before evaluating).
+- **data:** output schemas (problem-list item, uncertainty flag, revise amendment, unresolved flag — under Behaviours); verdict enum `surgical | author-decision-needed`; voice reference `writers-voice.md` (load before evaluating).
 
 ## Strategy
 

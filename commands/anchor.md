@@ -38,7 +38,7 @@ The skill establishes that turn at session start and refreshes it whenever regis
 
 **Refresh (subsequent invocations).** Voice files already loaded earlier in the conversation. Produces one fresh in-voice paragraph.
 
-Mode selection: if the conversation history already contains the content of `context-bank/voice-samples.md`, run refresh mode. Otherwise run establish mode.
+Mode selection: if the conversation history already contains the content of `voice-samples.md`, run refresh mode. Otherwise run establish mode.
 
 ## Coordination pattern
 
@@ -48,8 +48,8 @@ None. Main-loop only. The Machine produces directly; no Agent dispatch. Delibera
 
 ### Establish mode
 
-- `context-bank/writers-voice.md` — canonical voice spec
-- `context-bank/voice-samples.md` — output register samples
+- `writers-voice.md` — canonical voice spec
+- `voice-samples.md` — output register samples
 - `game.md` (if caper path given) — author and game context
 - `caper.md` (if caper path given) — topic context for the warm-up
 
@@ -61,7 +61,7 @@ None. Voice material is already in conversation history.
 
 ### Establish mode
 
-1. **Load voice assets.** Read `context-bank/writers-voice.md` and `context-bank/voice-samples.md` in full.
+1. **Load voice assets.** Read `writers-voice.md` and `voice-samples.md` in full.
 
 2. **Load caper context (if caper-path given).** Read `game.md` and the caper's `caper.md`.
 
