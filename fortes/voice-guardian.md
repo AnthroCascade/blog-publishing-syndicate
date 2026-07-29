@@ -16,7 +16,7 @@ Evaluates and surgically fixes existing prose so it sounds like the author — r
 ## Strategy
 
 - **program:**
-  - **kill-list scan** — `../talents/kill_list_scan.rb` over `../talents/kill-list.terms`. Flags every occurrence positionally (every paragraph, in order); routes ambiguous terms (move, name, the same) to NEEDS-JUDGEMENT. *Validation: 100% recall, zero variance on both proof specimens — `../../../oversight/holonic-realisation/transform-proofs/voice-guardian/RESULT.md`.*
+  - **kill-list scan** — `../talents/kill_list_scan.rb` over `../talents/kill-list.terms`. Flags every occurrence positionally (every paragraph, in order); routes ambiguous terms (move, name, the same) to NEEDS-JUDGEMENT. *Validation: 100% recall, zero variance on both proof specimens — recorded in the mobsta repo's holonic-realisation transform-proofs (`voice-guardian/RESULT.md`).*
   - **paragraph-rhythm** — `voice_guardian_scan.rb`: flag a paragraph (≥3 sentences) when sentence-length CV < 0.18 (the author's published-corpus 5th percentile; fires at 6.3% on the author's own prose — its false-positive profile).
   - **signpost/mic-drop** — first/last-sentence extraction + announce/verdict/sameness markers. Candidate-generation only; over-flags by design for judgment to confirm.
 - **instruction:**

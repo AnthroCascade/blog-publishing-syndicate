@@ -27,7 +27,7 @@ This is a deterministic pass. Do not dispatch agents. Do not write evaluation fi
 Run:
 
 ```bash
-python3 tools/smart-quotes.py --check <target>
+python3 ~/Development/anthro/in-concert/scripts/smart-quotes.py --check <target>
 ```
 
 Report the result. If the file is already clean, state that and stop (no conversion needed).
@@ -37,7 +37,7 @@ Report the result. If the file is already clean, state that and stop (no convers
 If the file is dirty:
 
 ```bash
-python3 tools/smart-quotes.py <target>
+python3 ~/Development/anthro/in-concert/scripts/smart-quotes.py <target>
 ```
 
 The script writes in place and prints a summary (how many doubles and apostrophes converted, any remaining straight quotes).

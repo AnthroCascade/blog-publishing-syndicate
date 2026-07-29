@@ -96,7 +96,7 @@ A conclusion resolves — it does not recap the evidence already presented.
 
 - `{caper}/artefacts/research.md` — load before drafting. Contradiction log, gap list, and evidence inventory are constraints.
 - `voice-samples.md` — ten passages from the published corpus. Primary voice context. Load last, closest to point of generation.
-- `mobsta/prototype/corpus/software-meditations.md` — 122 meditations. Use sparingly: one well-placed quote sharpens.
+- `software-meditations.md` — 122 meditations. Use sparingly: one well-placed quote sharpens. Skip if the note does not resolve.
 
 ## Drafting protocol
 
