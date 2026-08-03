@@ -8,7 +8,9 @@ Currently scoped to typographic quote conversion. More deterministic publication
 
 | Step | Tool | Mode |
 |---|---|---|
-| 1 | `in-concert/scripts/smart-quotes.py` | in-place conversion on `artefacts/draft.md` |
+| 1 | `smart-quotes.py` | in-place conversion on `artefacts/draft.md` |
+
+`smart-quotes.py` is application tooling, on the PATH — this syndicate names the tool, never the path to it.
 
 ## Context requirements
 
@@ -22,9 +24,9 @@ That is all. The step is a mechanical pass on prose.
 
 1. **Confirm target.** Resolve the caper path from `$ARGUMENTS`; target file is `<caper-path>/artefacts/draft.md`.
 
-2. **Check baseline.** Run `python3 ~/Development/anthro/in-concert/scripts/smart-quotes.py --check <target>` first. Report the count of straight doubles and straight apostrophes.
+2. **Check baseline.** Run `smart-quotes.py --check <target>` first. Report the count of straight doubles and straight apostrophes.
 
-3. **Apply conversion.** Run `python3 ~/Development/anthro/in-concert/scripts/smart-quotes.py <target>`. The script writes in place and reports how many characters were converted.
+3. **Apply conversion.** Run `smart-quotes.py <target>`. The script writes in place and reports how many characters were converted.
 
 4. **Verify clean.** Run `--check` again. Report confirmation.
 
