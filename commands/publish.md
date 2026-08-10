@@ -11,6 +11,12 @@ None for the mechanics. The link-map entry's in-voice description lines follow l
 - Caper path
 - The live URL and publication date (from the author — the command never assumes a post is live)
 
+> **Argument: caper — positional — derived — required: caper slug.**
+> **Argument: root — flag — derived — required: syndicate root.**
+> **Argument: url — flag — asked — required: the live URL of the published post.**
+> **Argument: date — flag — asked — required: the publication date, YYYY-MM-DD.**
+> **Argument: entry-file — flag — asked — optional: path to the approved link-map section; without it the command prints the section skeleton and stops.**
+
 ## Procedure
 
 1. **Confirm.** Author supplies the live URL and date. No URL, no publish — stop and say what's missing.
