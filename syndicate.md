@@ -97,6 +97,16 @@ participating, not by presiding.
 - `artefacts/prior-articles.md` — corpus context
 - `artefacts/evaluations/` — forte evaluation files
 
+## Composition
+
+The syndicate this one stands on, named by the repository that carries it —
+the edge survives a retitling upstream, and the fortes it contributes are the
+ones this register already names as coordination's.
+
+| Syndicate | Repository | Branch |
+|---|---|---|
+| Coordination | git@github.com:AnthroCascade/coordination-syndicate.git | main |
+
 ## Coordination
 
 Not prescribed. Game or caper chooses. Turn-taking
